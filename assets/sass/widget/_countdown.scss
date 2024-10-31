@@ -1,0 +1,21 @@
+.elementor-widget-opal-countdown {
+  &.elementor-countdown--label-block {
+    .elementor-countdown-label {
+      display: block;
+      text-align: center;
+    }
+  }
+  .elementor-opal-countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .elementor-countdown-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+  }
+}

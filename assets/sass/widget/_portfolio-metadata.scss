@@ -1,0 +1,55 @@
+.elementor-widget-opal-metadata{
+    ul{
+        li{
+            list-style: none;
+            font-size: 11px;
+            color: #010101;
+            .label{
+                @extend .text-uppercase;
+            }
+           .value{
+                font-size: 14px;
+                color: #666;
+           }
+        }
+        &.vertical{
+            li{
+                padding: 7px 0px;
+                border-bottom: solid 1px $border-color;
+                .label{
+                    @extend .pull-left;
+                   
+                }
+                .value{
+                    @extend .pull-right;
+                }
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+        }
+        &.horizontal{
+            @extend .d-flex;
+            justify-content: space-between;
+            @media (max-width: 767px) {
+                display: block;
+            }
+            li{
+                clear: both;
+                width: 100%;
+                padding: 10px 40px 10px 0px;
+                @media (max-width: 767px) {
+                    padding: 10px 0px;
+                }
+                 *{
+                    display: inline-block;
+                     padding: 10px 0px;
+                 }
+                span:last-child{
+                    display: block;
+                    border-top: 1px solid $border-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.opal-woo-mega-products.navigation-left {
+  .mega-products-content {
+    clear:both;
+    background: #FFF;
+    display: flex;
+  }
+  .content-categories {
+    width: 22%;
+    float: left;
+    padding: 20px 23px;
+    border:1px solid #ddd;
+    background: #FFF;
+    display: block;
+    a {
+      color: #888;
+    }
+  }
+  .content-products {
+    width:78%;
+    float: left;
+    border:1px solid #ddd;
+    border-left:0;
+    display: block;
+  }
+}

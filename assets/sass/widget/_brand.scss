@@ -1,0 +1,16 @@
+.elementor-brand-item{
+    text-align: center;
+    img{
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        opacity: 1;
+    }
+    &:hover{
+        img{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            @include transition(all 0.3s ease);
+            opacity: 0.5;
+        }
+    }
+}

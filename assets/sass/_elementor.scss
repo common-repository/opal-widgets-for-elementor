@@ -1,0 +1,52 @@
+// Core variables and mixins
+@import "./lib/helpers/variables";
+@import "./lib/editor/breakpoints";
+@import "./lib/frontend/breakpoints/breakpoints";
+@import "./lib/helpers/mixins";
+
+
+@import "vars";
+
+@import "mixin";
+// Opacity
+@import 'base';  
+
+/* inject:scss */
+@import "widget/brand";
+@import "widget/tab";
+@import "widget/nav-menu";
+@import "widget/text_carousel";
+@import "widget/countdown";
+@import "widget/counter";
+@import "widget/divider";
+@import "widget/flipbox";
+@import "widget/form";
+@import "widget/image-box";
+@import "widget/mailchimp";
+@import "widget/overview";
+@import "widget/post";
+@import "widget/pricing-table";
+@import "widget/progress";
+@import "widget/searchbox";
+@import "widget/team";
+@import "widget/testimonials";
+@import "widget/call-to-action";
+@import "widget/text-editor";
+@import "widget/text_carousel";
+@import "widget/toggle";
+@import "widget/video";
+@import "widget/widgets";
+@import "widget/account";
+@import "widget/hotspots";
+@import "widget/cart";
+@import "widget/productsearch";
+@import "widget/list";
+@import "widget/dual-heading";
+@import "widget/timeline";
+@import "widget/image-gallery";
+
+@import "widget/products-categories";
+@import "widget/products";
+
+@import "widget/offcanvas";
+

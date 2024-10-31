@@ -1,0 +1,33 @@
+.opalelementor-list-items {
+    padding: 0;
+    margin: 0;
+    .opalelementor-list-item {
+        display: inline-flex;
+        margin-bottom: 15px;
+        line-height: 24px;
+        .opalelementor-list-icon {
+            margin-top: -3px;
+        }
+
+        .opalelementor-list-icon {
+            text-align: center;
+        }
+        i, .opalelementor-list-number{
+            font-size: 20px;
+            line-height: 1.25;
+            @include transition(all 0.5s ease);
+        }
+        .opalelementor-list-icon  {
+            margin-right: 15px;
+            @include transition(all 0.5s ease);
+            .opalelementor-list-number {
+                font-weight: 700;
+            }
+        }
+        .opalelementor-list-text {
+            font-weight: 700;
+            @include font-size(20);
+            @include transition(all 0.5s ease);
+        }
+    }
+}

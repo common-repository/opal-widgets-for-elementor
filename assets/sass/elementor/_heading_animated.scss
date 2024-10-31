@@ -1,0 +1,44 @@
+.opal-heading-animated {
+  font-size: 43px;
+  line-height: 1.2;
+}
+.opal-heading-animated--style-highlight {
+  .opal-heading-animated-dynamic-wrapper {
+    position: relative;
+    overflow: visible;
+  }
+  .opal-heading-animated-dynamic-text {
+    z-index: 1;
+  }
+  .opal-heading-animated-plain-text {
+    z-index: 1;
+    position: relative;
+  }
+  svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: visible;
+    width: calc( 100% + 20px);
+    height: calc( 100% + 20px);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+    path{
+      stroke: red;
+      stroke-width: 9;
+      fill: none;
+      stroke-dasharray: 1500;
+      animation: opal-heading-animated-dash 10s infinite;
+      -webkit-animation: opal-heading-animated-dash 10s infinite;
+      -ms-animation: opal-heading-animated-dash 10s infinite;
+
+      &:nth-of-type(2) {
+        animation-delay: 0.6s;
+        -webkit-animation-delay: 0.6s;
+      }
+    }
+  }
+}

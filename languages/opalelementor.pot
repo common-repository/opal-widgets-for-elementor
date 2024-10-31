@@ -1,0 +1,4822 @@
+# Copyright (C) 2023 WpOpal
+# This file is distributed under the GNU/GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Opal Widgets For Elementor 1.6.8\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/opal-widgets-for-elementor\n"
+"POT-Creation-Date: 2023-01-18 04:00:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: WPOPAL Team <help@wpopal.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/abstract/carousel.php:23 includes/abstract/slick.php:116
+msgid "Carousel Options"
+msgstr ""
+
+#: includes/abstract/carousel.php:32
+#: includes/module/class-offcanvas-header.php:44 widgets/general/team.php:226
+#: widgets/general/testimonial.php:223 widgets/general/text-carousel.php:192
+#: widgets/woo/categoryproducttab.php:362 widgets/woo/megaproducts.php:257
+#: widgets/woo/productcategories.php:208 widgets/woo/productdeals.php:226
+#: widgets/woo/products.php:226 widgets/woo/productsmasonry.php:238
+#: widgets/woo/producttabs.php:317
+msgid "Enable"
+msgstr ""
+
+#: includes/abstract/carousel.php:40 includes/abstract/slick.php:158
+#: includes/abstract/slick.php:292 widgets/general/brand.php:219
+#: widgets/general/brand.php:382
+msgid "Navigation"
+msgstr ""
+
+#: includes/abstract/carousel.php:44 includes/abstract/slick.php:162
+#: widgets/general/brand.php:223
+msgid "Arrows and Dots"
+msgstr ""
+
+#: includes/abstract/carousel.php:45 includes/abstract/slick.php:163
+#: includes/abstract/slick.php:301 widgets/general/brand.php:224
+#: widgets/general/brand.php:393
+msgid "Arrows"
+msgstr ""
+
+#: includes/abstract/carousel.php:46 includes/abstract/slick.php:164
+#: includes/abstract/slick.php:363 widgets/general/brand.php:225
+#: widgets/general/brand.php:455
+msgid "Dots"
+msgstr ""
+
+#: includes/abstract/carousel.php:47 includes/abstract/slick.php:165
+#: widgets/general/banner.php:186 widgets/general/brand.php:226
+#: widgets/general/brand.php:258 widgets/general/call-to-action.php:126
+#: widgets/general/call-to-action.php:1268
+#: widgets/general/call-to-action.php:1270 widgets/general/flip-box.php:51
+#: widgets/general/masonry-posts.php:193 widgets/general/nav-menu.php:145
+#: widgets/general/nav-menu.php:258 widgets/general/nav-menu.php:399
+#: widgets/general/navigation-nav.php:86 widgets/general/posts-grid.php:220
+#: widgets/general/price-table.php:74 widgets/woo/categoryproducttab.php:330
+#: widgets/woo/megaproducts.php:214 widgets/woo/megaproducts.php:227
+#: widgets/woo/productdeals.php:206 widgets/woo/products.php:207
+#: widgets/woo/productsmasonry.php:219 widgets/woo/producttabs.php:298
+msgid "None"
+msgstr ""
+
+#: includes/abstract/carousel.php:58 includes/abstract/slick.php:193
+#: widgets/general/brand.php:287
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/abstract/carousel.php:70 includes/abstract/slick.php:207
+#: widgets/general/brand.php:301
+msgid "Autoplay"
+msgstr ""
+
+#: includes/abstract/carousel.php:82 includes/abstract/slick.php:221
+#: widgets/general/brand.php:315
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/abstract/carousel.php:98 includes/abstract/slick.php:231
+#: widgets/general/brand.php:325
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/abstract/slick.php:52
+msgid "Opal Slick"
+msgstr ""
+
+#: includes/abstract/slick.php:129 widgets/general/brand.php:179
+msgid "Slides to Show"
+msgstr ""
+
+#: includes/abstract/slick.php:132 includes/abstract/slick.php:446
+#: includes/post-type/header.php:108 widgets/general/brand.php:182
+#: widgets/general/brand.php:241 widgets/general/brand.php:530
+#: widgets/general/button.php:62 widgets/general/call-to-action.php:188
+#: widgets/general/flip-box.php:110 widgets/general/google-map.php:529
+#: widgets/general/iconbox-gradient.php:81
+#: widgets/general/image-gallery.php:243 widgets/general/list.php:116
+#: widgets/general/nav-menu.php:349 widgets/general/offcanvas.php:62
+#: widgets/general/team-box.php:106 widgets/override/icon-box.php:94
+#: widgets/override/image-box.php:108 widgets/override/image-box.php:258
+#: widgets/override/progress.php:36 widgets/woo/productcategories.php:190
+msgid "Default"
+msgstr ""
+
+#: includes/abstract/slick.php:141 widgets/general/brand.php:191
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/abstract/slick.php:143 widgets/general/brand.php:193
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: includes/abstract/slick.php:174 widgets/general/boxoverview.php:211
+#: widgets/general/brand.php:269 widgets/general/button.php:192
+#: widgets/general/call-to-action.php:185 widgets/general/countdown.php:51
+#: widgets/general/counter.php:167 widgets/general/flip-box.php:107
+#: widgets/general/iconbox-gradient.php:78
+#: widgets/general/image-gallery.php:222 widgets/general/offcanvas.php:137
+#: widgets/general/tabs.php:178 widgets/general/team-box.php:115
+#: widgets/override/counter.php:293 widgets/override/icon-box.php:91
+#: widgets/override/image-box.php:105 widgets/override/image-box.php:282
+#: widgets/override/progress.php:136 widgets/override/toggle.php:72
+msgid "View"
+msgstr ""
+
+#: includes/abstract/slick.php:185
+msgid "Carousel Additional Options"
+msgstr ""
+
+#: includes/abstract/slick.php:197 includes/abstract/slick.php:211
+#: includes/abstract/slick.php:235 widgets/general/brand.php:211
+#: widgets/general/brand.php:242 widgets/general/brand.php:291
+#: widgets/general/brand.php:305 widgets/general/brand.php:329
+#: widgets/override/progress.php:101
+msgid "Yes"
+msgstr ""
+
+#: includes/abstract/slick.php:198 includes/abstract/slick.php:212
+#: includes/abstract/slick.php:236 widgets/general/brand.php:210
+#: widgets/general/brand.php:243 widgets/general/brand.php:292
+#: widgets/general/brand.php:306 widgets/general/brand.php:330
+#: widgets/override/progress.php:102
+msgid "No"
+msgstr ""
+
+#: includes/abstract/slick.php:245 widgets/general/banner.php:155
+#: widgets/general/brand.php:339
+msgid "Effect"
+msgstr ""
+
+#: includes/abstract/slick.php:249 widgets/general/brand.php:343
+#: widgets/general/imagehotspots.php:469
+msgid "Slide"
+msgstr ""
+
+#: includes/abstract/slick.php:250 widgets/general/brand.php:344
+#: widgets/general/imagehotspots.php:466
+msgid "Fade"
+msgstr ""
+
+#: includes/abstract/slick.php:262 widgets/general/brand.php:356
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/abstract/slick.php:272 widgets/general/brand.php:366
+msgid "Direction"
+msgstr ""
+
+#: includes/abstract/slick.php:276 widgets/button-contact-form.php:138
+#: widgets/general/account.php:125 widgets/general/banner.php:405
+#: widgets/general/boxoverview.php:171 widgets/general/boxoverview.php:234
+#: widgets/general/brand.php:370 widgets/general/brand.php:606
+#: widgets/general/breadcrumb.php:55 widgets/general/button.php:111
+#: widgets/general/call-to-action.php:65 widgets/general/call-to-action.php:348
+#: widgets/general/call-to-action.php:403 widgets/general/counter.php:180
+#: widgets/general/dual-heading.php:130 widgets/general/flip-box.php:376
+#: widgets/general/flip-box.php:438 widgets/general/flip-box.php:892
+#: widgets/general/heading-animated.php:162
+#: widgets/general/iconbox-gradient.php:162
+#: widgets/general/iconbox-gradient.php:433
+#: widgets/general/image-gallery.php:413 widgets/general/imagehotspots.php:392
+#: widgets/general/imagehotspots.php:551 widgets/general/instagram.php:194
+#: widgets/general/list.php:161 widgets/general/masonry-posts.php:159
+#: widgets/general/masonry-posts.php:262 widgets/general/nav-menu.php:115
+#: widgets/general/nav-menu.php:419 widgets/general/posts-grid.php:169
+#: widgets/general/posts-grid.php:289 widgets/general/price-table.php:332
+#: widgets/general/price-table.php:388 widgets/general/price-table.php:524
+#: widgets/general/price-table.php:890 widgets/general/price-table.php:1137
+#: widgets/general/search-form.php:186 widgets/general/social-share.php:118
+#: widgets/general/table.php:126 widgets/general/table.php:154
+#: widgets/general/table.php:438 widgets/general/table.php:571
+#: widgets/general/table.php:697 widgets/general/table.php:1038
+#: widgets/general/table.php:1115 widgets/general/tabs.php:207
+#: widgets/general/testimonial.php:177 widgets/general/text-carousel.php:126
+#: widgets/general/timeline.php:154 widgets/general/timeline.php:197
+#: widgets/general/timeline.php:216 widgets/general/video.php:53
+#: widgets/override/counter.php:273 widgets/override/divider.php:48
+#: widgets/override/icon-box.php:183 widgets/override/icon-box.php:436
+#: widgets/override/image-box.php:214 widgets/override/image-box.php:608
+#: widgets/woo/cart.php:126 widgets/woo/categoryproducttab.php:282
+#: widgets/woo/productcategories.php:132 widgets/woo/producttabs.php:250
+#: widgets/woo/wishlist.php:344
+msgid "Left"
+msgstr ""
+
+#: includes/abstract/slick.php:277 widgets/button-contact-form.php:146
+#: widgets/general/account.php:133 widgets/general/banner.php:413
+#: widgets/general/boxoverview.php:179 widgets/general/boxoverview.php:242
+#: widgets/general/brand.php:371 widgets/general/brand.php:614
+#: widgets/general/breadcrumb.php:63 widgets/general/button.php:119
+#: widgets/general/call-to-action.php:73 widgets/general/call-to-action.php:352
+#: widgets/general/call-to-action.php:411 widgets/general/counter.php:188
+#: widgets/general/dual-heading.php:138 widgets/general/flip-box.php:377
+#: widgets/general/flip-box.php:446 widgets/general/flip-box.php:900
+#: widgets/general/heading-animated.php:170
+#: widgets/general/iconbox-gradient.php:170
+#: widgets/general/iconbox-gradient.php:441
+#: widgets/general/image-gallery.php:421 widgets/general/imagehotspots.php:393
+#: widgets/general/imagehotspots.php:559 widgets/general/instagram.php:202
+#: widgets/general/list.php:169 widgets/general/masonry-posts.php:167
+#: widgets/general/masonry-posts.php:270 widgets/general/nav-menu.php:123
+#: widgets/general/nav-menu.php:427 widgets/general/posts-grid.php:177
+#: widgets/general/posts-grid.php:297 widgets/general/price-table.php:336
+#: widgets/general/price-table.php:396 widgets/general/price-table.php:532
+#: widgets/general/price-table.php:898 widgets/general/price-table.php:1145
+#: widgets/general/search-form.php:194 widgets/general/social-share.php:126
+#: widgets/general/table.php:134 widgets/general/table.php:162
+#: widgets/general/table.php:446 widgets/general/table.php:579
+#: widgets/general/table.php:705 widgets/general/table.php:1046
+#: widgets/general/table.php:1123 widgets/general/tabs.php:215
+#: widgets/general/testimonial.php:185 widgets/general/text-carousel.php:134
+#: widgets/general/timeline.php:162 widgets/general/timeline.php:196
+#: widgets/general/timeline.php:224 widgets/general/video.php:61
+#: widgets/override/counter.php:281 widgets/override/divider.php:56
+#: widgets/override/icon-box.php:191 widgets/override/icon-box.php:444
+#: widgets/override/image-box.php:222 widgets/override/image-box.php:616
+#: widgets/woo/cart.php:134 widgets/woo/categoryproducttab.php:290
+#: widgets/woo/productcategories.php:140 widgets/woo/producttabs.php:258
+#: widgets/woo/wishlist.php:352
+msgid "Right"
+msgstr ""
+
+#: includes/abstract/slick.php:313 includes/abstract/slick.php:375
+#: widgets/general/brand.php:405 widgets/general/brand.php:467
+#: widgets/general/price-table.php:783
+msgid "Position"
+msgstr ""
+
+#: includes/abstract/slick.php:317 includes/abstract/slick.php:380
+#: widgets/general/brand.php:409 widgets/general/brand.php:472
+msgid "Inside"
+msgstr ""
+
+#: includes/abstract/slick.php:318 includes/abstract/slick.php:379
+#: widgets/general/brand.php:410 widgets/general/brand.php:471
+msgid "Outside"
+msgstr ""
+
+#: includes/abstract/slick.php:329 includes/abstract/slick.php:391
+#: widgets/general/brand.php:421 widgets/general/brand.php:483
+#: widgets/general/button.php:135 widgets/general/button.php:371
+#: widgets/general/call-to-action.php:1024 widgets/general/flip-box.php:1085
+#: widgets/general/iconbox-gradient.php:338
+#: widgets/general/imagehotspots.php:599 widgets/general/imagehotspots.php:697
+#: widgets/general/list.php:216 widgets/general/list.php:295
+#: widgets/general/nav-menu.php:1187 widgets/general/offcanvas.php:104
+#: widgets/general/price-table.php:557 widgets/general/price-table.php:621
+#: widgets/general/price-table.php:810 widgets/general/price-table.php:1170
+#: widgets/general/search-form.php:137 widgets/general/search-form.php:210
+#: widgets/override/icon-box.php:291 widgets/override/image-box.php:324
+#: widgets/woo/categoryproducttab.php:616 widgets/woo/navbarsearch.php:115
+msgid "Size"
+msgstr ""
+
+#: includes/abstract/slick.php:349 includes/abstract/slick.php:411
+#: widgets/contactform7.php:85 widgets/contactform7.php:113
+#: widgets/general/account.php:157 widgets/general/banner.php:557
+#: widgets/general/banner.php:610 widgets/general/banner.php:651
+#: widgets/general/boxoverview.php:285 widgets/general/boxoverview.php:315
+#: widgets/general/brand.php:441 widgets/general/brand.php:503
+#: widgets/general/breadcrumb.php:87 widgets/general/countdown.php:328
+#: widgets/general/countdown.php:391 widgets/general/counter.php:364
+#: widgets/general/heading-animated.php:218
+#: widgets/general/iconbox-gradient.php:499
+#: widgets/general/iconbox-gradient.php:528
+#: widgets/general/image-gallery.php:334 widgets/general/imagehotspots.php:589
+#: widgets/general/list.php:193 widgets/general/list.php:263
+#: widgets/general/masonry-posts.php:338 widgets/general/masonry-posts.php:398
+#: widgets/general/masonry-posts.php:449 widgets/general/masonry-posts.php:532
+#: widgets/general/masonry-posts.php:552 widgets/general/masonry-posts.php:572
+#: widgets/general/nav-menu.php:1130 widgets/general/nav-menu.php:1161
+#: widgets/general/posts-grid.php:365 widgets/general/posts-grid.php:425
+#: widgets/general/posts-grid.php:476 widgets/general/posts-grid.php:559
+#: widgets/general/posts-grid.php:579 widgets/general/posts-grid.php:599
+#: widgets/general/price-table.php:418 widgets/general/price-table.php:446
+#: widgets/general/price-table.php:499 widgets/general/price-table.php:683
+#: widgets/general/price-table.php:758 widgets/general/price-table.php:865
+#: widgets/general/price-table.php:959 widgets/general/price-table.php:1046
+#: widgets/general/price-table.php:1383 widgets/general/recent-posts.php:170
+#: widgets/general/recent-posts.php:249 widgets/general/search-form.php:607
+#: widgets/general/search-form.php:649 widgets/general/social-share.php:297
+#: widgets/general/tabs.php:303 widgets/general/tabs.php:379
+#: widgets/general/timeline.php:981 widgets/general/timeline.php:999
+#: widgets/general/timeline.php:1017 widgets/override/counter.php:371
+#: widgets/override/icon-box.php:502 widgets/override/icon-box.php:531
+#: widgets/override/image-box.php:674 widgets/override/image-box.php:747
+#: widgets/override/image-box.php:780 widgets/override/progress.php:155
+#: widgets/override/toggle.php:231 widgets/override/toggle.php:310
+#: widgets/override/toggle.php:383 widgets/woo/cart.php:341
+#: widgets/woo/categoryproducttab.php:447
+#: widgets/woo/categoryproducttab.php:523
+#: widgets/woo/categoryproducttab.php:590 widgets/woo/products.php:266
+#: widgets/woo/products.php:297 widgets/woo/products.php:357
+#: widgets/woo/producttabs.php:414 widgets/woo/producttabs.php:584
+msgid "Color"
+msgstr ""
+
+#: includes/abstract/slick.php:434 widgets/general/banner.php:60
+#: widgets/general/banner.php:67 widgets/general/banner.php:465
+#: widgets/general/brand.php:519 widgets/general/call-to-action.php:38
+#: widgets/general/call-to-action.php:130
+#: widgets/general/call-to-action.php:463 widgets/general/flip-box.php:55
+#: widgets/general/flip-box.php:502 widgets/general/imagehotspots.php:83
+#: widgets/general/imagehotspots.php:510 widgets/general/imagehotspots.php:691
+#: widgets/general/instagram.php:313 widgets/general/masonry-posts.php:290
+#: widgets/general/posts-grid.php:317 widgets/general/testimonial.php:268
+#: widgets/override/image-box.php:293 widgets/woo/productcategories.php:291
+msgid "Image"
+msgstr ""
+
+#: includes/abstract/slick.php:443 widgets/general/boxoverview.php:268
+#: widgets/general/brand.php:527 widgets/general/call-to-action.php:540
+#: widgets/general/call-to-action.php:640
+#: widgets/general/call-to-action.php:818
+#: widgets/general/call-to-action.php:855 widgets/general/flip-box.php:513
+#: widgets/general/flip-box.php:625 widgets/general/flip-box.php:780
+#: widgets/general/flip-box.php:968 widgets/general/flip-box.php:1026
+#: widgets/general/iconbox-gradient.php:315
+#: widgets/general/iconbox-gradient.php:482
+#: widgets/general/image-gallery.php:240 widgets/general/image-gallery.php:378
+#: widgets/general/imagehotspots.php:404 widgets/general/timeline.php:278
+#: widgets/override/icon-box.php:268 widgets/override/icon-box.php:485
+#: widgets/override/image-box.php:301 widgets/override/image-box.php:657
+#: widgets/override/image-box.php:717 widgets/override/toggle.php:338
+msgid "Spacing"
+msgstr ""
+
+#: includes/abstract/slick.php:447 widgets/general/brand.php:531
+#: widgets/general/image-gallery.php:244 widgets/general/price-table.php:92
+#: widgets/general/table.php:191
+msgid "Custom"
+msgstr ""
+
+#: includes/abstract/slick.php:459 widgets/general/brand.php:543
+#: widgets/general/image-gallery.php:257
+msgid "Image Spacing"
+msgstr ""
+
+#: includes/abstract/slick.php:493 widgets/contactform7.php:135
+#: widgets/contactform7.php:317 widgets/general/account.php:248
+#: widgets/general/banner.php:535 widgets/general/banner.php:710
+#: widgets/general/brand.php:577 widgets/general/button.php:328
+#: widgets/general/call-to-action.php:620
+#: widgets/general/call-to-action.php:749
+#: widgets/general/call-to-action.php:1154 widgets/general/countdown.php:254
+#: widgets/general/dual-heading.php:243 widgets/general/dual-heading.php:379
+#: widgets/general/flip-box.php:335 widgets/general/flip-box.php:593
+#: widgets/general/flip-box.php:752 widgets/general/flip-box.php:1247
+#: widgets/general/iconbox-gradient.php:404
+#: widgets/general/image-gallery.php:290 widgets/general/imagehotspots.php:525
+#: widgets/general/imagehotspots.php:638 widgets/general/imagehotspots.php:737
+#: widgets/general/imagehotspots.php:833 widgets/general/imagehotspots.php:991
+#: widgets/general/imagehotspots.php:1059 widgets/general/nav-menu.php:736
+#: widgets/general/nav-menu.php:870 widgets/general/nav-menu.php:1220
+#: widgets/general/offcanvas.php:330 widgets/general/price-table.php:1263
+#: widgets/general/search-form.php:430 widgets/general/search-form.php:718
+#: widgets/general/table.php:1170 widgets/general/testimonial.php:303
+#: widgets/override/icon-box.php:357 widgets/override/progress.php:80
+#: widgets/woo/cart.php:229 widgets/woo/navbarsearch.php:290
+#: widgets/woo/productcategories.php:264 widgets/woo/productcategories.php:382
+#: widgets/woo/wishlist.php:146
+msgid "Border Radius"
+msgstr ""
+
+#: includes/class-footer-builder.php:50 includes/post-type/footer.php:40
+msgid "Edit Footer"
+msgstr ""
+
+#: includes/class-header-builder.php:51 includes/post-type/header.php:42
+msgid "Edit Header"
+msgstr ""
+
+#: includes/class-woo-elementor.php:58
+msgid "Widgets Woocommerce"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:44
+#: includes/customizer/class-customizer.php:58 includes/post-type/header.php:49
+msgid "Header Builder"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:70 includes/post-type/footer.php:47
+msgid "Footer Builder"
+msgstr ""
+
+#: includes/customizer/class-customizer.php:83
+#: widgets/general/call-to-action.php:60 widgets/general/image-gallery.php:153
+#: widgets/general/list.php:112 widgets/general/nav-menu.php:61
+#: widgets/general/nav-menu.php:95 widgets/general/recent-posts.php:97
+#: widgets/general/team-box.php:102 widgets/general/testimonial.php:208
+#: widgets/general/timeline.php:141 widgets/override/image-box.php:255
+#: widgets/woo/productcategories.php:186
+msgid "Layout"
+msgstr ""
+
+#: includes/customizer/footer.php:55
+msgid "Select Footer"
+msgstr ""
+
+#: includes/customizer/footer.php:62
+msgid "Go to Footer builder"
+msgstr ""
+
+#: includes/customizer/header.php:54
+msgid "Select Header"
+msgstr ""
+
+#: includes/customizer/header.php:64
+msgid "Go to header builder"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:25
+msgid "days"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:26
+msgid "hours"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:27
+msgid "mins"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:28
+msgid "secs"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:29
+msgid "Expired"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:40
+#: includes/function-woo-hook-templates.php:51
+msgid "Grid By Current Theme"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:41
+#: includes/function-woo-hook-templates.php:52
+msgid "List Widget Style"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:42
+#: includes/function-woo-hook-templates.php:53
+msgid "Split Widget Style"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:43
+#: includes/function-woo-hook-templates.php:54
+msgid "Grid Widget Style"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:62 widgets/woo/cart.php:89
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:105 widgets/woo/cart.php:624
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/function-woo-hook-templates.php:178
+msgid "Select a category"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:179
+msgid "All category"
+msgstr ""
+
+#: includes/function-woo-hook-templates.php:182
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:34
+msgid "Header Rich Features"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:80
+msgid "Enable Fixed Left Header"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:82
+#: includes/module/class-fixed-header.php:151
+#: includes/module/class-offcanvas-header.php:46
+#: widgets/general/call-to-action.php:1367 widgets/general/flip-box.php:397
+#: widgets/general/image-gallery.php:164 widgets/general/image-gallery.php:174
+#: widgets/general/price-table.php:135 widgets/general/price-table.php:166
+#: widgets/woo/categoryproducttab.php:352
+msgid "On"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:83
+#: includes/module/class-fixed-header.php:152
+#: includes/module/class-offcanvas-header.php:47
+#: widgets/general/call-to-action.php:1368 widgets/general/flip-box.php:398
+#: widgets/general/image-gallery.php:163 widgets/general/image-gallery.php:173
+#: widgets/general/price-table.php:136 widgets/general/price-table.php:167
+#: widgets/woo/categoryproducttab.php:353
+msgid "Off"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:94
+#: includes/module/class-offcanvas-header.php:58
+msgid ""
+"IMPORTANT: Fixed Header Right Or Left is best used with Elementor Pro fixed "
+"option enabled."
+msgstr ""
+
+#: includes/module/class-fixed-header.php:107
+#: includes/module/class-offcanvas-header.php:71
+msgid "Enable On"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:113
+#: includes/module/class-offcanvas-header.php:77
+msgid "Desktop"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:114
+#: includes/module/class-offcanvas-header.php:78
+msgid "Tablet"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:127
+#: includes/module/class-offcanvas-header.php:91
+#: widgets/general/counter.php:209
+msgid "Counter width"
+msgstr ""
+
+#: includes/module/class-fixed-header.php:149
+msgid "Enable Vertical Writing Mode"
+msgstr ""
+
+#: includes/module/class-offcanvas-header.php:36
+msgid "Fixed Header Right Or Left"
+msgstr ""
+
+#: includes/post-type/footer.php:36 includes/post-type/footer.php:37
+#: widgets/general/price-table.php:258 widgets/general/price-table.php:1100
+msgid "Footer"
+msgstr ""
+
+#: includes/post-type/footer.php:38 includes/post-type/footer.php:39
+msgid "Add New Footer"
+msgstr ""
+
+#: includes/post-type/footer.php:41
+msgid "New Footer"
+msgstr ""
+
+#: includes/post-type/footer.php:42
+msgid "View Footer"
+msgstr ""
+
+#: includes/post-type/footer.php:43
+msgid "Search Footers"
+msgstr ""
+
+#: includes/post-type/footer.php:44
+msgid "No Footers found"
+msgstr ""
+
+#: includes/post-type/footer.php:45
+msgid "No Footers found in Trash"
+msgstr ""
+
+#: includes/post-type/footer.php:46
+msgid "Parent Footer:"
+msgstr ""
+
+#: includes/post-type/footer.php:53
+msgid "List Footer"
+msgstr ""
+
+#: includes/post-type/header.php:38 includes/post-type/header.php:39
+#: widgets/general/price-table.php:37 widgets/general/price-table.php:351
+msgid "Header"
+msgstr ""
+
+#: includes/post-type/header.php:40 includes/post-type/header.php:41
+msgid "Add New Header"
+msgstr ""
+
+#: includes/post-type/header.php:43
+msgid "New Header"
+msgstr ""
+
+#: includes/post-type/header.php:44
+msgid "View Header"
+msgstr ""
+
+#: includes/post-type/header.php:45
+msgid "Search Headers"
+msgstr ""
+
+#: includes/post-type/header.php:46
+msgid "No Headers found"
+msgstr ""
+
+#: includes/post-type/header.php:47
+msgid "No Headers found in Trash"
+msgstr ""
+
+#: includes/post-type/header.php:48
+msgid "Parent Header:"
+msgstr ""
+
+#: includes/post-type/header.php:55
+msgid "List Header"
+msgstr ""
+
+#: includes/post-type/header.php:93
+msgid "Header Settings"
+msgstr ""
+
+#: includes/post-type/header.php:103
+msgid "Header Style"
+msgstr ""
+
+#: includes/post-type/header.php:109
+msgid "Absolute"
+msgstr ""
+
+#: includes/wpml/class-wpml.php:27
+msgid "Button: Text"
+msgstr ""
+
+#: includes/wpml/widgets/timeline.php:43
+msgid "Timeline: Date"
+msgstr ""
+
+#: includes/wpml/widgets/timeline.php:46
+msgid "Timeline: Heading"
+msgstr ""
+
+#: includes/wpml/widgets/timeline.php:49
+msgid "Timeline: Description"
+msgstr ""
+
+#: opalelementor.php:92
+msgid "Theme General"
+msgstr ""
+
+#: widgets/button-contact-form.php:17
+msgid "Opal Button Contact Form 7"
+msgstr ""
+
+#: widgets/button-contact-form.php:37 widgets/contactform7.php:35
+#: widgets/general/revslider.php:35 widgets/general/video.php:31
+#: widgets/mailchimp.php:31
+msgid "General"
+msgstr ""
+
+#: widgets/button-contact-form.php:43 widgets/contactform7.php:40
+msgid "Please select form"
+msgstr ""
+
+#: widgets/button-contact-form.php:49 widgets/contactform7.php:46
+msgid "No contact forms found"
+msgstr ""
+
+#: widgets/button-contact-form.php:55 widgets/contactform7.php:52
+msgid "Select contact form"
+msgstr ""
+
+#: widgets/button-contact-form.php:65 widgets/contactform7.php:62
+msgid "Form name"
+msgstr ""
+
+#: widgets/button-contact-form.php:67
+msgid "Request A Call Back"
+msgstr ""
+
+#: widgets/button-contact-form.php:75 widgets/general/price-table.php:437
+#: widgets/general/text-carousel.php:90 widgets/general/text-carousel.php:92
+#: widgets/general/text-carousel.php:268 widgets/override/image-box.php:155
+#: widgets/override/image-box.php:708
+msgid "Sub Title"
+msgstr ""
+
+#: widgets/button-contact-form.php:77
+msgid "Free consultation"
+msgstr ""
+
+#: widgets/button-contact-form.php:89
+msgid "Form Style"
+msgstr ""
+
+#: widgets/button-contact-form.php:97 widgets/contactform7.php:230
+#: widgets/contactform7.php:272 widgets/general/account.php:207
+#: widgets/general/account.php:293 widgets/general/banner.php:473
+#: widgets/general/banner.php:681 widgets/general/call-to-action.php:886
+#: widgets/general/call-to-action.php:951
+#: widgets/general/call-to-action.php:1068
+#: widgets/general/call-to-action.php:1110
+#: widgets/general/call-to-action.php:1185 widgets/general/countdown.php:234
+#: widgets/general/flip-box.php:1140 widgets/general/flip-box.php:1194
+#: widgets/general/imagehotspots.php:620 widgets/general/imagehotspots.php:718
+#: widgets/general/imagehotspots.php:815 widgets/general/imagehotspots.php:969
+#: widgets/general/imagehotspots.php:1041 widgets/general/nav-menu.php:799
+#: widgets/general/nav-menu.php:833 widgets/general/nav-menu.php:1038
+#: widgets/general/nav-menu.php:1055 widgets/general/nav-menu.php:1141
+#: widgets/general/nav-menu.php:1172 widgets/general/price-table.php:360
+#: widgets/general/price-table.php:476 widgets/general/price-table.php:841
+#: widgets/general/price-table.php:1109 widgets/general/price-table.php:1227
+#: widgets/general/price-table.php:1319 widgets/general/price-table.php:1444
+#: widgets/general/search-form.php:304 widgets/general/search-form.php:370
+#: widgets/general/search-form.php:496 widgets/general/search-form.php:527
+#: widgets/general/search-form.php:629 widgets/general/search-form.php:671
+#: widgets/general/tabs.php:337 widgets/general/tabs.php:390
+#: widgets/general/timeline.php:472 widgets/general/timeline.php:640
+#: widgets/general/timeline.php:716 widgets/general/timeline.php:882
+#: widgets/general/timeline.php:911 widgets/general/timeline.php:929
+#: widgets/override/progress.php:166 widgets/woo/cart.php:200
+#: widgets/woo/cart.php:417 widgets/woo/categoryproducttab.php:481
+#: widgets/woo/categoryproducttab.php:534 widgets/woo/navbarsearch.php:176
+#: widgets/woo/navbarsearch.php:236 widgets/woo/navbarsearch.php:353
+#: widgets/woo/navbarsearch.php:384 widgets/woo/productcategories.php:276
+#: widgets/woo/productcategories.php:328 widgets/woo/productcategories.php:355
+#: widgets/woo/producttabs.php:425 widgets/woo/producttabs.php:595
+#: widgets/woo/wishlist.php:183 widgets/woo/wishlist.php:281
+msgid "Background Color"
+msgstr ""
+
+#: widgets/button-contact-form.php:108 widgets/general/heading-animated.php:229
+#: widgets/general/list.php:234 widgets/general/list.php:311
+#: widgets/general/price-table.php:911 widgets/general/price-table.php:998
+#: widgets/general/search-form.php:564 widgets/general/table.php:408
+#: widgets/override/divider.php:86 widgets/woo/navbarsearch.php:420
+msgid "Width"
+msgstr ""
+
+#: widgets/button-contact-form.php:121 widgets/contactform7.php:167
+#: widgets/contactform7.php:206 widgets/general/account.php:260
+#: widgets/general/banner.php:729 widgets/general/button.php:348
+#: widgets/general/call-to-action.php:450 widgets/general/countdown.php:289
+#: widgets/general/countdown.php:350 widgets/general/dual-heading.php:277
+#: widgets/general/dual-heading.php:413 widgets/general/flip-box.php:421
+#: widgets/general/flip-box.php:875 widgets/general/iconbox-gradient.php:355
+#: widgets/general/imagehotspots.php:536 widgets/general/imagehotspots.php:679
+#: widgets/general/imagehotspots.php:769 widgets/general/imagehotspots.php:865
+#: widgets/general/instagram.php:239 widgets/general/masonry-posts.php:298
+#: widgets/general/masonry-posts.php:358 widgets/general/masonry-posts.php:409
+#: widgets/general/masonry-posts.php:469 widgets/general/offcanvas.php:350
+#: widgets/general/posts-grid.php:325 widgets/general/posts-grid.php:385
+#: widgets/general/posts-grid.php:436 widgets/general/posts-grid.php:496
+#: widgets/general/price-table.php:371 widgets/general/price-table.php:487
+#: widgets/general/price-table.php:853 widgets/general/price-table.php:1120
+#: widgets/general/table.php:734 widgets/general/table.php:963
+#: widgets/general/tabs.php:325 widgets/general/tabs.php:413
+#: widgets/general/timeline.php:596 widgets/override/icon-box.php:308
+#: widgets/override/toggle.php:261 widgets/override/toggle.php:402
+#: widgets/woo/categoryproducttab.php:469
+#: widgets/woo/categoryproducttab.php:557 widgets/woo/productcategories.php:243
+#: widgets/woo/productcategories.php:425 widgets/woo/producttabs.php:436
+#: widgets/woo/producttabs.php:618 widgets/woo/wishlist.php:157
+msgid "Padding"
+msgstr ""
+
+#: widgets/button-contact-form.php:134 widgets/general/imagehotspots.php:547
+#: widgets/general/instagram.php:190
+msgid "Text Alignment"
+msgstr ""
+
+#: widgets/button-contact-form.php:142 widgets/general/account.php:129
+#: widgets/general/banner.php:409 widgets/general/boxoverview.php:238
+#: widgets/general/brand.php:610 widgets/general/breadcrumb.php:59
+#: widgets/general/button.php:115 widgets/general/call-to-action.php:407
+#: widgets/general/counter.php:184 widgets/general/dual-heading.php:134
+#: widgets/general/flip-box.php:442 widgets/general/flip-box.php:896
+#: widgets/general/heading-animated.php:166
+#: widgets/general/iconbox-gradient.php:437
+#: widgets/general/image-gallery.php:417 widgets/general/imagehotspots.php:555
+#: widgets/general/instagram.php:198 widgets/general/list.php:165
+#: widgets/general/masonry-posts.php:163 widgets/general/masonry-posts.php:266
+#: widgets/general/nav-menu.php:119 widgets/general/nav-menu.php:383
+#: widgets/general/nav-menu.php:423 widgets/general/posts-grid.php:173
+#: widgets/general/posts-grid.php:293 widgets/general/price-table.php:392
+#: widgets/general/price-table.php:528 widgets/general/price-table.php:894
+#: widgets/general/price-table.php:1141 widgets/general/search-form.php:190
+#: widgets/general/social-share.php:122 widgets/general/table.php:130
+#: widgets/general/table.php:158 widgets/general/table.php:442
+#: widgets/general/table.php:575 widgets/general/table.php:701
+#: widgets/general/table.php:1042 widgets/general/table.php:1119
+#: widgets/general/tabs.php:211 widgets/general/testimonial.php:181
+#: widgets/general/text-carousel.php:130 widgets/general/timeline.php:158
+#: widgets/general/timeline.php:220 widgets/general/video.php:57
+#: widgets/override/divider.php:52 widgets/override/icon-box.php:440
+#: widgets/override/image-box.php:612 widgets/woo/cart.php:130
+#: widgets/woo/categoryproducttab.php:286 widgets/woo/productcategories.php:136
+#: widgets/woo/producttabs.php:254 widgets/woo/wishlist.php:348
+msgid "Center"
+msgstr ""
+
+#: widgets/button-contact-form.php:150 widgets/general/boxoverview.php:246
+#: widgets/general/brand.php:618 widgets/general/button.php:123
+#: widgets/general/iconbox-gradient.php:445 widgets/general/instagram.php:206
+#: widgets/general/video.php:65 widgets/override/icon-box.php:448
+#: widgets/override/image-box.php:620
+msgid "Justified"
+msgstr ""
+
+#: widgets/button-contact-form.php:165 widgets/contactform7.php:218
+#: widgets/contactform7.php:261 widgets/general/brand.php:632
+#: widgets/general/button.php:242 widgets/general/button.php:271
+#: widgets/general/call-to-action.php:1057
+#: widgets/general/call-to-action.php:1099
+#: widgets/general/call-to-action.php:1196 widgets/general/counter.php:293
+#: widgets/general/counter.php:322 widgets/general/dual-heading.php:194
+#: widgets/general/dual-heading.php:331 widgets/general/flip-box.php:801
+#: widgets/general/flip-box.php:839 widgets/general/flip-box.php:988
+#: widgets/general/flip-box.php:1047 widgets/general/flip-box.php:1126
+#: widgets/general/flip-box.php:1180 widgets/general/heading-animated.php:279
+#: widgets/general/heading-animated.php:308
+#: widgets/general/imagehotspots.php:788 widgets/general/imagehotspots.php:943
+#: widgets/general/instagram.php:271 widgets/general/instagram.php:295
+#: widgets/general/nav-menu.php:482 widgets/general/nav-menu.php:549
+#: widgets/general/nav-menu.php:566 widgets/general/nav-menu.php:611
+#: widgets/general/nav-menu.php:787 widgets/general/nav-menu.php:821
+#: widgets/general/nav-menu.php:1006 widgets/general/nav-menu.php:1026
+#: widgets/general/navigation-nav.php:136 widgets/general/offcanvas.php:244
+#: widgets/general/offcanvas.php:273 widgets/general/price-table.php:1201
+#: widgets/general/price-table.php:1305 widgets/general/price-table.php:1474
+#: widgets/general/search-form.php:289 widgets/general/search-form.php:356
+#: widgets/general/search-form.php:485 widgets/general/search-form.php:516
+#: widgets/general/table.php:476 widgets/general/table.php:603
+#: widgets/general/table.php:762 widgets/general/table.php:860
+#: widgets/general/team-box.php:234 widgets/general/team-box.php:265
+#: widgets/general/team.php:248 widgets/general/team.php:279
+#: widgets/general/team.php:310 widgets/general/testimonial.php:245
+#: widgets/general/testimonial.php:326 widgets/general/testimonial.php:357
+#: widgets/general/text-carousel.php:214 widgets/override/counter.php:313
+#: widgets/override/counter.php:342 widgets/override/progress.php:198
+#: widgets/woo/navbarsearch.php:161 widgets/woo/navbarsearch.php:222
+#: widgets/woo/navbarsearch.php:342 widgets/woo/navbarsearch.php:373
+#: widgets/woo/productcategories.php:405 widgets/woo/productcategories.php:448
+msgid "Text Color"
+msgstr ""
+
+#: widgets/button-contact-form.php:176 widgets/general/timeline.php:428
+#: widgets/general/timeline.php:615 widgets/general/timeline.php:692
+msgid "Heading Color"
+msgstr ""
+
+#: widgets/button-contact-form.php:196
+msgid "Headhing Margin"
+msgstr ""
+
+#: widgets/button-contact-form.php:208
+msgid "Sub title Color"
+msgstr ""
+
+#: widgets/button-contact-form.php:228
+msgid "Subtitle Margin"
+msgstr ""
+
+#: widgets/contactform7.php:19
+msgid "Opal Contact Form"
+msgstr ""
+
+#: widgets/contactform7.php:64
+msgid "Contact form"
+msgstr ""
+
+#: widgets/contactform7.php:71
+msgid "Lable"
+msgstr ""
+
+#: widgets/contactform7.php:97 widgets/general/search-form.php:229
+#: widgets/woo/navbarsearch.php:136
+msgid "Input"
+msgstr ""
+
+#: widgets/contactform7.php:156
+msgid "Placeholder Color"
+msgstr ""
+
+#: widgets/contactform7.php:181 widgets/general/banner.php:323
+#: widgets/general/banner.php:639 widgets/general/button.php:51
+#: widgets/general/button.php:217 widgets/general/call-to-action.php:1013
+#: widgets/general/flip-box.php:1074 widgets/general/masonry-posts.php:434
+#: widgets/general/offcanvas.php:51 widgets/general/offcanvas.php:219
+#: widgets/general/posts-grid.php:461 widgets/general/price-table.php:1158
+#: widgets/general/search-form.php:67 widgets/general/search-form.php:454
+#: widgets/woo/navbarsearch.php:50 widgets/woo/navbarsearch.php:314
+msgid "Button"
+msgstr ""
+
+#: widgets/contactform7.php:199 widgets/general/account.php:188
+#: widgets/general/button.php:235 widgets/general/call-to-action.php:879
+#: widgets/general/call-to-action.php:1050
+#: widgets/general/call-to-action.php:1412
+#: widgets/general/call-to-action.php:1433 widgets/general/flip-box.php:1116
+#: widgets/general/iconbox-gradient.php:220 widgets/general/instagram.php:264
+#: widgets/general/masonry-posts.php:525 widgets/general/nav-menu.php:475
+#: widgets/general/nav-menu.php:780 widgets/general/nav-menu.php:998
+#: widgets/general/nav-menu.php:1123 widgets/general/offcanvas.php:237
+#: widgets/general/posts-grid.php:552 widgets/general/price-table.php:1191
+#: widgets/general/search-form.php:282 widgets/general/search-form.php:478
+#: widgets/general/search-form.php:600 widgets/general/social-share.php:315
+#: widgets/general/table.php:534 widgets/general/table.php:661
+#: widgets/general/table.php:820 widgets/general/table.php:918
+#: widgets/general/table.php:1001 widgets/general/table.php:1079
+#: widgets/override/image-box.php:367 widgets/override/image-box.php:473
+#: widgets/override/image-box.php:528 widgets/woo/cart.php:159
+#: widgets/woo/navbarsearch.php:154 widgets/woo/navbarsearch.php:335
+#: widgets/woo/productcategories.php:318 widgets/woo/products.php:250
+#: widgets/woo/producttabs.php:407 widgets/woo/wishlist.php:88
+msgid "Normal"
+msgstr ""
+
+#: widgets/contactform7.php:254 widgets/general/account.php:64
+#: widgets/general/account.php:274 widgets/general/button.php:264
+#: widgets/general/call-to-action.php:944
+#: widgets/general/call-to-action.php:1092
+#: widgets/general/call-to-action.php:1457 widgets/general/flip-box.php:1170
+#: widgets/general/iconbox-gradient.php:255
+#: widgets/general/imagehotspots.php:368 widgets/general/instagram.php:287
+#: widgets/general/list.php:205 widgets/general/list.php:275
+#: widgets/general/list.php:349 widgets/general/list.php:392
+#: widgets/general/masonry-posts.php:545 widgets/general/nav-menu.php:542
+#: widgets/general/nav-menu.php:814 widgets/general/nav-menu.php:1019
+#: widgets/general/nav-menu.php:1154 widgets/general/offcanvas.php:266
+#: widgets/general/posts-grid.php:572 widgets/general/price-table.php:1295
+#: widgets/general/search-form.php:509 widgets/general/search-form.php:642
+#: widgets/general/social-share.php:368 widgets/general/table.php:550
+#: widgets/general/table.php:676 widgets/general/table.php:835
+#: widgets/general/table.php:933 widgets/general/table.php:1017
+#: widgets/general/table.php:1094 widgets/override/image-box.php:398
+#: widgets/override/image-box.php:494 widgets/override/image-box.php:561
+#: widgets/woo/cart.php:398 widgets/woo/categoryproducttab.php:603
+#: widgets/woo/navbarsearch.php:366 widgets/woo/productcategories.php:345
+#: widgets/woo/products.php:319 widgets/woo/producttabs.php:491
+#: widgets/woo/wishlist.php:228
+msgid "Hover"
+msgstr ""
+
+#: widgets/contactform7.php:294 widgets/general/button.php:305
+#: widgets/general/call-to-action.php:1264
+#: widgets/general/call-to-action.php:1392
+#: widgets/general/iconbox-gradient.php:303
+#: widgets/general/imagehotspots.php:927 widgets/general/offcanvas.php:307
+#: widgets/override/icon-box.php:414 widgets/override/image-box.php:427
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/general/account.php:20
+msgid "Opal Account"
+msgstr ""
+
+#: widgets/general/account.php:53 widgets/general/account.php:347
+#: widgets/general/account.php:411 widgets/general/offcanvas.php:492
+msgid "Account"
+msgstr ""
+
+#: widgets/general/account.php:61
+msgid "Style to Show Account Form"
+msgstr ""
+
+#: widgets/general/account.php:65 widgets/general/nav-menu.php:350
+msgid "Popup"
+msgstr ""
+
+#: widgets/general/account.php:66 widgets/general/nav-menu.php:351
+msgid "Offcanvas"
+msgstr ""
+
+#: widgets/general/account.php:80
+msgid "Use Custom Dashboard Menu"
+msgstr ""
+
+#: widgets/general/account.php:89 widgets/general/nav-menu.php:71
+#: widgets/general/navigation-nav.php:69 widgets/general/offcanvas.php:186
+msgid "Menu"
+msgstr ""
+
+#: widgets/general/account.php:95 widgets/general/nav-menu.php:77
+#: widgets/general/navigation-nav.php:75 widgets/general/offcanvas.php:192
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: widgets/general/account.php:104 widgets/general/navigation-nav.php:103
+#: widgets/override/counter.php:206 widgets/override/icon-box.php:82
+#: widgets/woo/cart.php:57 widgets/woo/wishlist.php:41
+msgid "Choose Icon"
+msgstr ""
+
+#: widgets/general/account.php:113 widgets/woo/wishlist.php:58
+msgid "Enable Label"
+msgstr ""
+
+#: widgets/general/account.php:121 widgets/general/banner.php:401
+#: widgets/general/boxoverview.php:230 widgets/general/brand.php:602
+#: widgets/general/breadcrumb.php:51 widgets/general/button.php:107
+#: widgets/general/call-to-action.php:398 widgets/general/counter.php:176
+#: widgets/general/dual-heading.php:126 widgets/general/flip-box.php:433
+#: widgets/general/flip-box.php:887 widgets/general/heading-animated.php:157
+#: widgets/general/iconbox-gradient.php:429
+#: widgets/general/image-gallery.php:408 widgets/general/list.php:157
+#: widgets/general/masonry-posts.php:153 widgets/general/masonry-posts.php:258
+#: widgets/general/posts-grid.php:163 widgets/general/posts-grid.php:285
+#: widgets/general/price-table.php:383 widgets/general/price-table.php:519
+#: widgets/general/price-table.php:885 widgets/general/price-table.php:1132
+#: widgets/general/search-form.php:180 widgets/general/social-share.php:114
+#: widgets/general/table.php:122 widgets/general/table.php:150
+#: widgets/general/table.php:567 widgets/general/table.php:693
+#: widgets/general/table.php:1034 widgets/general/table.php:1111
+#: widgets/general/testimonial.php:172 widgets/general/text-carousel.php:121
+#: widgets/general/video.php:49 widgets/override/counter.php:268
+#: widgets/override/icon-box.php:432 widgets/override/image-box.php:604
+#: widgets/override/toggle.php:286 widgets/woo/cart.php:122
+#: widgets/woo/productcategories.php:127 widgets/woo/wishlist.php:339
+msgid "Alignment"
+msgstr ""
+
+#: widgets/general/account.php:149 widgets/general/breadcrumb.php:79
+#: widgets/general/countdown.php:374 widgets/general/metadata.php:93
+#: widgets/woo/cart.php:367 widgets/woo/cart.php:530
+#: widgets/woo/wishlist.php:197 widgets/woo/wishlist.php:297
+msgid "Label"
+msgstr ""
+
+#: widgets/general/account.php:179 widgets/general/button.php:146
+#: widgets/general/button.php:363 widgets/general/call-to-action.php:134
+#: widgets/general/call-to-action.php:173 widgets/general/flip-box.php:59
+#: widgets/general/flip-box.php:95 widgets/general/flip-box.php:614
+#: widgets/general/iconbox-gradient.php:69
+#: widgets/general/iconbox-gradient.php:207
+#: widgets/general/imagehotspots.php:583 widgets/general/list.php:71
+#: widgets/general/list.php:117 widgets/general/list.php:182
+#: widgets/general/price-table.php:213 widgets/general/search-form.php:83
+#: widgets/general/search-form.php:111 widgets/general/search-form.php:170
+#: widgets/general/table.php:48 widgets/override/counter.php:363
+#: widgets/override/icon-box.php:228 widgets/override/toggle.php:100
+#: widgets/override/toggle.php:275 widgets/woo/cart.php:244
+#: widgets/woo/cart.php:446 widgets/woo/categoryproducttab.php:103
+#: widgets/woo/categoryproducttab.php:582 widgets/woo/navbarsearch.php:66
+#: widgets/woo/navbarsearch.php:90 widgets/woo/wishlist.php:326
+msgid "Icon"
+msgstr ""
+
+#: widgets/general/account.php:195 widgets/general/account.php:281
+#: widgets/general/price-table.php:222 widgets/general/table.php:496
+#: widgets/general/table.php:623 widgets/general/table.php:782
+#: widgets/general/table.php:880 widgets/woo/cart.php:253
+#: widgets/woo/cart.php:455 widgets/woo/wishlist.php:112
+#: widgets/woo/wishlist.php:235
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/general/account.php:219 widgets/woo/wishlist.php:95
+msgid "Icon Font Size"
+msgstr ""
+
+#: widgets/general/account.php:451
+msgid "Sign in"
+msgstr ""
+
+#: widgets/general/account.php:454
+msgid "Register"
+msgstr ""
+
+#: widgets/general/account.php:454
+msgid "Create an Account"
+msgstr ""
+
+#: widgets/general/account.php:460
+msgid "Username or email"
+msgstr ""
+
+#: widgets/general/account.php:462 widgets/general/instagram.php:78
+#: widgets/general/instagram.php:182
+msgid "Username"
+msgstr ""
+
+#: widgets/general/account.php:465 widgets/general/account.php:466
+msgid "Password"
+msgstr ""
+
+#: widgets/general/account.php:468
+msgid "Login"
+msgstr ""
+
+#: widgets/general/account.php:476
+msgid "Lost your password?"
+msgstr ""
+
+#: widgets/general/account.php:485 widgets/general/account.php:498
+#: widgets/general/account.php:514
+msgid "Dashboard"
+msgstr ""
+
+#: widgets/general/account.php:501
+msgid "Orders"
+msgstr ""
+
+#: widgets/general/account.php:504
+msgid "Downloads"
+msgstr ""
+
+#: widgets/general/account.php:507
+msgid "Edit Address"
+msgstr ""
+
+#: widgets/general/account.php:510
+msgid "Account Details"
+msgstr ""
+
+#: widgets/general/account.php:518
+msgid "Log out"
+msgstr ""
+
+#: widgets/general/account.php:518
+msgid "Log Out"
+msgstr ""
+
+#: widgets/general/banner.php:44 widgets/general/banner.php:275
+msgid "Opal Banner"
+msgstr ""
+
+#: widgets/general/banner.php:68
+msgid "Select an image for the Banner"
+msgstr ""
+
+#: widgets/general/banner.php:79 widgets/general/banner.php:367
+#: widgets/general/button.php:92 widgets/general/call-to-action.php:299
+#: widgets/general/dual-heading.php:101 widgets/general/dual-heading.php:109
+#: widgets/general/flip-box.php:246 widgets/general/iconbox-gradient.php:144
+#: widgets/general/imagehotspots.php:281 widgets/general/offcanvas.php:88
+#: widgets/general/price-table.php:274 widgets/general/table.php:314
+#: widgets/general/table.php:341
+msgid "Link"
+msgstr ""
+
+#: widgets/general/banner.php:87
+msgid "Custom Link"
+msgstr ""
+
+#: widgets/general/banner.php:90
+msgid "Add a custom link to the banner"
+msgstr ""
+
+#: widgets/general/banner.php:100
+msgid "Set custom Link"
+msgstr ""
+
+#: widgets/general/banner.php:102
+msgid "What custom link you want to set to banner?"
+msgstr ""
+
+#: widgets/general/banner.php:114 widgets/general/banner.php:353
+#: widgets/general/banner.php:385 widgets/general/imagehotspots.php:292
+#: widgets/general/table.php:328
+msgid "Existing Page"
+msgstr ""
+
+#: widgets/general/banner.php:116
+msgid "Link the banner with an existing page"
+msgstr ""
+
+#: widgets/general/banner.php:129
+msgid "New Tab"
+msgstr ""
+
+#: widgets/general/banner.php:132
+msgid "Choose if you want the link be opened in a new tab or not"
+msgstr ""
+
+#: widgets/general/banner.php:142
+msgid "Nofollow Option"
+msgstr ""
+
+#: widgets/general/banner.php:145
+msgid "if you choose yes, the link will not be counted in search engines"
+msgstr ""
+
+#: widgets/general/banner.php:158
+msgid "Choose a hover effect for the banner"
+msgstr ""
+
+#: widgets/general/banner.php:173
+msgid "Always Hovered"
+msgstr ""
+
+#: widgets/general/banner.php:175
+msgid "Choose if you want the effect to be always triggered"
+msgstr ""
+
+#: widgets/general/banner.php:183
+msgid "Hover Effect"
+msgstr ""
+
+#: widgets/general/banner.php:187
+msgid "Zoom In"
+msgstr ""
+
+#: widgets/general/banner.php:188
+msgid "Zoom Out"
+msgstr ""
+
+#: widgets/general/banner.php:189
+msgid "Scale"
+msgstr ""
+
+#: widgets/general/banner.php:190
+msgid "Grayscale"
+msgstr ""
+
+#: widgets/general/banner.php:191
+msgid "Blur"
+msgstr ""
+
+#: widgets/general/banner.php:192
+msgid "Bright"
+msgstr ""
+
+#: widgets/general/banner.php:193
+msgid "Sepia"
+msgstr ""
+
+#: widgets/general/banner.php:202 widgets/general/flip-box.php:313
+#: widgets/general/google-map.php:123 widgets/general/imagehotspots.php:441
+#: widgets/override/divider.php:106 widgets/override/progress.php:61
+msgid "Height"
+msgstr ""
+
+#: widgets/general/banner.php:216
+msgid "Min Height"
+msgstr ""
+
+#: widgets/general/banner.php:218
+msgid "Set a minimum height value in pixels"
+msgstr ""
+
+#: widgets/general/banner.php:231
+msgid "Vertical Align"
+msgstr ""
+
+#: widgets/general/banner.php:237 widgets/general/boxoverview.php:175
+#: widgets/general/call-to-action.php:430 widgets/general/flip-box.php:465
+#: widgets/general/flip-box.php:920 widgets/general/iconbox-gradient.php:166
+#: widgets/general/iconbox-gradient.php:461
+#: widgets/general/imagehotspots.php:390 widgets/general/price-table.php:582
+#: widgets/general/price-table.php:643 widgets/general/price-table.php:715
+#: widgets/general/table.php:73 widgets/general/timeline.php:243
+#: widgets/override/counter.php:277 widgets/override/icon-box.php:187
+#: widgets/override/icon-box.php:464 widgets/override/image-box.php:218
+#: widgets/override/image-box.php:636
+msgid "Top"
+msgstr ""
+
+#: widgets/general/banner.php:238 widgets/general/call-to-action.php:434
+#: widgets/general/flip-box.php:469 widgets/general/flip-box.php:924
+#: widgets/general/iconbox-gradient.php:462 widgets/general/price-table.php:586
+#: widgets/general/price-table.php:647 widgets/general/price-table.php:719
+#: widgets/general/timeline.php:247 widgets/override/icon-box.php:465
+#: widgets/override/image-box.php:637
+msgid "Middle"
+msgstr ""
+
+#: widgets/general/banner.php:239 widgets/general/call-to-action.php:438
+#: widgets/general/flip-box.php:473 widgets/general/flip-box.php:928
+#: widgets/general/iconbox-gradient.php:463
+#: widgets/general/imagehotspots.php:391 widgets/general/price-table.php:590
+#: widgets/general/price-table.php:651 widgets/general/price-table.php:723
+#: widgets/general/timeline.php:251 widgets/override/icon-box.php:466
+#: widgets/override/image-box.php:638
+msgid "Bottom"
+msgstr ""
+
+#: widgets/general/banner.php:240
+msgid "Full"
+msgstr ""
+
+#: widgets/general/banner.php:252
+msgid "Extra Class"
+msgstr ""
+
+#: widgets/general/banner.php:254
+msgid "Add extra class name."
+msgstr ""
+
+#: widgets/general/banner.php:264 widgets/general/boxoverview.php:129
+#: widgets/general/boxoverview.php:222 widgets/general/call-to-action.php:114
+#: widgets/general/call-to-action.php:767
+#: widgets/general/call-to-action.php:1253 widgets/general/countdown.php:303
+#: widgets/general/flip-box.php:41 widgets/general/flip-box.php:207
+#: widgets/general/iconbox-gradient.php:421 widgets/general/list.php:81
+#: widgets/general/list.php:372 widgets/general/tabs.php:126
+#: widgets/general/tabs.php:370 widgets/general/testimonial.php:103
+#: widgets/general/testimonial.php:237 widgets/general/text-carousel.php:71
+#: widgets/general/text-carousel.php:100 widgets/general/text-carousel.php:206
+#: widgets/override/icon-box.php:424 widgets/override/image-box.php:596
+#: widgets/override/toggle.php:42 widgets/override/toggle.php:361
+#: widgets/woo/categoryproducttab.php:514 widgets/woo/producttabs.php:575
+msgid "Content"
+msgstr ""
+
+#: widgets/general/banner.php:271 widgets/general/banner.php:549
+#: widgets/general/boxoverview.php:259 widgets/general/brand.php:259
+#: widgets/general/call-to-action.php:335
+#: widgets/general/call-to-action.php:796 widgets/general/counter.php:146
+#: widgets/general/counter.php:314 widgets/general/flip-box.php:769
+#: widgets/general/flip-box.php:957 widgets/general/iconbox-gradient.php:473
+#: widgets/general/list.php:60 widgets/general/list.php:329
+#: widgets/general/masonry-posts.php:82 widgets/general/masonry-posts.php:323
+#: widgets/general/posts-grid.php:75 widgets/general/posts-grid.php:350
+#: widgets/general/price-table.php:44 widgets/general/price-table.php:315
+#: widgets/general/price-table.php:409 widgets/general/recent-posts.php:74
+#: widgets/general/recent-posts.php:241 widgets/general/tabs.php:294
+#: widgets/general/text-carousel.php:80 widgets/general/text-carousel.php:82
+#: widgets/general/text-carousel.php:237 widgets/override/counter.php:257
+#: widgets/override/counter.php:334 widgets/override/icon-box.php:476
+#: widgets/override/image-box.php:648 widgets/override/progress.php:21
+#: widgets/override/toggle.php:212 widgets/woo/cart.php:77
+#: widgets/woo/categoryproducttab.php:438 widgets/woo/products.php:257
+#: widgets/woo/producttabs.php:396 widgets/wp_template.php:88
+msgid "Title"
+msgstr ""
+
+#: widgets/general/banner.php:272
+msgid "Enter title to this banner"
+msgstr ""
+
+#: widgets/general/banner.php:283 widgets/general/dual-heading.php:65
+#: widgets/general/heading-animated.php:185
+#: widgets/general/text-carousel.php:147
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/general/banner.php:284
+msgid "Select a heading tag for the title. Headings are defined with H1 to H6 tags"
+msgstr ""
+
+#: widgets/general/banner.php:302 widgets/general/banner.php:310
+#: widgets/general/banner.php:602 widgets/general/boxoverview.php:306
+#: widgets/general/brand.php:261 widgets/general/call-to-action.php:231
+#: widgets/general/call-to-action.php:833 widgets/general/counter.php:156
+#: widgets/general/counter.php:356 widgets/general/flip-box.php:153
+#: widgets/general/flip-box.php:223 widgets/general/flip-box.php:828
+#: widgets/general/flip-box.php:1015 widgets/general/iconbox-gradient.php:519
+#: widgets/general/masonry-posts.php:383 widgets/general/posts-grid.php:410
+#: widgets/general/team-box.php:215 widgets/general/team-box.php:323
+#: widgets/general/team.php:209 widgets/general/team.php:356
+#: widgets/general/timeline.php:86 widgets/override/icon-box.php:522
+#: widgets/override/image-box.php:165 widgets/override/image-box.php:770
+msgid "Description"
+msgstr ""
+
+#: widgets/general/banner.php:311
+msgid "Give the description to this banner"
+msgstr ""
+
+#: widgets/general/banner.php:314
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since the "
+"1500s, when an unknown printer took a galley of type and scrambled it to "
+"make a type specimen book. It has survived not only five centuries, but "
+"also the leap into electronic typesetting, remaining essentially unchanged. "
+"It was popularised in the 1960s with the release of Letraset sheets "
+"containing Lorem Ipsum passages, and more recently with desktop publishing "
+"software like Aldus PageMaker including versions of Lorem Ipsum."
+msgstr ""
+
+#: widgets/general/banner.php:335 widgets/general/button.php:79
+#: widgets/general/dual-heading.php:57 widgets/general/imagehotspots.php:123
+#: widgets/general/imagehotspots.php:155 widgets/general/imagehotspots.php:781
+#: widgets/general/nav-menu.php:151 widgets/general/navigation-nav.php:92
+#: widgets/general/offcanvas.php:75 widgets/general/price-table.php:204
+#: widgets/general/search-form.php:84 widgets/general/search-form.php:97
+#: widgets/general/table.php:25 widgets/woo/navbarsearch.php:67
+#: widgets/woo/navbarsearch.php:77
+msgid "Text"
+msgstr ""
+
+#: widgets/general/banner.php:349 widgets/general/table.php:324
+msgid "Link Type"
+msgstr ""
+
+#: widgets/general/banner.php:352 widgets/general/imagehotspots.php:291
+#: widgets/general/imagehotspots.php:317 widgets/general/table.php:327
+msgid "URL"
+msgstr ""
+
+#: widgets/general/banner.php:429 widgets/general/banner.php:434
+#: widgets/general/table.php:425
+msgid "Responsive"
+msgstr ""
+
+#: widgets/general/banner.php:440
+msgid "Minimum Size"
+msgstr ""
+
+#: widgets/general/banner.php:442
+msgid "Note: minimum size for extra small screens is 1px."
+msgstr ""
+
+#: widgets/general/banner.php:451
+msgid "Maximum Size"
+msgstr ""
+
+#: widgets/general/banner.php:453
+msgid "Note: maximum size for extra small screens is 767px."
+msgstr ""
+
+#: widgets/general/banner.php:484
+msgid "Image Opacity"
+msgstr ""
+
+#: widgets/general/banner.php:506
+msgid "Hover Opacity"
+msgstr ""
+
+#: widgets/general/banner.php:568
+msgid "Title Background"
+msgstr ""
+
+#: widgets/general/banner.php:571
+msgid "Choose a background color for the title"
+msgstr ""
+
+#: widgets/general/banner.php:662 widgets/general/navigation-nav.php:148
+#: widgets/general/recent-posts.php:259 widgets/woo/products.php:335
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/general/banner.php:692
+msgid "Hover Background Color"
+msgstr ""
+
+#: widgets/general/boxoverview.php:55
+msgid "Opal Box Overview"
+msgstr ""
+
+#: widgets/general/boxoverview.php:85 widgets/override/image-box.php:42
+#: widgets/override/image-box.php:75
+msgid "Image Box"
+msgstr ""
+
+#: widgets/general/boxoverview.php:92 widgets/general/brand.php:132
+#: widgets/general/call-to-action.php:87 widgets/general/call-to-action.php:146
+#: widgets/general/flip-box.php:70 widgets/general/imagehotspots.php:89
+#: widgets/general/price-table.php:175 widgets/general/site-logo.php:54
+#: widgets/general/team-box.php:141 widgets/general/team.php:134
+#: widgets/general/testimonial.php:114 widgets/override/counter.php:165
+#: widgets/override/image-box.php:82 widgets/woo/productcategories.php:96
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/general/boxoverview.php:115 widgets/general/call-to-action.php:219
+#: widgets/general/flip-box.php:141 widgets/general/flip-box.php:212
+#: widgets/general/iconbox-gradient.php:114 widgets/override/icon-box.php:127
+#: widgets/override/image-box.php:141
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/general/boxoverview.php:120 widgets/general/call-to-action.php:221
+#: widgets/general/flip-box.php:143 widgets/general/flip-box.php:214
+#: widgets/general/iconbox-gradient.php:119 widgets/override/icon-box.php:132
+#: widgets/override/image-box.php:146
+msgid "This is the heading"
+msgstr ""
+
+#: widgets/general/boxoverview.php:121 widgets/general/call-to-action.php:222
+#: widgets/general/flip-box.php:144 widgets/general/flip-box.php:215
+#: widgets/general/iconbox-gradient.php:120 widgets/override/icon-box.php:133
+#: widgets/override/image-box.php:147 widgets/override/progress.php:23
+msgid "Enter your title"
+msgstr ""
+
+#: widgets/general/boxoverview.php:134 widgets/general/iconbox-gradient.php:133
+#: widgets/override/icon-box.php:146 widgets/override/image-box.php:170
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet, "
+"consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, "
+"pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/general/boxoverview.php:135 widgets/general/call-to-action.php:234
+#: widgets/general/flip-box.php:156 widgets/general/flip-box.php:226
+#: widgets/general/iconbox-gradient.php:134 widgets/override/icon-box.php:147
+#: widgets/override/image-box.php:171
+msgid "Enter your description"
+msgstr ""
+
+#: widgets/general/boxoverview.php:144 widgets/general/call-to-action.php:266
+#: widgets/general/flip-box.php:236 widgets/general/price-table.php:265
+msgid "Button Text"
+msgstr ""
+
+#: widgets/general/boxoverview.php:146 widgets/general/call-to-action.php:268
+#: widgets/general/flip-box.php:238 widgets/general/price-table.php:267
+#: widgets/general/template.php:49
+msgid "Click Here"
+msgstr ""
+
+#: widgets/general/boxoverview.php:154 widgets/general/brand.php:146
+#: widgets/general/team-box.php:162 widgets/general/team.php:155
+#: widgets/general/testimonial.php:144 widgets/general/video.php:39
+#: widgets/override/icon-box.php:157 widgets/override/image-box.php:188
+msgid "Link to"
+msgstr ""
+
+#: widgets/general/boxoverview.php:159 widgets/general/brand.php:151
+#: widgets/general/button.php:97 widgets/general/call-to-action.php:301
+#: widgets/general/flip-box.php:248 widgets/general/iconbox-gradient.php:149
+#: widgets/general/offcanvas.php:93 widgets/general/price-table.php:276
+#: widgets/general/team-box.php:163 widgets/general/team.php:156
+#: widgets/general/testimonial.php:145 widgets/general/video.php:42
+#: widgets/override/icon-box.php:162 widgets/override/image-box.php:193
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/general/boxoverview.php:166 widgets/override/image-box.php:209
+msgid "Image Position"
+msgstr ""
+
+#: widgets/general/boxoverview.php:191 widgets/general/call-to-action.php:244
+#: widgets/general/iconbox-gradient.php:185 widgets/override/icon-box.php:206
+#: widgets/override/image-box.php:234 widgets/override/toggle.php:81
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/general/brand.php:51
+msgid "Opal Brands"
+msgstr ""
+
+#: widgets/general/brand.php:112
+msgid "Brand Carousel"
+msgstr ""
+
+#: widgets/general/brand.php:121
+msgid "Brand name"
+msgstr ""
+
+#: widgets/general/brand.php:123 widgets/general/brand.php:124
+msgid "Brand Name"
+msgstr ""
+
+#: widgets/general/brand.php:158
+msgid "Brand Items"
+msgstr ""
+
+#: widgets/general/brand.php:206
+msgid "Image Stretch"
+msgstr ""
+
+#: widgets/general/brand.php:237
+msgid "Lightbox"
+msgstr ""
+
+#: widgets/general/brand.php:254 widgets/general/brand.php:260
+#: widgets/general/brand.php:591
+msgid "Caption"
+msgstr ""
+
+#: widgets/general/brand.php:280 widgets/general/team.php:81
+msgid "Additional Options"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:18
+msgid "Opal Breadcrumb"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:33 widgets/general/flip-box.php:306
+#: widgets/woo/megaproducts.php:90 widgets/woo/productdeals.php:90
+#: widgets/woo/products.php:91 widgets/woo/productsmasonry.php:104
+msgid "Settings"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:41 widgets/general/call-to-action.php:1381
+#: widgets/general/countdown.php:339 widgets/general/countdown.php:402
+#: widgets/general/counter.php:231 widgets/general/flip-box.php:165
+#: widgets/general/flip-box.php:270 widgets/general/nav-menu.php:150
+#: widgets/general/navigation-nav.php:91 widgets/general/table.php:525
+#: widgets/general/table.php:652 widgets/general/table.php:811
+#: widgets/general/table.php:909 widgets/general/table.php:992
+#: widgets/general/table.php:1070 widgets/override/toggle.php:220
+#: widgets/override/toggle.php:372
+msgid "Background"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:42
+msgid "Select an image for the background image"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:153
+msgid "Blog"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:184
+msgid "Day"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:187
+msgid "Month"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:190
+msgid "Year"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:195 widgets/general/recent-posts.php:189
+msgid "Author"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:199 widgets/general/search-form.php:60
+#: widgets/general/search-form.php:99 widgets/general/search-form.php:117
+#: widgets/general/search-form.php:738 widgets/general/search-form.php:817
+#: widgets/woo/navbarsearch.php:43 widgets/woo/navbarsearch.php:79
+#: widgets/woo/navbarsearch.php:96 widgets/woo/navbarsearch.php:447
+msgid "Search"
+msgstr ""
+
+#: widgets/general/breadcrumb.php:201
+msgid "Error 404"
+msgstr ""
+
+#: widgets/general/button.php:22
+msgid "Opal Button"
+msgstr ""
+
+#: widgets/general/button.php:37 widgets/general/call-to-action.php:1028
+#: widgets/general/flip-box.php:1089 widgets/general/offcanvas.php:38
+#: widgets/general/price-table.php:1174 widgets/woo/megaproducts.php:68
+#: widgets/woo/productdeals.php:68 widgets/woo/products.php:69
+#: widgets/woo/productsmasonry.php:82
+msgid "Extra Small"
+msgstr ""
+
+#: widgets/general/button.php:38 widgets/general/call-to-action.php:1029
+#: widgets/general/flip-box.php:1090 widgets/general/offcanvas.php:39
+#: widgets/general/price-table.php:1175 widgets/woo/megaproducts.php:69
+#: widgets/woo/productdeals.php:69 widgets/woo/products.php:70
+#: widgets/woo/productsmasonry.php:83
+msgid "Small"
+msgstr ""
+
+#: widgets/general/button.php:39 widgets/general/call-to-action.php:1030
+#: widgets/general/flip-box.php:1091 widgets/general/offcanvas.php:40
+#: widgets/general/price-table.php:1176 widgets/woo/megaproducts.php:70
+#: widgets/woo/productdeals.php:70 widgets/woo/products.php:71
+#: widgets/woo/productsmasonry.php:84
+msgid "Medium"
+msgstr ""
+
+#: widgets/general/button.php:40 widgets/general/call-to-action.php:1031
+#: widgets/general/flip-box.php:1092 widgets/general/offcanvas.php:41
+#: widgets/general/price-table.php:1177 widgets/woo/megaproducts.php:71
+#: widgets/woo/productdeals.php:71 widgets/woo/products.php:72
+#: widgets/woo/productsmasonry.php:85
+msgid "Large"
+msgstr ""
+
+#: widgets/general/button.php:41 widgets/general/call-to-action.php:1032
+#: widgets/general/flip-box.php:1093 widgets/general/offcanvas.php:42
+#: widgets/general/price-table.php:1178 widgets/woo/megaproducts.php:72
+#: widgets/woo/productdeals.php:72 widgets/woo/products.php:73
+#: widgets/woo/productsmasonry.php:86
+msgid "Extra Large"
+msgstr ""
+
+#: widgets/general/button.php:58 widgets/general/offcanvas.php:58
+#: widgets/general/search-form.php:79 widgets/general/table.php:285
+#: widgets/general/tabs.php:187 widgets/override/progress.php:32
+#: widgets/woo/categoryproducttab.php:262 widgets/woo/navbarsearch.php:62
+#: widgets/woo/producttabs.php:230
+msgid "Type"
+msgstr ""
+
+#: widgets/general/button.php:63 widgets/general/offcanvas.php:63
+#: widgets/override/progress.php:37
+msgid "Info"
+msgstr ""
+
+#: widgets/general/button.php:64 widgets/general/offcanvas.php:64
+#: widgets/override/progress.php:38
+msgid "Success"
+msgstr ""
+
+#: widgets/general/button.php:65 widgets/general/offcanvas.php:65
+#: widgets/override/progress.php:39
+msgid "Warning"
+msgstr ""
+
+#: widgets/general/button.php:66 widgets/general/offcanvas.php:66
+#: widgets/override/progress.php:40
+msgid "Danger"
+msgstr ""
+
+#: widgets/general/button.php:67
+msgid "Primary"
+msgstr ""
+
+#: widgets/general/button.php:68
+msgid "Outline Pirmary"
+msgstr ""
+
+#: widgets/general/button.php:69
+msgid "Secondary"
+msgstr ""
+
+#: widgets/general/button.php:70
+msgid "Oneline"
+msgstr ""
+
+#: widgets/general/button.php:84 widgets/general/button.php:85
+#: widgets/general/offcanvas.php:80 widgets/general/offcanvas.php:81
+msgid "Click here"
+msgstr ""
+
+#: widgets/general/button.php:156 widgets/general/call-to-action.php:284
+#: widgets/general/iconbox-gradient.php:157 widgets/general/table.php:69
+#: widgets/override/divider.php:44 widgets/override/icon-box.php:178
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/general/button.php:160 widgets/general/call-to-action.php:288
+#: widgets/general/table.php:74
+msgid "Before"
+msgstr ""
+
+#: widgets/general/button.php:161 widgets/general/call-to-action.php:289
+#: widgets/general/table.php:75
+msgid "After"
+msgstr ""
+
+#: widgets/general/button.php:172 widgets/general/table.php:84
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/general/button.php:201 widgets/general/offcanvas.php:146
+msgid "Button ID"
+msgstr ""
+
+#: widgets/general/button.php:204 widgets/general/offcanvas.php:149
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: widgets/general/button.php:206 widgets/general/offcanvas.php:151
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore "
+"chars without spaces."
+msgstr ""
+
+#: widgets/general/button.php:291 widgets/general/call-to-action.php:1079
+#: widgets/general/call-to-action.php:1121 widgets/general/counter.php:242
+#: widgets/general/flip-box.php:1154 widgets/general/flip-box.php:1208
+#: widgets/general/offcanvas.php:293 widgets/general/price-table.php:1342
+#: widgets/general/search-form.php:319 widgets/general/search-form.php:385
+#: widgets/general/search-form.php:618 widgets/general/search-form.php:660
+#: widgets/general/tabs.php:283 widgets/override/toggle.php:173
+#: widgets/woo/categoryproducttab.php:427 widgets/woo/navbarsearch.php:188
+#: widgets/woo/navbarsearch.php:248 widgets/woo/producttabs.php:385
+msgid "Border Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:27
+msgid "Call to Action"
+msgstr ""
+
+#: widgets/general/call-to-action.php:45 widgets/general/search-form.php:40
+#: widgets/general/social-share.php:63
+msgid "Skin"
+msgstr ""
+
+#: widgets/general/call-to-action.php:48 widgets/general/nav-menu.php:259
+#: widgets/general/search-form.php:44
+msgid "Classic"
+msgstr ""
+
+#: widgets/general/call-to-action.php:49
+msgid "Cover"
+msgstr ""
+
+#: widgets/general/call-to-action.php:69
+msgid "Above"
+msgstr ""
+
+#: widgets/general/call-to-action.php:100
+msgid "Image Resolution"
+msgstr ""
+
+#: widgets/general/call-to-action.php:121
+#: widgets/general/call-to-action.php:529 widgets/general/flip-box.php:46
+msgid "Graphic Element"
+msgstr ""
+
+#: widgets/general/call-to-action.php:189 widgets/general/flip-box.php:111
+#: widgets/general/iconbox-gradient.php:82 widgets/override/icon-box.php:95
+#: widgets/override/image-box.php:109
+msgid "Stacked"
+msgstr ""
+
+#: widgets/general/call-to-action.php:190 widgets/general/flip-box.php:112
+#: widgets/general/iconbox-gradient.php:83 widgets/general/nav-menu.php:149
+#: widgets/general/navigation-nav.php:90 widgets/general/social-share.php:68
+#: widgets/override/icon-box.php:96
+msgid "Framed"
+msgstr ""
+
+#: widgets/general/call-to-action.php:202 widgets/general/flip-box.php:124
+#: widgets/general/heading-animated.php:77
+#: widgets/general/heading-animated.php:207
+#: widgets/general/iconbox-gradient.php:96 widgets/general/social-share.php:80
+#: widgets/override/icon-box.php:109 widgets/override/image-box.php:123
+msgid "Shape"
+msgstr ""
+
+#: widgets/general/call-to-action.php:205 widgets/general/flip-box.php:127
+#: widgets/general/iconbox-gradient.php:99 widgets/general/social-share.php:85
+#: widgets/override/icon-box.php:112 widgets/override/image-box.php:126
+#: widgets/woo/cart.php:166 widgets/woo/cart.php:405
+msgid "Circle"
+msgstr ""
+
+#: widgets/general/call-to-action.php:206 widgets/general/flip-box.php:128
+#: widgets/general/iconbox-gradient.php:100 widgets/general/social-share.php:83
+#: widgets/override/icon-box.php:113 widgets/override/image-box.php:127
+msgid "Square"
+msgstr ""
+
+#: widgets/general/call-to-action.php:233 widgets/general/flip-box.php:155
+#: widgets/general/flip-box.php:225
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet "
+"consectetur adipiscing elit dolor"
+msgstr ""
+
+#: widgets/general/call-to-action.php:275
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/general/call-to-action.php:309 widgets/general/flip-box.php:255
+msgid "Apply Link On"
+msgstr ""
+
+#: widgets/general/call-to-action.php:312 widgets/general/flip-box.php:258
+msgid "Whole Box"
+msgstr ""
+
+#: widgets/general/call-to-action.php:313 widgets/general/flip-box.php:259
+msgid "Button Only"
+msgstr ""
+
+#: widgets/general/call-to-action.php:328
+#: widgets/general/call-to-action.php:1173 widgets/general/price-table.php:298
+#: widgets/general/price-table.php:1432
+msgid "Ribbon"
+msgstr ""
+
+#: widgets/general/call-to-action.php:343 widgets/general/imagehotspots.php:165
+#: widgets/general/price-table.php:327
+msgid "Horizontal Position"
+msgstr ""
+
+#: widgets/general/call-to-action.php:367
+msgid "Box"
+msgstr ""
+
+#: widgets/general/call-to-action.php:375
+#: widgets/general/call-to-action.php:501
+msgid "Min. Height"
+msgstr ""
+
+#: widgets/general/call-to-action.php:425 widgets/general/flip-box.php:460
+#: widgets/general/flip-box.php:915 widgets/general/imagehotspots.php:190
+#: widgets/general/price-table.php:577 widgets/general/price-table.php:638
+#: widgets/general/price-table.php:710
+msgid "Vertical Position"
+msgstr ""
+
+#: widgets/general/call-to-action.php:475
+msgid "Min. Width"
+msgstr ""
+
+#: widgets/general/call-to-action.php:560 widgets/general/flip-box.php:533
+msgid "Size (%)"
+msgstr ""
+
+#: widgets/general/call-to-action.php:584 widgets/general/flip-box.php:557
+#: widgets/override/image-box.php:374 widgets/override/image-box.php:405
+msgid "Opacity"
+msgstr ""
+
+#: widgets/general/call-to-action.php:660 widgets/general/flip-box.php:645
+#: widgets/general/iconbox-gradient.php:227
+#: widgets/general/iconbox-gradient.php:262
+#: widgets/general/social-share.php:325 widgets/general/social-share.php:378
+#: widgets/override/divider.php:71 widgets/override/icon-box.php:239
+#: widgets/override/icon-box.php:385
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:676 widgets/general/flip-box.php:661
+#: widgets/general/iconbox-gradient.php:287
+#: widgets/general/social-share.php:346 widgets/general/social-share.php:398
+#: widgets/override/icon-box.php:252 widgets/override/icon-box.php:398
+msgid "Secondary Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:693 widgets/general/flip-box.php:678
+#: widgets/general/search-form.php:237 widgets/general/search-form.php:542
+#: widgets/general/search-form.php:686 widgets/general/social-share.php:202
+#: widgets/woo/cart.php:265 widgets/woo/navbarsearch.php:399
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/general/call-to-action.php:713 widgets/general/flip-box.php:698
+msgid "Icon Padding"
+msgstr ""
+
+#: widgets/general/call-to-action.php:734
+#: widgets/general/call-to-action.php:1136 widgets/general/flip-box.php:737
+#: widgets/general/flip-box.php:1226 widgets/general/iconbox-gradient.php:390
+#: widgets/general/nav-menu.php:942 widgets/general/nav-menu.php:1204
+#: widgets/general/price-table.php:1082 widgets/general/search-form.php:701
+#: widgets/general/tabs.php:263 widgets/override/icon-box.php:343
+#: widgets/override/toggle.php:155 widgets/woo/categoryproducttab.php:407
+#: widgets/woo/producttabs.php:365
+msgid "Border Width"
+msgstr ""
+
+#: widgets/general/call-to-action.php:870 widgets/general/masonry-posts.php:514
+#: widgets/general/posts-grid.php:541
+msgid "Colors"
+msgstr ""
+
+#: widgets/general/call-to-action.php:900
+#: widgets/general/call-to-action.php:965 widgets/general/list.php:337
+#: widgets/general/text-carousel.php:245 widgets/woo/cart.php:376
+msgid "Title Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:914
+#: widgets/general/call-to-action.php:979 widgets/general/team-box.php:331
+#: widgets/general/team.php:364 widgets/general/timeline.php:440
+#: widgets/general/timeline.php:627 widgets/general/timeline.php:704
+msgid "Description Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:928
+#: widgets/general/call-to-action.php:993
+msgid "Button Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1041
+msgid "Typography"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1209 widgets/general/nav-menu.php:961
+#: widgets/general/price-table.php:1457
+msgid "Distance"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1244
+msgid "Hover Effects"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1274
+msgid "Entrance"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1286
+msgid "Reaction"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1297
+msgid "Exit"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1337 widgets/general/counter.php:135
+#: widgets/general/imagehotspots.php:479 widgets/override/counter.php:219
+msgid "Animation Duration"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1365
+msgid "Sequenced Animation"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1419
+#: widgets/general/call-to-action.php:1464 widgets/general/search-form.php:258
+msgid "Overlay Color"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1430
+msgid "Blend Mode"
+msgstr ""
+
+#: widgets/general/call-to-action.php:1481
+msgid "Effect Duration"
+msgstr ""
+
+#: widgets/general/countdown.php:18
+msgid "Opal Countdown"
+msgstr ""
+
+#: widgets/general/countdown.php:33
+msgid "Countdown"
+msgstr ""
+
+#: widgets/general/countdown.php:40
+msgid "Due Date"
+msgstr ""
+
+#: widgets/general/countdown.php:44
+#. translators: %s: Time zone.
+msgid "Date set according to your timezone: %s."
+msgstr ""
+
+#: widgets/general/countdown.php:54 widgets/general/dual-heading.php:89
+msgid "Block"
+msgstr ""
+
+#: widgets/general/countdown.php:55 widgets/general/dual-heading.php:88
+msgid "Inline"
+msgstr ""
+
+#: widgets/general/countdown.php:65 widgets/general/countdown.php:132
+#: widgets/general/countdown.php:134 widgets/general/countdown.php:135
+#: widgets/general/countdown.php:449
+msgid "Days"
+msgstr ""
+
+#: widgets/general/countdown.php:67 widgets/general/countdown.php:78
+#: widgets/general/countdown.php:89 widgets/general/countdown.php:100
+#: widgets/general/countdown.php:111 widgets/general/imagehotspots.php:379
+#: widgets/general/price-table.php:305 widgets/override/counter.php:141
+#: widgets/override/counter.php:233 widgets/override/progress.php:114
+msgid "Show"
+msgstr ""
+
+#: widgets/general/countdown.php:68 widgets/general/countdown.php:79
+#: widgets/general/countdown.php:90 widgets/general/countdown.php:101
+#: widgets/general/countdown.php:112 widgets/general/imagehotspots.php:380
+#: widgets/override/counter.php:142 widgets/override/counter.php:234
+#: widgets/override/progress.php:115
+msgid "Hide"
+msgstr ""
+
+#: widgets/general/countdown.php:76 widgets/general/countdown.php:147
+#: widgets/general/countdown.php:149 widgets/general/countdown.php:150
+#: widgets/general/countdown.php:450
+msgid "Hours"
+msgstr ""
+
+#: widgets/general/countdown.php:87 widgets/general/countdown.php:162
+#: widgets/general/countdown.php:164 widgets/general/countdown.php:165
+#: widgets/general/countdown.php:451
+msgid "Minutes"
+msgstr ""
+
+#: widgets/general/countdown.php:98 widgets/general/countdown.php:177
+#: widgets/general/countdown.php:179 widgets/general/countdown.php:180
+#: widgets/general/countdown.php:452
+msgid "Seconds"
+msgstr ""
+
+#: widgets/general/countdown.php:109
+msgid "Show Label"
+msgstr ""
+
+#: widgets/general/countdown.php:121
+msgid "Custom Label"
+msgstr ""
+
+#: widgets/general/countdown.php:194
+msgid "Boxes"
+msgstr ""
+
+#: widgets/general/countdown.php:202
+msgid "Container Width"
+msgstr ""
+
+#: widgets/general/countdown.php:266 widgets/general/image-gallery.php:357
+#: widgets/general/instagram.php:321 widgets/general/list.php:136
+#: widgets/general/masonry-posts.php:587 widgets/general/nav-menu.php:717
+#: widgets/general/posts-grid.php:614 widgets/override/toggle.php:185
+msgid "Space Between"
+msgstr ""
+
+#: widgets/general/countdown.php:311
+msgid "Digits"
+msgstr ""
+
+#: widgets/general/countdown.php:362 widgets/general/countdown.php:413
+msgid "Border radius"
+msgstr ""
+
+#: widgets/general/countdown.php:447
+msgid "Months"
+msgstr ""
+
+#: widgets/general/countdown.php:448
+msgid "Weeks"
+msgstr ""
+
+#: widgets/general/counter.php:37
+msgid "Opal Counter"
+msgstr ""
+
+#: widgets/general/counter.php:87 widgets/override/counter.php:48
+#: widgets/override/counter.php:94 widgets/woo/cart.php:286
+#: widgets/woo/cart.php:466
+msgid "Counter"
+msgstr ""
+
+#: widgets/general/counter.php:94
+msgid "Max Number"
+msgstr ""
+
+#: widgets/general/counter.php:103 widgets/override/counter.php:110
+msgid "Ending Number"
+msgstr ""
+
+#: widgets/general/counter.php:112 widgets/override/counter.php:119
+msgid "Number Prefix"
+msgstr ""
+
+#: widgets/general/counter.php:122 widgets/override/counter.php:129
+msgid "Number Suffix"
+msgstr ""
+
+#: widgets/general/counter.php:125 widgets/general/nav-menu.php:262
+#: widgets/override/counter.php:132
+msgid "Plus"
+msgstr ""
+
+#: widgets/general/counter.php:149 widgets/general/counter.php:150
+#: widgets/override/counter.php:260 widgets/override/counter.php:261
+msgid "Cool Number"
+msgstr ""
+
+#: widgets/general/counter.php:159
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua"
+msgstr ""
+
+#: widgets/general/counter.php:201 widgets/general/masonry-posts.php:69
+#: widgets/general/posts-grid.php:62 widgets/general/recent-posts.php:61
+#: widgets/woo/megaproducts.php:128 widgets/woo/productdeals.php:120
+#: widgets/woo/products.php:121 widgets/woo/productsmasonry.php:133
+msgid "Advanced"
+msgstr ""
+
+#: widgets/general/counter.php:261
+msgid "Border width"
+msgstr ""
+
+#: widgets/general/counter.php:285 widgets/general/list.php:118
+#: widgets/general/list.php:252 widgets/override/counter.php:305
+msgid "Number"
+msgstr ""
+
+#: widgets/general/counter.php:341 widgets/general/dual-heading.php:265
+#: widgets/general/dual-heading.php:401 widgets/general/imagehotspots.php:669
+#: widgets/general/imagehotspots.php:759 widgets/general/imagehotspots.php:855
+#: widgets/general/imagehotspots.php:1010
+#: widgets/general/imagehotspots.php:1078 widgets/general/masonry-posts.php:309
+#: widgets/general/masonry-posts.php:369 widgets/general/masonry-posts.php:420
+#: widgets/general/masonry-posts.php:480 widgets/general/posts-grid.php:336
+#: widgets/general/posts-grid.php:396 widgets/general/posts-grid.php:447
+#: widgets/general/posts-grid.php:507 widgets/general/price-table.php:1408
+#: widgets/general/tabs.php:401 widgets/woo/categoryproducttab.php:545
+#: widgets/woo/productcategories.php:231 widgets/woo/producttabs.php:448
+#: widgets/woo/producttabs.php:606
+msgid "Margin"
+msgstr ""
+
+#: widgets/general/dual-heading.php:36
+msgid "Dual Heading"
+msgstr ""
+
+#: widgets/general/dual-heading.php:43 widgets/general/dual-heading.php:155
+msgid "First Heading"
+msgstr ""
+
+#: widgets/general/dual-heading.php:46 widgets/general/timeline.php:76
+#: widgets/general/timeline.php:78 widgets/woo/megaproducts.php:99
+msgid "Heading"
+msgstr ""
+
+#: widgets/general/dual-heading.php:54 widgets/general/dual-heading.php:292
+msgid "Second Heading"
+msgstr ""
+
+#: widgets/general/dual-heading.php:85
+msgid "Display"
+msgstr ""
+
+#: widgets/general/dual-heading.php:103
+msgid "Enable or disable link"
+msgstr ""
+
+#: widgets/general/dual-heading.php:171 widgets/general/dual-heading.php:308
+msgid "Animated Background"
+msgstr ""
+
+#: widgets/general/dual-heading.php:179 widgets/general/dual-heading.php:316
+msgid "Background Style"
+msgstr ""
+
+#: widgets/general/dual-heading.php:182 widgets/general/dual-heading.php:319
+msgid ""
+"Choose ‘Normal’ style to put a background behind the text. Choose ‘Clipped’ "
+"style so the background will be clipped on the text."
+msgstr ""
+
+#: widgets/general/dual-heading.php:184 widgets/general/dual-heading.php:321
+msgid "Normal Background"
+msgstr ""
+
+#: widgets/general/dual-heading.php:185 widgets/general/dual-heading.php:322
+msgid "Clipped Background"
+msgstr ""
+
+#: widgets/general/dual-heading.php:256 widgets/general/dual-heading.php:392
+#: widgets/general/imagehotspots.php:650
+msgid "Shadow"
+msgstr ""
+
+#: widgets/general/flip-box.php:19
+msgid "Opal Flip Box"
+msgstr ""
+
+#: widgets/general/flip-box.php:35 widgets/general/flip-box.php:413
+msgid "Front"
+msgstr ""
+
+#: widgets/general/flip-box.php:179 widgets/general/flip-box.php:284
+msgid "Background Overlay"
+msgstr ""
+
+#: widgets/general/flip-box.php:201 widgets/general/flip-box.php:867
+msgid "Back"
+msgstr ""
+
+#: widgets/general/flip-box.php:354
+msgid "Flip Effect"
+msgstr ""
+
+#: widgets/general/flip-box.php:372
+msgid "Flip Direction"
+msgstr ""
+
+#: widgets/general/flip-box.php:378
+msgid "Up"
+msgstr ""
+
+#: widgets/general/flip-box.php:379
+msgid "Down"
+msgstr ""
+
+#: widgets/general/flip-box.php:395
+msgid "3D Depth"
+msgstr ""
+
+#: widgets/general/flip-box.php:719
+msgid "Icon Rotate"
+msgstr ""
+
+#: widgets/general/google-map.php:44
+msgid "Opal Google Maps"
+msgstr ""
+
+#: widgets/general/google-map.php:95
+msgid "Map"
+msgstr ""
+
+#: widgets/general/google-map.php:102
+msgid "Latitude"
+msgstr ""
+
+#: widgets/general/google-map.php:105
+msgid ""
+"The latitude and longitude to center the map. Please go to <a href=\"%s\" "
+"target=\"_blank\">Google maps</a>. to find your location and get latitude "
+"and longitude."
+msgstr ""
+
+#: widgets/general/google-map.php:113
+msgid "Longitude"
+msgstr ""
+
+#: widgets/general/google-map.php:116
+msgid ""
+"The latitude and longitude to center the map. Ex: 21.030497, 105.852510. "
+"Please go to <a href=\"%s\" target=\"_blank\">Google maps</a>. to find your "
+"location and get latitude and longitude."
+msgstr ""
+
+#: widgets/general/google-map.php:132
+msgid "Height of map.(px)"
+msgstr ""
+
+#: widgets/general/google-map.php:142
+msgid "Zoom Level"
+msgstr ""
+
+#: widgets/general/google-map.php:159
+msgid "Prevent Scroll"
+msgstr ""
+
+#: widgets/general/google-map.php:173
+msgid "Map Style"
+msgstr ""
+
+#: widgets/general/google-map.php:181
+msgid "Select Style"
+msgstr ""
+
+#: widgets/general/google-map.php:191
+msgid "All Color"
+msgstr ""
+
+#: widgets/general/google-map.php:203
+msgid "Water Color"
+msgstr ""
+
+#: widgets/general/google-map.php:215
+msgid "Water Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:235
+msgid "Landscape Color"
+msgstr ""
+
+#: widgets/general/google-map.php:247
+msgid "Landscape Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:267
+msgid "Administrative Color"
+msgstr ""
+
+#: widgets/general/google-map.php:279
+msgid "Administrative Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:299
+msgid "Poi Color"
+msgstr ""
+
+#: widgets/general/google-map.php:311
+msgid "Poi Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:331
+msgid "Road Color"
+msgstr ""
+
+#: widgets/general/google-map.php:343
+msgid "Road Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:363
+msgid "Transit Color"
+msgstr ""
+
+#: widgets/general/google-map.php:375
+msgid "Transit Lightness"
+msgstr ""
+
+#: widgets/general/google-map.php:530
+msgid "Ultra Light"
+msgstr ""
+
+#: widgets/general/google-map.php:531
+msgid "Shades of Grey"
+msgstr ""
+
+#: widgets/general/google-map.php:532
+msgid "Blue Water"
+msgstr ""
+
+#: widgets/general/google-map.php:533
+msgid "Light Grey and Blue"
+msgstr ""
+
+#: widgets/general/google-map.php:534
+msgid "Farma Gray"
+msgstr ""
+
+#: widgets/general/google-map.php:535
+msgid "Community"
+msgstr ""
+
+#: widgets/general/google-map.php:536
+msgid "Chilled"
+msgstr ""
+
+#: widgets/general/google-map.php:537
+msgid "Customize"
+msgstr ""
+
+#: widgets/general/heading-animated.php:15
+msgid "Opal Heading Animated"
+msgstr ""
+
+#: widgets/general/heading-animated.php:30
+#: widgets/general/heading-animated.php:271
+msgid "Headline"
+msgstr ""
+
+#: widgets/general/heading-animated.php:37 widgets/general/metadata.php:78
+#: widgets/general/price-table.php:938 widgets/general/price-table.php:1061
+#: widgets/general/team-box.php:88 widgets/general/team.php:109
+#: widgets/mailchimp.php:39 widgets/woo/cart.php:149
+#: widgets/woo/products.php:239 widgets/woo/wishlist.php:78
+msgid "Style"
+msgstr ""
+
+#: widgets/general/heading-animated.php:41
+msgid "Highlighted"
+msgstr ""
+
+#: widgets/general/heading-animated.php:42
+msgid "Rotating"
+msgstr ""
+
+#: widgets/general/heading-animated.php:53
+#: widgets/general/imagehotspots.php:463 widgets/general/nav-menu.php:163
+#: widgets/general/nav-menu.php:184 widgets/general/nav-menu.php:205
+#: widgets/general/nav-menu.php:232 widgets/general/price-table.php:1356
+msgid "Animation"
+msgstr ""
+
+#: widgets/general/heading-animated.php:102
+msgid "Before Text"
+msgstr ""
+
+#: widgets/general/heading-animated.php:104
+msgid "Opal Heading"
+msgstr ""
+
+#: widgets/general/heading-animated.php:105
+#: widgets/general/heading-animated.php:147
+msgid "Enter your headline"
+msgstr ""
+
+#: widgets/general/heading-animated.php:114
+msgid "Highlighted Text"
+msgstr ""
+
+#: widgets/general/heading-animated.php:116
+msgid "Aminated"
+msgstr ""
+
+#: widgets/general/heading-animated.php:129
+msgid "Rotating Text"
+msgstr ""
+
+#: widgets/general/heading-animated.php:131
+msgid "Enter each word in a separate line"
+msgstr ""
+
+#: widgets/general/heading-animated.php:145
+msgid "After Text"
+msgstr ""
+
+#: widgets/general/heading-animated.php:150
+msgid "is Awesome!"
+msgstr ""
+
+#: widgets/general/heading-animated.php:246
+msgid "Bring to Front"
+msgstr ""
+
+#: widgets/general/heading-animated.php:258
+msgid "Rounded Edges"
+msgstr ""
+
+#: widgets/general/heading-animated.php:300
+msgid "Animated Text"
+msgstr ""
+
+#: widgets/general/iconbox-gradient.php:36
+msgid "Icon Box Gradient"
+msgstr ""
+
+#: widgets/general/iconbox-gradient.php:62 widgets/override/icon-box.php:42
+#: widgets/override/icon-box.php:75
+msgid "Icon Box"
+msgstr ""
+
+#: widgets/general/iconbox-gradient.php:375 widgets/override/icon-box.php:328
+msgid "Rotate"
+msgstr ""
+
+#: widgets/general/iconbox-gradient.php:458 widgets/override/icon-box.php:461
+#: widgets/override/image-box.php:633
+msgid "Vertical Alignment"
+msgstr ""
+
+#: widgets/general/image-gallery.php:49
+msgid "Opal Image Gallery"
+msgstr ""
+
+#: widgets/general/image-gallery.php:104
+msgid "Image Gallery"
+msgstr ""
+
+#: widgets/general/image-gallery.php:113
+msgid "Filter Title"
+msgstr ""
+
+#: widgets/general/image-gallery.php:116 widgets/general/image-gallery.php:117
+#: widgets/general/price-table.php:206
+msgid "List Item"
+msgstr ""
+
+#: widgets/general/image-gallery.php:124
+msgid "Add Images"
+msgstr ""
+
+#: widgets/general/image-gallery.php:141
+msgid "Gallery"
+msgstr ""
+
+#: widgets/general/image-gallery.php:161 widgets/general/image-gallery.php:315
+msgid "Filter Bar"
+msgstr ""
+
+#: widgets/general/image-gallery.php:171
+msgid "Infinite Scroll"
+msgstr ""
+
+#: widgets/general/image-gallery.php:193 widgets/general/instagram.php:96
+#: widgets/general/masonry-posts.php:143 widgets/general/posts-grid.php:136
+#: widgets/general/social-share.php:95 widgets/general/table.php:977
+#: widgets/general/team.php:99 widgets/general/testimonial.php:198
+#: widgets/general/text-carousel.php:181 widgets/woo/productcategories.php:153
+msgid "Columns"
+msgstr ""
+
+#: widgets/general/image-gallery.php:203
+msgid "Gutter"
+msgstr ""
+
+#: widgets/general/image-gallery.php:233
+msgid "Images"
+msgstr ""
+
+#: widgets/general/image-gallery.php:302 widgets/woo/producttabs.php:509
+msgid "Background Color Hover"
+msgstr ""
+
+#: widgets/general/image-gallery.php:345
+msgid "Hover & Active Color"
+msgstr ""
+
+#: widgets/general/image-gallery.php:397
+msgid "Filter Padding"
+msgstr ""
+
+#: widgets/general/image-gallery.php:465 widgets/general/masonry-posts.php:798
+#: widgets/woo/productsmasonry.php:321
+msgid "All"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:32
+msgid "Opal Image Hotspots"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:110 widgets/general/imagehotspots.php:340
+#: widgets/general/imagehotspots.php:574
+msgid "Hotspots"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:118
+msgid "Display On"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:121 widgets/general/table.php:39
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:122 widgets/general/imagehotspots.php:142
+#: widgets/general/table.php:40 widgets/general/table.php:59
+msgid "Custom Image"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:131
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:216 widgets/general/imagehotspots.php:229
+msgid "Content to Show"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:219 widgets/general/imagehotspots.php:232
+msgid "Text Editor"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:220 widgets/general/imagehotspots.php:233
+msgid "Elementor Template"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:221
+msgid "Product"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:253
+msgid "Teamplate ID"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:261
+msgid "Product id"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:272
+msgid "Product Detail"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:283
+msgid "Add a custom link or select an existing page link"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:288
+msgid "Link/URL"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:329
+msgid "Link Title"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:348
+msgid "Radar Animation"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:357 widgets/general/imagehotspots.php:936
+msgid "Tooltips"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:364
+msgid "Trigger"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:367
+msgid "Click"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:377
+msgid "Show Arrow"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:387
+msgid "Positon"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:395
+msgid ""
+"Sets the side of the tooltip. The value may one of the following: 'top', "
+"'bottom', 'left', 'right'. It may also be an array containing one or more "
+"of these values. When using an array, the order of values is taken into "
+"account as order of fallbacks and the absence of a side disables it"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:406
+msgid "The distance between the origin and the tooltip in pixels, default is 6"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:413
+msgid "Min Width"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:421
+msgid "Set a minimum width for the tooltip in pixels, default: 0 (auto width)"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:427
+msgid "Max Width"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:435
+msgid "Set a maximum width for the tooltip in pixels, default: null (no max width)"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:467
+msgid "Grow"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:468
+msgid "Swing"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:470
+msgid "Fall"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:481
+msgid "Set the animation duration in milliseconds, default is 350"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:488
+msgid "Delay"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:490
+msgid "Set the animation delay in milliseconds, default is 10"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:497
+msgid "Hide on Mobiles"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:501
+msgid "Hide tooltips on mobile phones"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:879
+msgid "Radar Background Color"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:893
+msgid "Radar Border Radius"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:908
+msgid "Hotspots Opacity"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:1034 widgets/general/offcanvas.php:163
+#: widgets/woo/productcategories.php:223
+msgid "Container"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:1089
+msgid "Paddding"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:1225
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: widgets/general/imagehotspots.php:1225
+msgid "out of 5"
+msgstr ""
+
+#: widgets/general/instagram.php:37
+msgid "Opal Instagram"
+msgstr ""
+
+#: widgets/general/instagram.php:70
+msgid "Instagram Config"
+msgstr ""
+
+#: widgets/general/instagram.php:87
+msgid "Number of photos"
+msgstr ""
+
+#: widgets/general/instagram.php:115
+msgid "Photo size"
+msgstr ""
+
+#: widgets/general/instagram.php:129
+msgid "Open link in"
+msgstr ""
+
+#: widgets/general/instagram.php:142
+msgid "Design"
+msgstr ""
+
+#: widgets/general/instagram.php:155
+msgid "Show Link"
+msgstr ""
+
+#: widgets/general/instagram.php:164
+msgid "Show Username"
+msgstr ""
+
+#: widgets/general/instagram.php:172
+msgid "Hide likes and comments"
+msgstr ""
+
+#: widgets/general/instagram.php:223 widgets/general/posts-grid.php:146
+#: widgets/general/social-share.php:155 widgets/woo/productcategories.php:166
+msgid "Columns Gap"
+msgstr ""
+
+#: widgets/general/instagram.php:410
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: widgets/general/instagram.php:413
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: widgets/general/instagram.php:420 widgets/general/instagram.php:443
+#: widgets/general/instagram.php:448
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: widgets/general/instagram.php:485 widgets/general/instagram.php:506
+msgid "Instagram Image"
+msgstr ""
+
+#: widgets/general/instagram.php:539
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: widgets/general/list.php:29
+msgid "Opal List"
+msgstr ""
+
+#: widgets/general/list.php:51 widgets/general/list.php:128
+msgid "List"
+msgstr ""
+
+#: widgets/general/list.php:62 widgets/general/list.php:63
+#: widgets/general/tabs.php:104 widgets/general/tabs.php:105
+#: widgets/woo/categoryproducttab.php:128
+#: widgets/woo/categoryproducttab.php:129 widgets/woo/producttabs.php:105
+#: widgets/woo/producttabs.php:106
+msgid "Tab Title"
+msgstr ""
+
+#: widgets/general/list.php:73
+msgid "fa fa-check"
+msgstr ""
+
+#: widgets/general/list.php:83 widgets/general/timeline.php:88
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: widgets/general/list.php:90
+msgid "List Items"
+msgstr ""
+
+#: widgets/general/list.php:95 widgets/general/price-table.php:237
+msgid "List Item #1"
+msgstr ""
+
+#: widgets/general/list.php:97 widgets/general/list.php:102
+#: widgets/general/tabs.php:163 widgets/general/tabs.php:168
+#: widgets/general/timeline.php:103 widgets/general/timeline.php:108
+#: widgets/general/timeline.php:113 widgets/woo/categoryproducttab.php:246
+#: widgets/woo/categoryproducttab.php:251 widgets/woo/producttabs.php:214
+#: widgets/woo/producttabs.php:219
+msgid ""
+"I am tab content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/general/list.php:100 widgets/general/price-table.php:241
+msgid "List Item #2"
+msgstr ""
+
+#: widgets/general/list.php:380
+msgid "Content Color"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:19
+msgid "Opal Masonry Posts"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:51 widgets/general/posts-grid.php:44
+#: widgets/general/recent-posts.php:44
+msgid "Query"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:59 widgets/general/posts-grid.php:52
+#: widgets/general/recent-posts.php:52 widgets/woo/categoryproducttab.php:138
+#: widgets/woo/categoryproducttab.php:306 widgets/woo/megaproducts.php:108
+#: widgets/woo/productdeals.php:99 widgets/woo/products.php:100
+#: widgets/woo/productsmasonry.php:113 widgets/woo/producttabs.php:114
+#: widgets/woo/producttabs.php:274
+msgid "Posts Per Page"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:77 widgets/general/posts-grid.php:70
+#: widgets/general/recent-posts.php:69 widgets/woo/categoryproducttab.php:159
+#: widgets/woo/megaproducts.php:136 widgets/woo/productdeals.php:128
+#: widgets/woo/products.php:129 widgets/woo/productsmasonry.php:141
+#: widgets/woo/producttabs.php:133
+msgid "Order By"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:81 widgets/general/posts-grid.php:74
+#: widgets/general/recent-posts.php:73 widgets/general/recent-posts.php:159
+#: widgets/general/timeline.php:65 widgets/woo/categoryproducttab.php:163
+#: widgets/woo/megaproducts.php:140 widgets/woo/productdeals.php:132
+#: widgets/woo/products.php:133 widgets/woo/productsmasonry.php:145
+#: widgets/woo/producttabs.php:137
+msgid "Date"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:83 widgets/general/posts-grid.php:76
+#: widgets/general/recent-posts.php:75 widgets/woo/categoryproducttab.php:165
+#: widgets/woo/megaproducts.php:142 widgets/woo/productdeals.php:134
+#: widgets/woo/products.php:135 widgets/woo/productsmasonry.php:147
+#: widgets/woo/producttabs.php:139
+msgid "Menu Order"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:84 widgets/general/posts-grid.php:77
+#: widgets/general/recent-posts.php:76 widgets/woo/categoryproducttab.php:169
+#: widgets/woo/megaproducts.php:146 widgets/woo/productdeals.php:138
+#: widgets/woo/products.php:139 widgets/woo/productsmasonry.php:151
+#: widgets/woo/producttabs.php:143
+msgid "Random"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:92 widgets/general/posts-grid.php:85
+#: widgets/general/recent-posts.php:84 widgets/woo/categoryproducttab.php:178
+#: widgets/woo/megaproducts.php:154 widgets/woo/productdeals.php:146
+#: widgets/woo/products.php:147 widgets/woo/productsmasonry.php:159
+#: widgets/woo/producttabs.php:151
+msgid "Order"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:96 widgets/general/posts-grid.php:89
+#: widgets/general/recent-posts.php:88 widgets/woo/categoryproducttab.php:182
+#: widgets/woo/megaproducts.php:158 widgets/woo/productdeals.php:150
+#: widgets/woo/products.php:151 widgets/woo/productsmasonry.php:163
+#: widgets/woo/producttabs.php:155
+msgid "ASC"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:97 widgets/general/posts-grid.php:90
+#: widgets/general/recent-posts.php:89 widgets/woo/categoryproducttab.php:183
+#: widgets/woo/megaproducts.php:159 widgets/woo/productdeals.php:151
+#: widgets/woo/products.php:152 widgets/woo/productsmasonry.php:164
+#: widgets/woo/producttabs.php:156
+msgid "DESC"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:105 widgets/general/posts-grid.php:98
+#: widgets/woo/categoryproducttab.php:192 widgets/woo/megaproducts.php:167
+#: widgets/woo/productcategories.php:76 widgets/woo/productdeals.php:159
+#: widgets/woo/products.php:160 widgets/woo/productsmasonry.php:172
+#: widgets/woo/producttabs.php:164
+msgid "Categories"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:115 widgets/general/posts-grid.php:108
+#: widgets/woo/categoryproducttab.php:203 widgets/woo/megaproducts.php:177
+#: widgets/woo/productdeals.php:169 widgets/woo/products.php:170
+#: widgets/woo/productsmasonry.php:182 widgets/woo/producttabs.php:174
+msgid "Category Operator"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:119 widgets/general/posts-grid.php:112
+#: widgets/woo/categoryproducttab.php:207 widgets/woo/megaproducts.php:181
+#: widgets/woo/productdeals.php:173 widgets/woo/products.php:174
+#: widgets/woo/productsmasonry.php:186 widgets/woo/producttabs.php:178
+msgid "AND"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:120 widgets/general/posts-grid.php:113
+#: widgets/woo/categoryproducttab.php:208 widgets/woo/megaproducts.php:182
+#: widgets/woo/productdeals.php:174 widgets/woo/products.php:175
+#: widgets/woo/productsmasonry.php:187 widgets/woo/producttabs.php:179
+msgid "IN"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:121 widgets/general/posts-grid.php:114
+#: widgets/woo/categoryproducttab.php:209 widgets/woo/megaproducts.php:183
+#: widgets/woo/productdeals.php:175 widgets/woo/products.php:176
+#: widgets/woo/productsmasonry.php:188 widgets/woo/producttabs.php:180
+msgid "NOT IN"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:133 widgets/general/posts-grid.php:126
+msgid "Style Item Layout"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:182 widgets/general/masonry-posts.php:189
+#: widgets/general/masonry-posts.php:495 widgets/general/masonry-posts.php:750
+#: widgets/general/posts-grid.php:209 widgets/general/posts-grid.php:216
+#: widgets/general/posts-grid.php:522 widgets/general/posts-grid.php:777
+#: widgets/woo/categoryproducttab.php:331 widgets/woo/megaproducts.php:215
+#: widgets/woo/productdeals.php:207 widgets/woo/products.php:208
+#: widgets/woo/productsmasonry.php:220 widgets/woo/producttabs.php:299
+msgid "Pagination"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:194 widgets/general/masonry-posts.php:196
+#: widgets/general/posts-grid.php:221 widgets/general/posts-grid.php:223
+msgid "Numbers"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:195 widgets/general/masonry-posts.php:196
+#: widgets/general/posts-grid.php:222 widgets/general/posts-grid.php:223
+msgid "Previous/Next"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:204 widgets/general/posts-grid.php:231
+msgid "Page Limit"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:215 widgets/general/posts-grid.php:242
+msgid "Shorten"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:230 widgets/general/posts-grid.php:257
+msgid "Previous Label"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:231 widgets/general/posts-grid.php:258
+msgid "&laquo; Previous"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:244 widgets/general/posts-grid.php:271
+msgid "Next Label"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:245 widgets/general/posts-grid.php:272
+msgid "Next &raquo;"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:348 widgets/general/masonry-posts.php:459
+#: widgets/general/posts-grid.php:375 widgets/general/posts-grid.php:486
+msgid "Color hover"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:565 widgets/general/nav-menu.php:604
+#: widgets/general/posts-grid.php:592 widgets/woo/producttabs.php:532
+msgid "Active"
+msgstr ""
+
+#: widgets/general/masonry-posts.php:738 widgets/general/posts-grid.php:765
+msgid "Page"
+msgstr ""
+
+#: widgets/general/metadata.php:37
+msgid "Opal Portfolio Metadata"
+msgstr ""
+
+#: widgets/general/metadata.php:70 widgets/general/table.php:182
+msgid "Data"
+msgstr ""
+
+#: widgets/general/metadata.php:82 widgets/general/nav-menu.php:99
+#: widgets/general/tabs.php:191 widgets/woo/categoryproducttab.php:266
+#: widgets/woo/producttabs.php:234
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/general/metadata.php:83 widgets/general/nav-menu.php:100
+#: widgets/general/tabs.php:192 widgets/woo/categoryproducttab.php:267
+#: widgets/woo/producttabs.php:235
+msgid "Vertical"
+msgstr ""
+
+#: widgets/general/metadata.php:102
+msgid "Value"
+msgstr ""
+
+#: widgets/general/metadata.php:111
+msgid "Meta Item"
+msgstr ""
+
+#: widgets/general/nav-menu.php:23
+msgid "Opal Nav Menu"
+msgstr ""
+
+#: widgets/general/nav-menu.php:85
+msgid ""
+"<strong>There are no menus in your site.</strong><br>Go to the <a "
+"href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: widgets/general/nav-menu.php:101 widgets/general/nav-menu.php:758
+msgid "Dropdown"
+msgstr ""
+
+#: widgets/general/nav-menu.php:110 widgets/general/nav-menu.php:378
+#: widgets/general/tabs.php:202 widgets/woo/categoryproducttab.php:277
+#: widgets/woo/producttabs.php:245
+msgid "Align"
+msgstr ""
+
+#: widgets/general/nav-menu.php:127
+msgid "Stretch"
+msgstr ""
+
+#: widgets/general/nav-menu.php:141 widgets/general/navigation-nav.php:82
+#: widgets/general/navigation-nav.php:162
+msgid "Pointer"
+msgstr ""
+
+#: widgets/general/nav-menu.php:146 widgets/general/navigation-nav.php:87
+msgid "Underline"
+msgstr ""
+
+#: widgets/general/nav-menu.php:147 widgets/general/navigation-nav.php:88
+msgid "Overline"
+msgstr ""
+
+#: widgets/general/nav-menu.php:148 widgets/general/navigation-nav.php:89
+msgid "Double Line"
+msgstr ""
+
+#: widgets/general/nav-menu.php:152 widgets/general/navigation-nav.php:93
+msgid "Dot"
+msgstr ""
+
+#: widgets/general/nav-menu.php:254
+msgid "Submenu Indicator"
+msgstr ""
+
+#: widgets/general/nav-menu.php:260
+msgid "Chevron"
+msgstr ""
+
+#: widgets/general/nav-menu.php:261
+msgid "Angle"
+msgstr ""
+
+#: widgets/general/nav-menu.php:271
+msgid "Min width Submenu(px)"
+msgstr ""
+
+#: widgets/general/nav-menu.php:289
+msgid "Max width Submenu(px)"
+msgstr ""
+
+#: widgets/general/nav-menu.php:306
+msgid "Mobile Dropdown"
+msgstr ""
+
+#: widgets/general/nav-menu.php:318
+msgid "Enable Mobile Menu"
+msgstr ""
+
+#: widgets/general/nav-menu.php:327
+msgid "Breakpoint"
+msgstr ""
+
+#: widgets/general/nav-menu.php:331
+msgid "Mobile (767px >)"
+msgstr ""
+
+#: widgets/general/nav-menu.php:332
+msgid "Tablet (1023px >)"
+msgstr ""
+
+#: widgets/general/nav-menu.php:345
+msgid "Style Display"
+msgstr ""
+
+#: widgets/general/nav-menu.php:363
+msgid "Full Width"
+msgstr ""
+
+#: widgets/general/nav-menu.php:365
+msgid "Stretch the dropdown of the menu to full width."
+msgstr ""
+
+#: widgets/general/nav-menu.php:382
+msgid "Aside"
+msgstr ""
+
+#: widgets/general/nav-menu.php:395 widgets/general/nav-menu.php:1110
+msgid "Toggle Button"
+msgstr ""
+
+#: widgets/general/nav-menu.php:400
+msgid "Hamburger"
+msgstr ""
+
+#: widgets/general/nav-menu.php:414
+msgid "Toggle Align"
+msgstr ""
+
+#: widgets/general/nav-menu.php:453
+msgid "Main Menu"
+msgstr ""
+
+#: widgets/general/nav-menu.php:494
+msgid "Enable Divider"
+msgstr ""
+
+#: widgets/general/nav-menu.php:505
+msgid "Divider Color"
+msgstr ""
+
+#: widgets/general/nav-menu.php:520
+msgid "Divider Padding"
+msgstr ""
+
+#: widgets/general/nav-menu.php:584 widgets/general/nav-menu.php:623
+msgid "Pointer Color"
+msgstr ""
+
+#: widgets/general/nav-menu.php:654
+msgid "Pointer Width"
+msgstr ""
+
+#: widgets/general/nav-menu.php:682 widgets/general/nav-menu.php:895
+#: widgets/general/nav-menu.php:1069
+msgid "Horizontal Padding"
+msgstr ""
+
+#: widgets/general/nav-menu.php:700 widgets/general/nav-menu.php:908
+#: widgets/general/nav-menu.php:1087
+msgid "Vertical Padding"
+msgstr ""
+
+#: widgets/general/nav-menu.php:769
+msgid ""
+"On desktop, this will affect the submenu. On mobile, this will affect the "
+"entire menu."
+msgstr ""
+
+#: widgets/general/nav-menu.php:924 widgets/general/price-table.php:928
+msgid "Divider"
+msgstr ""
+
+#: widgets/general/nav-menu.php:983
+msgid "Sub Menu"
+msgstr ""
+
+#: widgets/general/navigation-nav.php:22
+msgid "Opal Simple Nav Menu"
+msgstr ""
+
+#: widgets/general/navigation-nav.php:63
+msgid "Menu Site"
+msgstr ""
+
+#: widgets/general/navigation-nav.php:94
+msgid "icon"
+msgstr ""
+
+#: widgets/general/navigation-nav.php:117
+msgid "Navigation Menu"
+msgstr ""
+
+#: widgets/general/navigation-nav.php:170
+msgid "Pointer color"
+msgstr ""
+
+#: widgets/general/offcanvas.php:19
+msgid "Opal offcanvas"
+msgstr ""
+
+#: widgets/general/offcanvas.php:115
+msgid "Off Canvas Icon"
+msgstr ""
+
+#: widgets/general/offcanvas.php:126
+msgid "Align Right"
+msgstr ""
+
+#: widgets/general/offcanvas.php:128
+msgid "Show the button on right of list"
+msgstr ""
+
+#: widgets/general/offcanvas.php:171
+msgid "Appear Style"
+msgstr ""
+
+#: widgets/general/offcanvas.php:175
+msgid "Right overlay"
+msgstr ""
+
+#: widgets/general/offcanvas.php:176
+msgid "Left overlay"
+msgstr ""
+
+#: widgets/general/offcanvas.php:177
+msgid "Right Push"
+msgstr ""
+
+#: widgets/general/offcanvas.php:178
+msgid "Left Push"
+msgstr ""
+
+#: widgets/general/offcanvas.php:199
+msgid "Enable Logo"
+msgstr ""
+
+#: widgets/general/offcanvas.php:208
+msgid "Enable User - Cart Links"
+msgstr ""
+
+#: widgets/general/offcanvas.php:470
+msgid "My shopping cart"
+msgstr ""
+
+#: widgets/general/offcanvas.php:572
+msgid "My Shopping Cart"
+msgstr ""
+
+#: widgets/general/posts-grid.php:19
+msgid "Opal Posts Grid"
+msgstr ""
+
+#: widgets/general/posts-grid.php:190
+msgid "Display Description"
+msgstr ""
+
+#: widgets/general/price-table.php:22
+msgid "Opal Price Table"
+msgstr ""
+
+#: widgets/general/price-table.php:46
+msgid "Pricing Table"
+msgstr ""
+
+#: widgets/general/price-table.php:53
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/general/price-table.php:55
+msgid "I am subtitle"
+msgstr ""
+
+#: widgets/general/price-table.php:64 widgets/general/price-table.php:467
+msgid "Pricing"
+msgstr ""
+
+#: widgets/general/price-table.php:71 widgets/general/price-table.php:545
+msgid "Currency Symbol"
+msgstr ""
+
+#: widgets/general/price-table.php:101
+msgid "Custom Symbol"
+msgstr ""
+
+#: widgets/general/price-table.php:112 widgets/woo/products.php:288
+msgid "Price"
+msgstr ""
+
+#: widgets/general/price-table.php:121
+msgid "Currency Format"
+msgstr ""
+
+#: widgets/general/price-table.php:133
+msgid "Sale"
+msgstr ""
+
+#: widgets/general/price-table.php:144 widgets/general/price-table.php:670
+msgid "Original Price"
+msgstr ""
+
+#: widgets/general/price-table.php:156 widgets/general/price-table.php:746
+msgid "Period"
+msgstr ""
+
+#: widgets/general/price-table.php:158
+msgid "Monthly"
+msgstr ""
+
+#: widgets/general/price-table.php:164 widgets/general/price-table.php:799
+msgid "Logo"
+msgstr ""
+
+#: widgets/general/price-table.php:195 widgets/general/price-table.php:832
+msgid "Features"
+msgstr ""
+
+#: widgets/general/price-table.php:245
+msgid "List Item #3"
+msgstr ""
+
+#: widgets/general/price-table.php:286 widgets/general/price-table.php:1371
+msgid "Additional Info"
+msgstr ""
+
+#: widgets/general/price-table.php:288
+msgid "This is text element"
+msgstr ""
+
+#: widgets/general/price-table.php:317
+msgid "Popular"
+msgstr ""
+
+#: widgets/general/price-table.php:612
+msgid "Fractional Part"
+msgstr ""
+
+#: widgets/general/price-table.php:941 widgets/general/price-table.php:1064
+msgid "Solid"
+msgstr ""
+
+#: widgets/general/price-table.php:942 widgets/general/price-table.php:1065
+msgid "Double"
+msgstr ""
+
+#: widgets/general/price-table.php:943 widgets/general/price-table.php:1066
+msgid "Dotted"
+msgstr ""
+
+#: widgets/general/price-table.php:944 widgets/general/price-table.php:1067
+msgid "Dashed"
+msgstr ""
+
+#: widgets/general/price-table.php:974
+msgid "Weight"
+msgstr ""
+
+#: widgets/general/price-table.php:1012
+msgid "Gap"
+msgstr ""
+
+#: widgets/general/price-table.php:1036
+msgid "Boder"
+msgstr ""
+
+#: widgets/general/price-table.php:1278 widgets/general/social-share.php:431
+msgid "Text Padding"
+msgstr ""
+
+#: widgets/general/recent-posts.php:19
+msgid "Opal Recent Posts"
+msgstr ""
+
+#: widgets/general/recent-posts.php:105
+msgid "Show Thumbnail"
+msgstr ""
+
+#: widgets/general/recent-posts.php:117
+msgid "Thumbnail Size"
+msgstr ""
+
+#: widgets/general/recent-posts.php:130
+msgid "Show Date"
+msgstr ""
+
+#: widgets/general/recent-posts.php:139
+msgid "Show author"
+msgstr ""
+
+#: widgets/general/recent-posts.php:148
+msgid "Show Description"
+msgstr ""
+
+#: widgets/general/recent-posts.php:200 widgets/woo/wishlist.php:206
+msgid "Label Color"
+msgstr ""
+
+#: widgets/general/recent-posts.php:213
+msgid "Label Typography"
+msgstr ""
+
+#: widgets/general/recent-posts.php:220
+msgid "Author Name"
+msgstr ""
+
+#: widgets/general/recent-posts.php:233
+msgid "Name Typography"
+msgstr ""
+
+#: widgets/general/recent-posts.php:374
+msgid "Post by"
+msgstr ""
+
+#: widgets/general/revslider.php:15
+msgid "Opal Revolution Slider"
+msgstr ""
+
+#: widgets/general/revslider.php:50
+msgid "No sliders found"
+msgstr ""
+
+#: widgets/general/revslider.php:56
+msgid "Revolution Slider"
+msgstr ""
+
+#: widgets/general/search-form.php:18
+msgid "Opal Search Form"
+msgstr ""
+
+#: widgets/general/search-form.php:33 widgets/woo/navbarsearch.php:33
+msgid "Search Form"
+msgstr ""
+
+#: widgets/general/search-form.php:45 widgets/general/social-share.php:67
+msgid "Minimal"
+msgstr ""
+
+#: widgets/general/search-form.php:46
+msgid "Full Screen"
+msgstr ""
+
+#: widgets/general/search-form.php:57 widgets/woo/navbarsearch.php:40
+msgid "Placeholder"
+msgstr ""
+
+#: widgets/general/search-form.php:121 widgets/woo/navbarsearch.php:100
+msgid "Arrow"
+msgstr ""
+
+#: widgets/general/search-form.php:158 widgets/general/search-form.php:587
+#: widgets/override/toggle.php:23 widgets/override/toggle.php:147
+msgid "Toggle"
+msgstr ""
+
+#: widgets/general/search-form.php:172
+msgid "fa fa-search"
+msgstr ""
+
+#: widgets/general/search-form.php:349 widgets/woo/navbarsearch.php:215
+msgid "Focus"
+msgstr ""
+
+#: widgets/general/search-form.php:417 widgets/general/social-share.php:269
+#: widgets/woo/navbarsearch.php:277
+msgid "Border Size"
+msgstr ""
+
+#: widgets/general/search-form.php:782
+msgid "Close"
+msgstr ""
+
+#: widgets/general/site-logo.php:19
+msgid "Opal Site Logo"
+msgstr ""
+
+#: widgets/general/site-logo.php:35
+msgid "Logo Site"
+msgstr ""
+
+#: widgets/general/site-logo.php:41
+msgid "Image from"
+msgstr ""
+
+#: widgets/general/site-logo.php:45
+msgid "Use Site Logo"
+msgstr ""
+
+#: widgets/general/site-logo.php:46
+msgid "Custom Logo"
+msgstr ""
+
+#: widgets/general/social-share.php:17
+msgid "Opal Social Share"
+msgstr ""
+
+#: widgets/general/social-share.php:44 widgets/general/social-share.php:147
+msgid "Share Buttons"
+msgstr ""
+
+#: widgets/general/social-share.php:51
+msgid "Select Socials"
+msgstr ""
+
+#: widgets/general/social-share.php:66
+msgid "Gradient"
+msgstr ""
+
+#: widgets/general/social-share.php:69
+msgid "Boxed Icon"
+msgstr ""
+
+#: widgets/general/social-share.php:70
+msgid "Flat"
+msgstr ""
+
+#: widgets/general/social-share.php:84
+msgid "Rounded"
+msgstr ""
+
+#: widgets/general/social-share.php:130
+msgid "Justify"
+msgstr ""
+
+#: widgets/general/social-share.php:170
+msgid "Rows Gap"
+msgstr ""
+
+#: widgets/general/social-share.php:184
+msgid "Button Size"
+msgstr ""
+
+#: widgets/general/social-share.php:237
+msgid "Button Height"
+msgstr ""
+
+#: widgets/general/social-share.php:466
+msgid "Share on %s"
+msgstr ""
+
+#: widgets/general/table.php:35
+msgid "Icon Type"
+msgstr ""
+
+#: widgets/general/table.php:98
+msgid "Row Span"
+msgstr ""
+
+#: widgets/general/table.php:100
+msgid "Enter the number of rows for the cell"
+msgstr ""
+
+#: widgets/general/table.php:110
+msgid "Column Span"
+msgstr ""
+
+#: widgets/general/table.php:112
+msgid "Enter the number of columns for the cell"
+msgstr ""
+
+#: widgets/general/table.php:188
+msgid "Data Type"
+msgstr ""
+
+#: widgets/general/table.php:192
+msgid " File"
+msgstr ""
+
+#: widgets/general/table.php:199
+msgid "File Type"
+msgstr ""
+
+#: widgets/general/table.php:202
+msgid "Upload FIle"
+msgstr ""
+
+#: widgets/general/table.php:203
+msgid "Remote File"
+msgstr ""
+
+#: widgets/general/table.php:213
+msgid "Upload CSV File"
+msgstr ""
+
+#: widgets/general/table.php:223
+msgid "File URL"
+msgstr ""
+
+#: widgets/general/table.php:236 widgets/general/table.php:301
+#: widgets/general/table.php:461
+msgid "Head"
+msgstr ""
+
+#: widgets/general/table.php:249 widgets/general/table.php:288
+msgid "Cell"
+msgstr ""
+
+#: widgets/general/table.php:254
+msgid "First Head"
+msgstr ""
+
+#: widgets/general/table.php:257
+msgid "Second Head"
+msgstr ""
+
+#: widgets/general/table.php:260
+msgid "Third Head"
+msgstr ""
+
+#: widgets/general/table.php:274 widgets/general/table.php:300
+msgid "Body"
+msgstr ""
+
+#: widgets/general/table.php:289
+msgid "Row"
+msgstr ""
+
+#: widgets/general/table.php:297
+msgid "Cell Type"
+msgstr ""
+
+#: widgets/general/table.php:359 widgets/general/table.php:747
+msgid "Rows"
+msgstr ""
+
+#: widgets/general/table.php:367 widgets/general/table.php:382
+msgid "Column #1"
+msgstr ""
+
+#: widgets/general/table.php:371 widgets/general/table.php:386
+msgid "Column #2"
+msgstr ""
+
+#: widgets/general/table.php:375 widgets/general/table.php:390
+msgid "Column #3"
+msgstr ""
+
+#: widgets/general/table.php:402
+msgid "Display Options"
+msgstr ""
+
+#: widgets/general/table.php:427
+msgid "Enables scroll on mobile."
+msgstr ""
+
+#: widgets/general/table.php:434
+msgid "Table Alignment"
+msgstr ""
+
+#: widgets/general/table.php:470 widgets/general/table.php:756
+#: widgets/general/table.php:986
+msgid "Odd"
+msgstr ""
+
+#: widgets/general/table.php:486 widgets/general/table.php:613
+#: widgets/general/table.php:772 widgets/general/table.php:870
+msgid "Text Hover Color"
+msgstr ""
+
+#: widgets/general/table.php:597 widgets/general/table.php:854
+#: widgets/general/table.php:1064
+msgid "Even"
+msgstr ""
+
+#: widgets/general/table.php:1146
+msgid "Table"
+msgstr ""
+
+#: widgets/general/tabs.php:50
+msgid "Opal Tabs"
+msgstr ""
+
+#: widgets/general/tabs.php:80 widgets/general/template.php:59
+#: widgets/woo/categoryproducttab.php:80 widgets/woo/producttabs.php:81
+#: widgets/wp_template.php:77 widgets/wp_template.php:95
+msgid "Select"
+msgstr ""
+
+#: widgets/general/tabs.php:93 widgets/general/tabs.php:232
+#: widgets/woo/categoryproducttab.php:93 widgets/woo/categoryproducttab.php:376
+#: widgets/woo/producttabs.php:94 widgets/woo/producttabs.php:334
+msgid "Tabs"
+msgstr ""
+
+#: widgets/general/tabs.php:102 widgets/override/toggle.php:32
+#: widgets/woo/categoryproducttab.php:126 widgets/woo/producttabs.php:103
+msgid "Title & Content"
+msgstr ""
+
+#: widgets/general/tabs.php:113
+msgid "Source"
+msgstr ""
+
+#: widgets/general/tabs.php:117
+msgid "HTML"
+msgstr ""
+
+#: widgets/general/tabs.php:118
+msgid "Template"
+msgstr ""
+
+#: widgets/general/tabs.php:127 widgets/general/tabs.php:128
+msgid "Tab Content"
+msgstr ""
+
+#: widgets/general/tabs.php:141 widgets/general/template.php:72
+#: widgets/wp_template.php:93
+msgid "Choose Template"
+msgstr ""
+
+#: widgets/general/tabs.php:156 widgets/woo/categoryproducttab.php:239
+#: widgets/woo/producttabs.php:207
+msgid "Tabs Items"
+msgstr ""
+
+#: widgets/general/tabs.php:161 widgets/woo/categoryproducttab.php:244
+#: widgets/woo/producttabs.php:212
+msgid "Tab #1"
+msgstr ""
+
+#: widgets/general/tabs.php:166 widgets/woo/categoryproducttab.php:249
+#: widgets/woo/producttabs.php:217
+msgid "Tab #2"
+msgstr ""
+
+#: widgets/general/tabs.php:240 widgets/woo/categoryproducttab.php:384
+#: widgets/woo/producttabs.php:342
+msgid "Navigation Width"
+msgstr ""
+
+#: widgets/general/tabs.php:314 widgets/override/toggle.php:242
+#: widgets/override/toggle.php:324 widgets/woo/categoryproducttab.php:458
+#: widgets/woo/producttabs.php:539
+msgid "Active Color"
+msgstr ""
+
+#: widgets/general/tabs.php:348 widgets/woo/categoryproducttab.php:492
+#: widgets/woo/producttabs.php:550
+msgid "Background Color Active"
+msgstr ""
+
+#: widgets/general/team-box.php:39
+msgid "Opal Team Box"
+msgstr ""
+
+#: widgets/general/team-box.php:72
+msgid "Team"
+msgstr ""
+
+#: widgets/general/team-box.php:92 widgets/general/team.php:113
+#: widgets/mailchimp.php:42
+msgid "Style 1"
+msgstr ""
+
+#: widgets/general/team-box.php:93 widgets/general/team.php:114
+#: widgets/mailchimp.php:43
+msgid "Style 2"
+msgstr ""
+
+#: widgets/general/team-box.php:94 widgets/general/team.php:115
+#: widgets/mailchimp.php:44
+msgid "Style 3"
+msgstr ""
+
+#: widgets/general/team-box.php:107 widgets/general/testimonial.php:212
+msgid "Layout 1"
+msgstr ""
+
+#: widgets/general/team-box.php:124 widgets/general/team.php:217
+msgid "Team Item"
+msgstr ""
+
+#: widgets/general/team-box.php:132 widgets/general/team-box.php:226
+#: widgets/general/team.php:125 widgets/general/team.php:240
+#: widgets/general/testimonial.php:126 widgets/general/testimonial.php:318
+#: widgets/woo/productcategories.php:397
+msgid "Name"
+msgstr ""
+
+#: widgets/general/team-box.php:153 widgets/general/team-box.php:257
+#: widgets/general/team.php:146 widgets/general/team.php:271
+#: widgets/general/testimonial.php:135 widgets/general/testimonial.php:349
+msgid "Job"
+msgstr ""
+
+#: widgets/general/team-box.php:171 widgets/general/team.php:164
+msgid "Facebook"
+msgstr ""
+
+#: widgets/general/team-box.php:180 widgets/general/team.php:173
+msgid "Twitter"
+msgstr ""
+
+#: widgets/general/team-box.php:189 widgets/general/team.php:182
+msgid "Youtube"
+msgstr ""
+
+#: widgets/general/team-box.php:198 widgets/general/team.php:191
+msgid "Google"
+msgstr ""
+
+#: widgets/general/team-box.php:207 widgets/general/team.php:200
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/general/team-box.php:288 widgets/general/team.php:333
+msgid "Social"
+msgstr ""
+
+#: widgets/general/team-box.php:296 widgets/general/team.php:341
+msgid "Social Color"
+msgstr ""
+
+#: widgets/general/team-box.php:308
+msgid "Social Hover Color"
+msgstr ""
+
+#: widgets/general/team.php:40
+msgid "Opal Teams"
+msgstr ""
+
+#: widgets/general/team.php:73
+msgid "Teams"
+msgstr ""
+
+#: widgets/general/team.php:302
+msgid "Information"
+msgstr ""
+
+#: widgets/general/team.php:375
+msgid "Description Hover Color"
+msgstr ""
+
+#: widgets/general/template.php:18 widgets/general/template.php:33
+msgid "Opal Template"
+msgstr ""
+
+#: widgets/general/template.php:48
+msgid "You Haven’t Saved Templates Yet."
+msgstr ""
+
+#: widgets/general/template.php:49
+msgid "Want to learn more about Elementor library?"
+msgstr ""
+
+#: widgets/general/testimonial.php:41
+msgid "Opal Testimonials"
+msgstr ""
+
+#: widgets/general/testimonial.php:92
+msgid "Testimonials"
+msgstr ""
+
+#: widgets/general/testimonial.php:153
+msgid "Testimonials Item"
+msgstr ""
+
+#: widgets/general/testimonial.php:213
+msgid "Layout 2"
+msgstr ""
+
+#: widgets/general/testimonial.php:214 widgets/woo/productcategories.php:192
+msgid "Layout 3"
+msgstr ""
+
+#: widgets/general/testimonial.php:215
+msgid "Layout 4"
+msgstr ""
+
+#: widgets/general/testimonial.php:276 widgets/woo/productcategories.php:299
+msgid "Image Size"
+msgstr ""
+
+#: widgets/general/text-carousel.php:38
+msgid "Opal Text Carousel"
+msgstr ""
+
+#: widgets/general/text-carousel.php:111
+msgid "Content Item"
+msgstr ""
+
+#: widgets/general/text-carousel.php:167
+msgid "Subtitle Position"
+msgstr ""
+
+#: widgets/general/text-carousel.php:171
+msgid "After Title"
+msgstr ""
+
+#: widgets/general/text-carousel.php:172
+msgid "Before Title"
+msgstr ""
+
+#: widgets/general/text-carousel.php:276
+msgid "Sub Title Color"
+msgstr ""
+
+#: widgets/general/timeline.php:19
+msgid "Opal Timeline"
+msgstr ""
+
+#: widgets/general/timeline.php:56
+msgid "Timeline"
+msgstr ""
+
+#: widgets/general/timeline.php:67 widgets/general/timeline.php:68
+msgid "d/m/Y"
+msgstr ""
+
+#: widgets/general/timeline.php:96 widgets/general/timeline.php:395
+msgid "Timeline Items"
+msgstr ""
+
+#: widgets/general/timeline.php:101
+msgid "1/1/2017"
+msgstr ""
+
+#: widgets/general/timeline.php:102
+msgid "Heading #1"
+msgstr ""
+
+#: widgets/general/timeline.php:106
+msgid "1/1/2018"
+msgstr ""
+
+#: widgets/general/timeline.php:107
+msgid "Heading #2"
+msgstr ""
+
+#: widgets/general/timeline.php:111
+msgid "1/1/2019"
+msgstr ""
+
+#: widgets/general/timeline.php:112
+msgid "Heading #3"
+msgstr ""
+
+#: widgets/general/timeline.php:149
+msgid "Orientation"
+msgstr ""
+
+#: widgets/general/timeline.php:175
+msgid "Responsive Support"
+msgstr ""
+
+#: widgets/general/timeline.php:179
+msgid "Inherit"
+msgstr ""
+
+#: widgets/general/timeline.php:180
+msgid "For Tablet & Mobile"
+msgstr ""
+
+#: widgets/general/timeline.php:181
+msgid "For Mobile"
+msgstr ""
+
+#: widgets/general/timeline.php:194
+msgid "Responsive Orientation"
+msgstr ""
+
+#: widgets/general/timeline.php:211
+msgid "Content Alignment"
+msgstr ""
+
+#: widgets/general/timeline.php:212
+msgid ""
+"Note: Keep above setting unselected to align content w.r.t. timeline item's "
+"orientation."
+msgstr ""
+
+#: widgets/general/timeline.php:239
+msgid "Arrow Alignment"
+msgstr ""
+
+#: widgets/general/timeline.php:287
+msgid "Horizontal Spacing"
+msgstr ""
+
+#: widgets/general/timeline.php:319
+msgid "Vertical Spacing"
+msgstr ""
+
+#: widgets/general/timeline.php:341
+msgid "Heading Bottom Spacing"
+msgstr ""
+
+#: widgets/general/timeline.php:361
+msgid "Date Bottom Spacing"
+msgstr ""
+
+#: widgets/general/timeline.php:404 widgets/general/timeline.php:858
+#: widgets/general/timeline.php:966
+msgid "DEFAULT"
+msgstr ""
+
+#: widgets/general/timeline.php:409
+msgid "Heading Tag"
+msgstr ""
+
+#: widgets/general/timeline.php:412
+msgid "H1"
+msgstr ""
+
+#: widgets/general/timeline.php:413
+msgid "H2"
+msgstr ""
+
+#: widgets/general/timeline.php:414
+msgid "H3"
+msgstr ""
+
+#: widgets/general/timeline.php:415
+msgid "H4"
+msgstr ""
+
+#: widgets/general/timeline.php:416
+msgid "H5"
+msgstr ""
+
+#: widgets/general/timeline.php:417
+msgid "H6"
+msgstr ""
+
+#: widgets/general/timeline.php:418
+msgid "div"
+msgstr ""
+
+#: widgets/general/timeline.php:419
+msgid "p"
+msgstr ""
+
+#: widgets/general/timeline.php:452
+msgid "Heading Typograhy"
+msgstr ""
+
+#: widgets/general/timeline.php:462
+msgid "Description Typograhy"
+msgstr ""
+
+#: widgets/general/timeline.php:524
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/general/timeline.php:526
+msgid "YES"
+msgstr ""
+
+#: widgets/general/timeline.php:527
+msgid "NO"
+msgstr ""
+
+#: widgets/general/timeline.php:536
+msgid "Shadow Color"
+msgstr ""
+
+#: widgets/general/timeline.php:552
+msgid "Shadow Blur Effect"
+msgstr ""
+
+#: widgets/general/timeline.php:575
+msgid "Rounded Corners"
+msgstr ""
+
+#: widgets/general/timeline.php:610 widgets/general/timeline.php:894
+#: widgets/general/timeline.php:993
+msgid "FOCUSED"
+msgstr ""
+
+#: widgets/general/timeline.php:687 widgets/general/timeline.php:923
+#: widgets/general/timeline.php:1011
+msgid "HOVER"
+msgstr ""
+
+#: widgets/general/timeline.php:779
+msgid "Connector"
+msgstr ""
+
+#: widgets/general/timeline.php:788
+msgid "Connector Width"
+msgstr ""
+
+#: widgets/general/timeline.php:812
+msgid "Background Size"
+msgstr ""
+
+#: widgets/general/timeline.php:864 widgets/general/timeline.php:899
+msgid "Line Color"
+msgstr ""
+
+#: widgets/general/timeline.php:958
+msgid "Dates"
+msgstr ""
+
+#: widgets/general/video.php:15
+msgid "Opal Video"
+msgstr ""
+
+#: widgets/general/video.php:41
+msgid "Support video from Youtube and Vimeo"
+msgstr ""
+
+#: widgets/general/video.php:78
+msgid "Icon Font"
+msgstr ""
+
+#: widgets/mailchimp.php:15
+msgid "Opal MailChimp Sign-Up Form"
+msgstr ""
+
+#: widgets/mailchimp.php:45
+msgid "Style 4"
+msgstr ""
+
+#: widgets/override/counter.php:101
+msgid "Starting Number"
+msgstr ""
+
+#: widgets/override/counter.php:139
+msgid "Show Icon"
+msgstr ""
+
+#: widgets/override/counter.php:149
+msgid "Icon select"
+msgstr ""
+
+#: widgets/override/counter.php:153
+msgid "Use Icon"
+msgstr ""
+
+#: widgets/override/counter.php:154
+msgid "Use Image"
+msgstr ""
+
+#: widgets/override/counter.php:180
+msgid " Size"
+msgstr ""
+
+#: widgets/override/counter.php:230
+msgid "Thousand Separator"
+msgstr ""
+
+#: widgets/override/counter.php:241
+msgid "Separator"
+msgstr ""
+
+#: widgets/override/divider.php:28
+msgid "Custom Underline"
+msgstr ""
+
+#: widgets/override/divider.php:35 widgets/override/toggle.php:123
+msgid "Show Item First"
+msgstr ""
+
+#: widgets/override/divider.php:126
+msgid "Position Vertical"
+msgstr ""
+
+#: widgets/override/icon-box.php:170 widgets/override/image-box.php:201
+msgid "Donload Link ?"
+msgstr ""
+
+#: widgets/override/icon-box.php:374
+msgid "Icon Hover"
+msgstr ""
+
+#: widgets/override/image-box.php:157
+msgid "Enter your sub-title"
+msgstr ""
+
+#: widgets/override/image-box.php:179
+msgid "Hover Wrapper Animation"
+msgstr ""
+
+#: widgets/override/image-box.php:259
+msgid "Layout v1"
+msgstr ""
+
+#: widgets/override/image-box.php:270 widgets/override/image-box.php:896
+msgid "Read more"
+msgstr ""
+
+#: widgets/override/image-box.php:272
+msgid "Read more..."
+msgstr ""
+
+#: widgets/override/image-box.php:353
+msgid "Image Radius"
+msgstr ""
+
+#: widgets/override/image-box.php:443
+msgid "SVG Options"
+msgstr ""
+
+#: widgets/override/image-box.php:452
+msgid "SVG Size"
+msgstr ""
+
+#: widgets/override/image-box.php:480 widgets/override/image-box.php:501
+msgid "SVG Color"
+msgstr ""
+
+#: widgets/override/image-box.php:518
+msgid "Box View"
+msgstr ""
+
+#: widgets/override/image-box.php:535 widgets/override/image-box.php:568
+msgid "Box View Background"
+msgstr ""
+
+#: widgets/override/image-box.php:547 widgets/override/image-box.php:579
+msgid "Framed Color"
+msgstr ""
+
+#: widgets/override/image-box.php:686
+msgid "Color Hover (Wrapper)"
+msgstr ""
+
+#: widgets/override/image-box.php:735
+msgid "Sub-title"
+msgstr ""
+
+#: widgets/override/progress.php:14 widgets/override/progress.php:147
+msgid "Progress Bar"
+msgstr ""
+
+#: widgets/override/progress.php:24
+msgid "My Skill"
+msgstr ""
+
+#: widgets/override/progress.php:48
+msgid "Percentage"
+msgstr ""
+
+#: widgets/override/progress.php:99
+msgid "Enable Outside"
+msgstr ""
+
+#: widgets/override/progress.php:110
+msgid "Display Percentage"
+msgstr ""
+
+#: widgets/override/progress.php:122
+msgid "Inner Text"
+msgstr ""
+
+#: widgets/override/progress.php:124
+msgid "e.g. Web Designer"
+msgstr ""
+
+#: widgets/override/progress.php:125
+msgid "Web Designer"
+msgstr ""
+
+#: widgets/override/progress.php:177
+msgid "Inner Text Color"
+msgstr ""
+
+#: widgets/override/progress.php:190
+msgid "Title Style"
+msgstr ""
+
+#: widgets/override/toggle.php:34
+msgid "Toggle Title"
+msgstr ""
+
+#: widgets/override/toggle.php:44
+msgid "Toggle Content"
+msgstr ""
+
+#: widgets/override/toggle.php:52
+msgid "Toggle Items"
+msgstr ""
+
+#: widgets/override/toggle.php:57
+msgid "Toggle #1"
+msgstr ""
+
+#: widgets/override/toggle.php:58 widgets/override/toggle.php:62
+msgid ""
+"I am item content. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/override/toggle.php:61
+msgid "Toggle #2"
+msgstr ""
+
+#: widgets/override/toggle.php:110
+msgid "Active Icon"
+msgstr ""
+
+#: widgets/override/toggle.php:131
+msgid "Event Type"
+msgstr ""
+
+#: widgets/override/toggle.php:290
+msgid "Start"
+msgstr ""
+
+#: widgets/override/toggle.php:294
+msgid "End"
+msgstr ""
+
+#: widgets/woo/cart.php:18
+msgid "Woo Mini Cart"
+msgstr ""
+
+#: widgets/woo/cart.php:39
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: widgets/woo/cart.php:47
+msgid "Show Fixed Content Right"
+msgstr ""
+
+#: widgets/woo/cart.php:66 widgets/woo/categoryproducttab.php:114
+msgid "Or Choose Image/SVG"
+msgstr ""
+
+#: widgets/woo/cart.php:79
+msgid "Shopping cart"
+msgstr ""
+
+#: widgets/woo/cart.php:87 widgets/woo/wishlist.php:66
+msgid "Title Hover"
+msgstr ""
+
+#: widgets/woo/cart.php:97
+msgid "Show Total Items"
+msgstr ""
+
+#: widgets/woo/cart.php:105
+msgid "Show Subtotal"
+msgstr ""
+
+#: widgets/woo/cart.php:113
+msgid "Circle Style"
+msgstr ""
+
+#: widgets/woo/cart.php:178
+msgid "Circle Size"
+msgstr ""
+
+#: widgets/woo/cart.php:299
+msgid "Counter Color"
+msgstr ""
+
+#: widgets/woo/cart.php:314
+msgid "Counter Background Color"
+msgstr ""
+
+#: widgets/woo/cart.php:329 widgets/woo/cart.php:506
+msgid "Amount"
+msgstr ""
+
+#: widgets/woo/cart.php:478
+msgid "Counter Hover Color"
+msgstr ""
+
+#: widgets/woo/cart.php:492
+msgid "Counter Hover Background Color"
+msgstr ""
+
+#: widgets/woo/cart.php:518
+msgid "Amount Hover Color"
+msgstr ""
+
+#: widgets/woo/cart.php:539
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/woo/cart.php:638
+msgid "My Cart"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:50
+msgid "Woo Category Product Tab"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:148
+#: widgets/woo/categoryproducttab.php:315 widgets/woo/megaproducts.php:117
+#: widgets/woo/productdeals.php:108 widgets/woo/products.php:109
+#: widgets/woo/productsmasonry.php:122 widgets/woo/producttabs.php:123
+#: widgets/woo/producttabs.php:283
+msgid "columns"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:164 widgets/woo/megaproducts.php:141
+#: widgets/woo/productdeals.php:133 widgets/woo/products.php:134
+#: widgets/woo/productsmasonry.php:146 widgets/woo/producttabs.php:138
+msgid "Post ID"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:166 widgets/woo/megaproducts.php:143
+#: widgets/woo/productdeals.php:135 widgets/woo/products.php:136
+#: widgets/woo/productsmasonry.php:148 widgets/woo/producttabs.php:140
+msgid "Number of purchases"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:167 widgets/woo/megaproducts.php:144
+#: widgets/woo/productdeals.php:136 widgets/woo/products.php:137
+#: widgets/woo/productsmasonry.php:149 widgets/woo/producttabs.php:141
+msgid "Average Product Rating"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:168 widgets/woo/megaproducts.php:145
+#: widgets/woo/productdeals.php:137 widgets/woo/products.php:138
+#: widgets/woo/productsmasonry.php:150 widgets/woo/producttabs.php:142
+msgid "Product Title"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:222 widgets/woo/megaproducts.php:194
+#: widgets/woo/productdeals.php:186 widgets/woo/products.php:187
+#: widgets/woo/productsmasonry.php:199 widgets/woo/producttabs.php:191
+msgid "Product Type"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:226 widgets/woo/megaproducts.php:198
+#: widgets/woo/productdeals.php:190 widgets/woo/products.php:191
+#: widgets/woo/productsmasonry.php:203 widgets/woo/producttabs.php:195
+msgid "Newest Products"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:227 widgets/woo/megaproducts.php:199
+#: widgets/woo/products.php:192 widgets/woo/productsmasonry.php:204
+#: widgets/woo/producttabs.php:196
+msgid "On Sale Products"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:228 widgets/woo/megaproducts.php:200
+#: widgets/woo/productdeals.php:192 widgets/woo/products.php:193
+#: widgets/woo/productsmasonry.php:205 widgets/woo/producttabs.php:197
+msgid "Best Selling"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:229 widgets/woo/megaproducts.php:201
+#: widgets/woo/productdeals.php:193 widgets/woo/products.php:194
+#: widgets/woo/productsmasonry.php:206 widgets/woo/producttabs.php:198
+msgid "Top Rated"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:230 widgets/woo/megaproducts.php:202
+#: widgets/woo/productdeals.php:194 widgets/woo/products.php:195
+#: widgets/woo/productsmasonry.php:207 widgets/woo/producttabs.php:199
+msgid "Featured Product"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:326 widgets/woo/megaproducts.php:210
+#: widgets/woo/productdeals.php:202 widgets/woo/products.php:203
+#: widgets/woo/productsmasonry.php:215 widgets/woo/producttabs.php:294
+msgid "Paginate"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:340 widgets/woo/megaproducts.php:248
+#: widgets/woo/productdeals.php:216 widgets/woo/products.php:216
+#: widgets/woo/productsmasonry.php:228 widgets/woo/producttabs.php:307
+msgid "Product Layout"
+msgstr ""
+
+#: widgets/woo/categoryproducttab.php:350
+msgid "Icon Display Top"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:48
+msgid "Woo Mega Products"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:223
+msgid "Ajax Filter"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:228
+msgid "Yes, Use"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:236
+msgid "Style Layout"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:240
+msgid "Navigation Top"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:241
+msgid "Navigation Left"
+msgstr ""
+
+#: widgets/woo/megaproducts.php:396
+msgid "Please select categories to show product in mega style"
+msgstr ""
+
+#: widgets/woo/navbarsearch.php:18
+msgid "Opal Products Search Form"
+msgstr ""
+
+#: widgets/woo/navbarsearch.php:468
+msgid "All Categories"
+msgstr ""
+
+#: widgets/woo/productcategories.php:41
+msgid "Woo Product Categories"
+msgstr ""
+
+#: widgets/woo/productcategories.php:85
+msgid "Category"
+msgstr ""
+
+#: widgets/woo/productcategories.php:108
+msgid "Categories Item"
+msgstr ""
+
+#: widgets/woo/productcategories.php:191
+msgid "Circle Icon Style"
+msgstr ""
+
+#: widgets/woo/productcategories.php:200
+msgid "Enable label"
+msgstr ""
+
+#: widgets/woo/productcategories.php:440
+msgid "Count"
+msgstr ""
+
+#: widgets/woo/productdeals.php:48
+msgid "Woo Product Deals"
+msgstr ""
+
+#: widgets/woo/products.php:49
+msgid "Woo Products"
+msgstr ""
+
+#: widgets/woo/products.php:326
+msgid "Title hover"
+msgstr ""
+
+#: widgets/woo/products.php:349
+msgid "Price hover"
+msgstr ""
+
+#: widgets/woo/productsmasonry.php:62
+msgid "Woo Products Masonry"
+msgstr ""
+
+#: widgets/woo/producttabs.php:51
+msgid "Woo Product Tabs"
+msgstr ""
+
+#: widgets/woo/producttabs.php:477
+msgid "Border Radius Active"
+msgstr ""
+
+#: widgets/woo/producttabs.php:498
+msgid "Color Hover"
+msgstr ""
+
+#: widgets/woo/wishlist.php:19
+msgid "Woo Wishlist Nav"
+msgstr ""
+
+#: widgets/woo/wishlist.php:34
+msgid "WooCommerce Wishlist"
+msgstr ""
+
+#: widgets/woo/wishlist.php:50
+msgid "Show Total"
+msgstr ""
+
+#: widgets/woo/wishlist.php:68
+msgid "View wishlist "
+msgstr ""
+
+#: widgets/woo/wishlist.php:123 widgets/woo/wishlist.php:245
+msgid "Icon Background"
+msgstr ""
+
+#: widgets/woo/wishlist.php:169
+msgid "Item Color"
+msgstr ""
+
+#: widgets/woo/wishlist.php:267
+msgid "Item Text Color"
+msgstr ""
+
+#: widgets/woo/wishlist.php:306
+msgid "Label Hover Color"
+msgstr ""
+
+#: widgets/woo/wishlist.php:379
+msgid "Wishlist"
+msgstr ""
+
+#: widgets/wp_template.php:12
+msgid "Opal Elementor Template"
+msgstr ""
+
+#: widgets/wp_template.php:14
+msgid "Embed your saved elements."
+msgstr ""
+
+#: widgets/wp_template.php:111
+msgid "Edit Template"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Opal Widgets For Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpopal.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin provides your everything widgets suchs as header builder, "
+"footer builder, woocommerce widget, pricing table, blog, countdown and many "
+"more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WpOpal"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wpopal.com/contact"
+msgstr ""
+
+#: widgets/general/heading-animated.php:81
+msgctxt "Shapes"
+msgid "Circle"
+msgstr ""
+
+#: widgets/general/heading-animated.php:82
+msgctxt "Shapes"
+msgid "Curly"
+msgstr ""
+
+#: widgets/general/heading-animated.php:83
+msgctxt "Shapes"
+msgid "Underline"
+msgstr ""
+
+#: widgets/general/heading-animated.php:84
+msgctxt "Shapes"
+msgid "Double"
+msgstr ""
+
+#: widgets/general/heading-animated.php:85
+msgctxt "Shapes"
+msgid "Double Underline"
+msgstr ""
+
+#: widgets/general/heading-animated.php:86
+msgctxt "Shapes"
+msgid "Underline Zigzag"
+msgstr ""
+
+#: widgets/general/heading-animated.php:87
+msgctxt "Shapes"
+msgid "Diagonal"
+msgstr ""
+
+#: widgets/general/heading-animated.php:88
+msgctxt "Shapes"
+msgid "Strikethrough"
+msgstr ""
+
+#: widgets/general/price-table.php:75
+msgctxt "Currency Symbol"
+msgid "Dollar"
+msgstr ""
+
+#: widgets/general/price-table.php:76
+msgctxt "Currency Symbol"
+msgid "Euro"
+msgstr ""
+
+#: widgets/general/price-table.php:77
+msgctxt "Currency Symbol"
+msgid "Baht"
+msgstr ""
+
+#: widgets/general/price-table.php:78
+msgctxt "Currency Symbol"
+msgid "Franc"
+msgstr ""
+
+#: widgets/general/price-table.php:79
+msgctxt "Currency Symbol"
+msgid "Guilder"
+msgstr ""
+
+#: widgets/general/price-table.php:80
+msgctxt "Currency Symbol"
+msgid "Krona"
+msgstr ""
+
+#: widgets/general/price-table.php:81
+msgctxt "Currency Symbol"
+msgid "Lira"
+msgstr ""
+
+#: widgets/general/price-table.php:82
+msgctxt "Currency Symbol"
+msgid "Peseta"
+msgstr ""
+
+#: widgets/general/price-table.php:83
+msgctxt "Currency Symbol"
+msgid "Peso"
+msgstr ""
+
+#: widgets/general/price-table.php:84
+msgctxt "Currency Symbol"
+msgid "Pound Sterling"
+msgstr ""
+
+#: widgets/general/price-table.php:85
+msgctxt "Currency Symbol"
+msgid "Real"
+msgstr ""
+
+#: widgets/general/price-table.php:86
+msgctxt "Currency Symbol"
+msgid "Ruble"
+msgstr ""
+
+#: widgets/general/price-table.php:87
+msgctxt "Currency Symbol"
+msgid "Rupee"
+msgstr ""
+
+#: widgets/general/price-table.php:88
+msgctxt "Currency Symbol"
+msgid "Rupee (Indian)"
+msgstr ""
+
+#: widgets/general/price-table.php:89
+msgctxt "Currency Symbol"
+msgid "Shekel"
+msgstr ""
+
+#: widgets/general/price-table.php:90
+msgctxt "Currency Symbol"
+msgid "Yen/Yuan"
+msgstr ""
+
+#: widgets/general/price-table.php:91
+msgctxt "Currency Symbol"
+msgid "Won"
+msgstr ""

@@ -1,0 +1,72 @@
+.elementor-teams-wrapper{
+    position: relative;
+    &:hover{
+        .socials{
+            a{
+                transform: scale(1) skew(0);
+            }
+        }
+    }
+    .elementor-team-socials{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .socials{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        a{
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            background: $white;
+            color: $primary;
+            border-radius: 100%;
+            display: block;
+            margin: 5px;
+            transform: scale(0) skew(-45deg);
+            @include transition(all 0.3s ease);
+        }
+    }
+    .elementor-team-image{
+        margin-bottom: 1.3rem;
+        a,img{
+            display: block;
+        }
+    }
+
+    &.style-1 {}
+
+    &.style-2 {
+        background: $white;
+        padding: $grid-gutter-width;
+        .elementor-team-image {
+            border:20px solid $white;
+            border-radius:100%;
+            img {
+                border-radius:100%;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        .elementor-team-socials {
+            left:20px;
+        }
+        .elementor-team-job {
+            position: absolute;
+            top:$grid-gutter-width/2;
+            right:$grid-gutter-width/2;
+        }
+        &:hover {
+            .elementor-team-image {
+                img {
+                    transform: scale(0.95);
+                    transition: all 0.5s ease-in-out;
+                }
+            }
+        }
+    }
+
+    &.style-3 {}
+}

@@ -1,0 +1,70 @@
+.opal-dual-header-container .opal-dual-header-first-header,
+.opal-dual-header-container .opal-dual-header-second-header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.opal-dual-header-first-clip .opal-dual-header-first-span,
+.opal-dual-header-second-clip {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@media (max-width: 500px) {
+    .opal-dual-header-container .opal-dual-header-first-header,
+    .opal-dual-header-container .opal-dual-header-second-header {    
+        display: block;
+        word-wrap: break-word;
+    }
+    .opal-dual-header-first-container,
+    .opal-dual-header-second-container {
+        margin: 0;
+    }
+}
+@media (min-width: 501px) {
+    .opal-dual-header-first-container {
+        margin-right: 5px;
+    }
+}
+.opal-dual-header-first-header.gradient .opal-dual-header-first-span,
+.opal-dual-header-second-header.gradient {
+    background-size: 300% 300% !important;
+    -webkit-animation: Gradient 10s ease-in-out infinite;
+    -moz-animation: Gradient 10s ease-in-out infinite;
+    animation: Gradient 10s ease-in-out infinite;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}

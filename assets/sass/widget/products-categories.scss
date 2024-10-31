@@ -1,0 +1,63 @@
+.elementor-widget-opal-productcategories {
+    .elementor-category-text-align-left{
+        text-align: left;
+    }
+    .elementor-category-text-align-center{
+        text-align: center;
+    }
+    .elementor-category-text-align-right{
+        text-align: right;
+    }
+    .layout_1 {
+        .elementor-category-item {
+            
+        }
+    }
+    .layout_2 {
+        .elementor-category-item {
+            .elementor-category-image {
+                background-color: #fef8d8;
+                max-width: 100px;
+                height: 100px;
+                display: flex;
+                border-radius: 50%;
+                transition: 0.5s ease 0s;
+                -webkit-transition: 0.5s ease 0s;
+            }
+            .elementor-category-meta-inner {
+                padding-top: 20px;
+                .elementor-category-count {
+                    transition: 0.6s ease 0s;
+                    -webkit-transition: 0.6s ease 0s;
+                    opacity: 0;
+                }
+            }
+            &:hover {
+                .elementor-category-image { 
+                    background-color: $primary;
+                }
+                .elementor-category-name {
+                    a {
+                        color: $primary;
+                    }
+                }
+                .elementor-category-count {
+                    opacity: 1;
+            
+                }
+            }
+        }
+    }
+    
+    .layout_3 {
+        .elementor-category-item {
+            position: relative;
+            .elementor-category-meta-inner {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+    }    
+}   

@@ -1,0 +1,9 @@
+$enable-transitions : true !default;
+$primary : inherit !default;
+
+$primary : #212121 !default;
+
+
+$transition-base:             all .6s ease !default;
+$transition-fade:             opacity .15s linear !default;
+$transition-collapse:         height .35s ease !default;

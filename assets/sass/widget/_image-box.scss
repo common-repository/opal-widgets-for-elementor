@@ -1,0 +1,55 @@
+.elementor-widget-image-box {
+    .elementor-image-box-title {
+        padding-top: 0;
+    }
+
+    .elementor-image-box-img {
+        position: relative;
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &.testabc {
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 1px dashed #aba5a5;
+                border-radius: 100%;
+                transform: scale(1.4);
+            }
+        }
+    }
+
+    &.layout-v1 {
+        .elementor-image-box-wrapper {
+            display: block;
+            position:relative;
+            .elementor-image-framed {
+                float:left;
+                margin: $grid-gutter-width 0 $grid-gutter-width $grid-gutter-width;
+            }
+            .elementor-image-box-title {
+                padding: $grid-gutter-width;
+            }
+        }
+        .elementor-image-box-description {
+            border-top:1px solid $border-color;
+            padding: $grid-gutter-width;
+            text-align: left;
+        }
+        .elementor-image-box-button {
+            text-align: left;
+            padding-left:$grid-gutter-width;
+            padding-bottom:$grid-gutter-width;
+            display: block;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+    }
+}

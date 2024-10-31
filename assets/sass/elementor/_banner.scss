@@ -1,0 +1,757 @@
+.opal-elementor-banner,
+.opal-elementor-banner img {
+    display: block;
+    position: relative;
+}
+.opal-banner-img-wrap {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    height: 100%;
+}
+.opal-banner-img-wrap .opal-elementor-banner-img  {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+}
+.opal-elementor-banner {
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 0 35px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.opal-elementor-banner-desc .opal-banner-read-more {
+    z-index: 100;
+}
+.opal-elementor-banner,
+.wpb_column>.wpb_wrapper .opal-elementor-banner {
+    margin-bottom: 0px
+}
+.elementor-widget-opal-addon-banner .opal-elementor-banner-title {
+    background: transparent;
+}
+.opal-elementor-banner *,
+.opal-elementor-banner .opal-elementor-banner-desc {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.opal-elementor-banner img {
+    min-width: 100%;
+    max-width: 100%;
+    -webkit-transition: opacity .35s;
+    transition: opacity .35s;
+}
+.opal-elementor-banner .opal-elementor-banner-desc {
+    padding: 15px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.opal-elementor-banner .opal-elementor-banner-desc,
+.opal-elementor-banner .opal-elementor-banner-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.opal-elementor-banner .opal-elementor-banner-link {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+.opal-elementor-banner a.opal-elementor-banner-link {
+    display: block;
+    background: 0 0;
+}
+.opal-banner-animation-1 img {
+    width: -webkit-calc(100% + 50px)!important;
+    width: calc(100% + 50px)!important;
+    max-width: -webkit-calc(100% + 50px)!important;
+    max-width: calc(100% + 50px)!important;
+    -webkit-transition: opacity .35s,filter 0.35s, -webkit-transform .35s;
+    transition: opacity .35s, filter 0.35s, -webkit-transform .35s;
+    transition: opacity .35s, filter 0.35s, transform .35s;
+    transition: opacity .35s, filter 0.35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+.opal-banner-animation-2 .opal-elementor-banner-title {
+    padding: 15px;
+}
+.opal-banner-animation-1 .opal-elementor-banner-desc {
+    top: auto;
+    bottom: 0;
+    min-height: 25%;
+    height: auto;
+    max-height: 100%;
+    text-align: left;
+}
+.opal-banner-animation-1 .opal-elementor-banner-content,
+.opal-banner-animation-1 .opal-elementor-banner-title,
+.opal-banner-animation-1 .opal-banner-read-more {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+    -webkit-transition-delay: .05s;
+    transition-delay: .05s;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+}
+.opal-banner-animation-1 .opal-elementor-banner-title {
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-1 .opal-elementor-banner-content,
+.opal-banner-animation-1 .opal-banner-read-more {
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity .2s, -webkit-transform .35s;
+    transition: opacity .2s, -webkit-transform .35s;
+    transition: opacity .2s, transform .35s;
+    transition: opacity .2s, transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-1:hover .opal-elementor-banner-content,
+.opal-banner-animation-1.active .opal-elementor-banner-content,
+.opal-banner-animation-1:hover .opal-banner-read-more,
+.opal-banner-animation-1.active .opal-banner-read-more {
+    opacity: 1;
+    -webkit-transition-delay: .05s;
+    transition-delay: .05s;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+}
+.opal-banner-animation-1:hover .opal-elementor-banner-content,
+.opal-banner-animation-1.active .opal-elementor-banner-content,
+.opal-banner-animation-1:hover .opal-banner-read-more,
+.opal-banner-animation-1.active .opal-banner-read-more,
+.opal-banner-animation-1:hover .opal-elementor-banner-title,
+.opal-banner-animation-1.active .opal-elementor-banner-title,
+.opal-banner-animation-1:hover img,
+.opal-banner-animation-1.active img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition-delay: .05s;
+    transition-delay: .05s;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+}
+.opal-banner-animation-1.zoomout img,
+.opal-banner-animation-1.scale img {
+    -webkit-transform: translate3d(-40px, 0, 0) scale(1.1);
+    transform: translate3d(-40px, 0, 0) scale(1.1);
+}
+.opal-elementor-banner.sepia img {
+    -webkit-filter: sepia(30%);
+    filter: sepia(30%);
+}
+.opal-elementor-banner.bright img {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+.opal-elementor-banner.sepia:hover img {
+    -webkit-filter: sepia(0%);
+    filter: sepia(0%);
+}
+.opal-elementor-banner.bright:hover img {
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2);
+}
+.opal-banner-animation-1.opal-banner-min-height img,
+.opal-banner-animation-2.opal-banner-min-height img,
+.opal-banner-animation-4.opal-banner-min-height img,
+.opal-banner-animation-5.opal-banner-min-height img,
+.opal-banner-animation-6.opal-banner-min-height img,
+.opal-banner-animation-13.opal-banner-min-height img {
+    height: auto;
+}
+.opal-banner-animation-2 img {
+    width: 100%;
+}
+.opal-banner-animation-2 .opal-elementor-banner-desc::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+}
+.opal-banner-animation-2 .opal-elementor-banner-title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transition: -webkit-transform .35s, color .35s;
+    -webkit-transition: color .35s, -webkit-transform .35s;
+    transition: color .35s, -webkit-transform .35s;
+    transition: transform .35s, color .35s;
+    transition: transform .35s, color .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+.opal-banner-animation-2 .opal-elementor-banner-content,
+.opal-banner-animation-2 .opal-banner-read-more,
+.opal-banner-animation-2 .opal-elementor-banner-desc::before {
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-2 .opal-elementor-banner-content,
+.opal-banner-animation-2 .opal-banner-read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    max-height: 50%;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+}
+.opal-banner-animation-2:hover .opal-elementor-banner-title,
+.opal-banner-animation-2.active .opal-elementor-banner-title {
+    color: #fff;
+    -webkit-transform: translate3d(0, -40px, 0);
+    transform: translate3d(0, -40px, 0);
+}
+.opal-banner-animation-2:hover .opal-elementor-banner-content,
+.opal-banner-animation-2.active .opal-elementor-banner-content,
+.opal-banner-animation-2:hover .opal-banner-read-more,
+.opal-banner-animation-2.active .opal-banner-read-more,
+.opal-banner-animation-2:hover .opal-elementor-banner-desc::before,
+.opal-banner-animation-2.active .opal-elementor-banner-desc::before {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-2:hover .opal-elementor-banner-content,
+.opal-banner-animation-2.active .opal-elementor-banner-content {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+}
+.opal-banner-animation-3 .opal-elementor-banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+}
+.opal-banner-animation-3 .opal-elementor-banner-desc::before,
+.opal-banner-animation-3 .opal-elementor-banner-title {
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-3:hover .opal-elementor-banner-desc::before,
+.opal-banner-animation-3.active .opal-elementor-banner-desc::before,
+.opal-banner-animation-3:hover .opal-elementor-banner-title,
+.opal-banner-animation-3.active .opal-elementor-banner-title {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-3 .opal-elementor-banner-content {
+    max-height: -webkit-calc(100% - 60px - 1.5em);
+    max-height: calc(100% - 60px - 1.5em);
+    overflow: hidden;
+}
+.opal-banner-animation-4 img {
+    width: -webkit-calc(100% + 40px)!important;
+    width: calc(100% + 40px)!important;
+    max-width: -webkit-calc(100% + 40px)!important;
+    max-width: calc(100% + 40px)!important;
+}
+.opal-banner-animation-4 .opal-elementor-banner-desc {
+    padding: 30px;
+}
+.opal-banner-animation-4 .opal-elementor-banner-desc::after,
+.opal-banner-animation-4 .opal-elementor-banner-desc::before {
+    position: absolute;
+    content: "";
+    opacity: 0;
+}
+.opal-banner-animation-4 .opal-elementor-banner-desc::before {
+    top: 50px;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.opal-banner-animation-4 .opal-elementor-banner-desc::after {
+    top: 30px;
+    right: 50px;
+    bottom: 30px;
+    left: 50px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+.opal-banner-animation-4 .opal-elementor-banner-title {
+    padding: 50px 30px 0 30px;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-4 .opal-elementor-banner-content,
+.opal-banner-animation-4 .opal-banner-read-more {
+    padding: 10px 30px;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+}
+.opal-banner-animation-4 .opal-elementor-banner-title,
+.opal-banner-animation-4 img {
+    -webkit-transform: translate3d(-30px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
+}
+.opal-banner-animation-4.zoomout img,
+.opal-banner-animation-4.scale img {
+    -webkit-transform: translate3d(-30px, 0, 0) scale(1.1);
+    transform: translate3d(-30px, 0, 0) scale(1.1);
+}
+.opal-banner-animation-4 .opal-elementor-banner-content,
+.opal-banner-animation-4 .opal-banner-read-more,
+.opal-banner-animation-4 .opal-elementor-banner-desc::after,
+.opal-banner-animation-4 .opal-elementor-banner-desc::before,
+.opal-banner-animation-4 img {
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+}
+/*.opal-banner-animation-4:hover img,
+.opal-banner-animation-4.active img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}*/
+.opal-banner-animation-4:hover .opal-elementor-banner-desc::after,
+.opal-banner-animation-4.active .opal-elementor-banner-desc::after,
+.opal-banner-animation-4:hover .opal-elementor-banner-desc::before,
+.opal-banner-animation-4.active .opal-elementor-banner-desc::before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.opal-banner-animation-4:hover .opal-elementor-banner-content,
+.opal-banner-animation-4.active .opal-elementor-banner-content,
+.opal-banner-animation-4:hover .opal-banner-read-more,
+.opal-banner-animation-4.active .opal-banner-read-more,
+.opal-banner-animation-4:hover .opal-elementor-banner-title,
+.opal-banner-animation-4.active .opal-elementor-banner-title {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-4:hover .opal-elementor-banner-content,
+.opal-banner-animation-4:hover .opal-elementor-banner-desc::after,
+.opal-banner-animation-4:hover .opal-elementor-banner-title,
+.opal-banner-animation-4:hover img {
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+}
+.opal-banner-animation-5 .opal-elementor-banner-desc {
+    top: auto;
+    bottom: 0;
+    padding: 15px;
+    height: auto;
+    background: #f2f2f2;
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+.opal-banner-animation-5 .opal-elementor-banner-content {
+    position: absolute;
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    opacity: 0;
+    -webkit-transition: opacity .35s;
+    transition: opacity .35s;
+}
+.opal-banner-animation-5 .opal-elementor-banner-title,
+.opal-banner-animation-5 .opal-banner-read-more {
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
+    text-align: center;
+}
+.opal-banner-animation-5 .opal-elementor-banner-title {
+    margin: 10px 0;
+}
+.opal-banner-animation-5:hover .opal-elementor-banner-content,
+.opal-banner-animation-5.active .opal-elementor-banner-content,
+.opal-banner-animation-5:hover .opal-elementor-banner-content *,
+.opal-banner-animation-5.active .opal-elementor-banner-content * {
+    opacity: 1 !important;
+    z-index: 99 !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+}
+.opal-banner-animation-5:hover .opal-elementor-banner-desc,
+.opal-banner-animation-5.active .opal-elementor-banner-desc,
+.opal-banner-animation-5:hover .opal-elementor-banner-title,
+.opal-banner-animation-5.active .opal-elementor-banner-title,
+.opal-banner-animation-5:hover .opal-banner-read-more,
+.opal-banner-animation-5.active .opal-banner-read-more {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.opal-banner-animation-5:hover .opal-elementor-banner-title {
+    -webkit-transition-delay: .05s;
+    transition-delay: .05s;
+}
+.opal-banner-animation-5 img,
+.opal-banner-animation-2 img,
+.opal-banner-animation-4 img,
+.opal-banner-animation-6 img{
+    -webkit-transition: opacity .35s,filter 0.35s, -webkit-transform .35s;
+    transition: opacity .35s,filter 0.35s ,-webkit-transform .35s;
+    transition: opacity .35s,filter 0.35s, transform .35s;
+    transition: opacity .35s,filter 0.35s, transform .35s, -webkit-transform .35s;
+}
+.opal-banner-animation-5.zoomout img,
+.opal-banner-animation-5.scale img,
+.opal-banner-animation-2.zoomout img,
+.opal-banner-animation-2.scale img,
+.opal-banner-animation-6.zoomout img,
+.opal-banner-animation-6.scale img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.opal-banner-animation-5.zoomin:hover img,
+.opal-banner-animation-2.zoomin:hover img,
+.opal-banner-animation-6.zoomin:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.opal-banner-animation-5.zoomout:hover img,
+.opal-banner-animation-2.zoomout:hover img,
+.opal-banner-animation-6.zoomout:hover img{
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.opal-banner-animation-5.scale:hover img,
+.opal-banner-animation-2.scale:hover img,
+.opal-banner-animation-6.scale:hover img {
+    -webkit-transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
+}
+.opal-banner-animation-5.grayscale:hover img,
+.opal-banner-animation-2.grayscale:hover img,
+.opal-banner-animation-6.grayscale:hover img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.opal-banner-animation-5.blur:hover img,
+.opal-banner-animation-2.blur:hover img,
+.opal-banner-animation-6.blur:hover img {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+.opal-banner-animation-6 .opal-elementor-banner-desc {
+    padding: 45px;
+}
+.opal-banner-animation-6 .opal-elementor-banner-desc::before {
+    position: absolute;
+    content: "";
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+}
+.opal-banner-animation-6 .opal-elementor-banner-title {
+    margin: 20px 0 10px;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+.opal-banner-animation-6 .opal-elementor-banner-content,
+.opal-banner-animation-6 .opal-banner-read-more,
+.opal-banner-animation-6 .opal-elementor-banner-desc::before {
+    opacity: 0;
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.opal-banner-animation-6 .opal-banner-read-more {
+    margin-top: 10px;
+}
+.opal-banner-animation-6:hover .opal-elementor-banner-title,
+.opal-banner-animation-6.active .opal-elementor-banner-title {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-6:hover .opal-elementor-banner-content,
+.opal-banner-animation-6.active .opal-elementor-banner-content,
+.opal-banner-animation-6:hover .opal-banner-read-more,
+.opal-banner-animation-6.active .opal-banner-read-more,
+.opal-banner-animation-6:hover .opal-elementor-banner-desc::before,
+.opal-banner-animation-6.active .opal-elementor-banner-desc::before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.opal-banner-animation-8 img {
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15)
+}
+.opal-banner-animation-8:hover img,
+.opal-banner-animation-8.active img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.opal-banner-animation-8 .opal-elementor-banner-title {
+    margin-top: 20%;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+}
+.opal-banner-animation-8:hover .opal-elementor-banner-title,
+.opal-banner-animation-8.active .opal-elementor-banner-title {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-8 .opal-elementor-banner-content {
+    margin: 1em 0 0;
+    padding: 35px;
+    border: 1px solid #fff;
+    opacity: 0;
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
+    transform: translate3d(0, 20px, 0) scale(1.1);
+}
+.opal-banner-animation-8:hover .opal-elementor-banner-content,
+.opal-banner-animation-8.active .opal-elementor-banner-content {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+}
+.opal-banner-animation-12 .opal-elementor-banner-desc::after {
+    position: absolute;
+    content: "";
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    height: -webkit-calc(50% - 30px);
+    height: calc(50% - 30px);
+    border: 7px solid #fff;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+.opal-banner-animation-12:hover .opal-elementor-banner-desc::after,
+.opal-banner-animation-12.active .opal-elementor-banner-desc::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-12 .opal-elementor-banner-desc {
+    padding: 45px;
+    text-align: left;
+}
+.opal-banner-animation-12 .opal-elementor-banner-content {
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    left: 60px;
+    opacity: 0;
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+}
+.opal-banner-animation-12:hover .opal-elementor-banner-content,
+.opal-banner-animation-12.active .opal-elementor-banner-content {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-13 img {
+    width: -webkit-calc(100% + 20px)!important;
+    width: calc(100% + 20px)!important;
+    max-width: -webkit-calc(100% + 20px)!important;
+    max-width: calc(100% + 20px)!important;
+    -webkit-transition: opacity .35s,filter 0.35s, -webkit-transform .35s;
+    transition: opacity .35s,filter 0.35s ,-webkit-transform .35s;
+    transition: opacity .35s,filter 0.35s, transform .35s;
+    transition: opacity .35s,filter 0.35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.opal-banner-animation-13.zoomout img,
+.opal-banner-animation-13.scale img {
+    -webkit-transform: translate3d(-10px, 0, 0) scale(1.1);
+    transform: translate3d(-10px, 0, 0) scale(1.1);
+}
+.opal-banner-animation-13.none:hover img,
+.opal-banner-animation-1.none:hover img,
+.opal-banner-animation-4.none:hover img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-13.zoomin:hover img,
+.opal-banner-animation-1.zoomin:hover img,
+.opal-banner-animation-4.zoomin:hover img{
+    -webkit-transform: translate3d(0, 0, 0) scale(1.1);
+    transform: translate3d(0, 0, 0) scale(1.1);
+}
+.opal-banner-animation-13.zoomout:hover img,
+.opal-banner-animation-1.zoomout:hover img,
+.opal-banner-animation-4.zoomout:hover img {
+    -webkit-transform: translate3d(0, 0, 0) scale(1.0);
+    transform: translate3d(0, 0, 0) scale(1.0);
+}
+.opal-banner-animation-13.scale:hover img,
+.opal-banner-animation-1.scale:hover img,
+.opal-banner-animation-4.scale:hover img {
+    -webkit-transform: translate3d(0, 0, 0) scale(1.2) rotate(5deg);
+    transform: translate3d(0, 0, 0) scale(1.2) rotate(5deg);
+}
+.opal-banner-animation-13.grayscale:hover img,
+.opal-banner-animation-1.grayscale:hover img,
+.opal-banner-animation-4.grayscale:hover img{
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.opal-banner-animation-13.blur:hover img,
+.opal-banner-animation-1.blur:hover img,
+.opal-banner-animation-4.blur:hover img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+.opal-banner-animation-13 .opal-elementor-banner-desc {
+    text-align: left;
+}
+.opal-banner-animation-13 .opal-elementor-banner-title {
+    position: relative;
+    overflow: hidden;
+    padding: 5px 0 10px;
+}
+.opal-banner-animation-13 .opal-elementor-banner-title::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(-101%, 0, 0);
+    transform: translate3d(-101%, 0, 0);
+}
+.opal-banner-animation-13:hover .opal-elementor-banner-title::after,
+.opal-banner-animation-13.active .opal-elementor-banner-title::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-banner-animation-13 .opal-elementor-banner-content,
+.opal-banner-animation-13 .opal-banner-read-more {
+    padding: 15px 0;
+    opacity: 0;
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    transition: opacity .35s, transform .35s, -webkit-transform .35s;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+.opal-banner-animation-13:hover .opal-elementor-banner-content,
+.opal-banner-animation-13.active .opal-elementor-banner-content,
+.opal-banner-animation-13:hover .opal-banner-read-more,
+.opal-banner-animation-13.active .opal-banner-read-more {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.opal-elementor-banner.opal-banner-animation-5 .opal-banner-toggle-size {
+    left: 50%;
+    width: auto!important;
+    height: 100%;
+    max-width: none;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.opal-elementor-banner img {
+    border: none;
+    padding: 0;
+    margin: 0;
+}

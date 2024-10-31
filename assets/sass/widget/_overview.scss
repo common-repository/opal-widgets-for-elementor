@@ -1,0 +1,41 @@
+.elementor-widget-opal-box-overview{
+    @extend .effect-thumbnail-v4;
+    .elementor-box-overview-wrapper{
+        @extend .effect-thumbnail;
+        @extend .effect-thumbnail-v2;
+        .post-thumbnail{
+            .elementor-image-box-title{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+                padding: 0 40px 35px;
+            }
+        }
+        .entry-header{
+            padding: 25px 40px 20px;
+            margin-bottom: 0;
+            .elementor-image-box-description{
+                padding-bottom: 30px;
+                margin-bottom: 15px;
+            }
+            a{
+                @include font-size(12);
+                @extend %color-primary;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 2px;
+                &:after{
+                    content: "\f178";
+                    font: normal normal normal 10px/1 FontAwesome;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    margin-left: 5px;
+                }
+                &:hover{
+                    @extend %color-secondary;
+                }
+            }
+        }
+    }
+}

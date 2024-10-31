@@ -1,0 +1,62 @@
+[data-elementor-columns] {
+   // @extend .row;
+    &.no-gutter {
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        .column-item{
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+.column-item.portfolio-entries {
+    margin-bottom: $grid-gutter-width;
+}
+
+@each $col, $a in  (
+    1: 12,
+    2: 6,
+    3: 4,
+    4: 3,
+    6: 2,
+){
+    [data-elementor-columns="#{$col}"] {
+        .column-item{
+            @extend .col-lg-#{$a};
+        }
+    }
+
+    [data-elementor-columns-tablet="#{$col}"]{
+        .column-item{
+            @extend .col-md-#{$a};
+        }
+    }
+
+    [data-elementor-columns-mobile="#{$col}"]{
+        .column-item{
+            @extend .col-sm-#{$a};
+            @extend .col-#{$a};
+        }
+    }
+}
+
+
+//
+//@include media-breakpoint-up(lg) {
+//    .elementor-section-stretched {
+//        position: relative;
+//        width: calc(100vw);
+//        left: calc((-100vw + 960px) / 2);
+//    }
+//
+//}
+//
+//@include media-breakpoint-up(xl) {
+//    .elementor-section-stretched {
+//        position: relative;
+//        width: calc(100vw);
+//        left: calc((-100vw + 1200px) / 2);
+//    }
+//}

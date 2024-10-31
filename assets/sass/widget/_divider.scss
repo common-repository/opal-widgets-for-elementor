@@ -1,0 +1,42 @@
+.elementor-widget-divider{
+    &.divider-has-underline-yes{
+        .elementor-divider-separator{
+            &:before{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        &.divider-underline-center{
+            .elementor-divider-separator{
+                &:before{
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        &.divider-underline-right{
+            .elementor-divider-separator{
+                &:before{
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    .elementor-divider-separator{
+        position: relative;
+        &:before{
+            @extend %background-color-primary;
+            width: 30px;
+            height: 1px;
+        }
+    }
+}
+

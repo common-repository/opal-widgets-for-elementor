@@ -1,0 +1,193 @@
+//Form popup
+.mfp-zoom-in {
+    /* start state */
+    .contactform-content {
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        transform: scale(0.8);
+    }
+
+    &.mfp-bg {
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+
+    /* animate in */
+    &.mfp-ready {
+        .contactform-content {
+            opacity: 1;
+            transform: scale(1);
+        }
+        &.mfp-bg {
+            opacity: 0.8;
+        }
+    }
+
+    /* animate out */
+    &.mfp-removing {
+
+        .contactform-content {
+            transform: scale(0.8);
+            opacity: 0;
+        }
+        &.mfp-bg {
+            opacity: 0;
+        }
+    }
+}
+
+//Mailchip Widget
+.widget.widget_mc4wp_form_widget{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mc4wp-form {
+    .widget-title {
+        p {
+            font-size: 16px;
+            .c-body {
+                @extend %color-body;
+            }
+           // @extend .mt-2;
+            // @extend .mb-5;
+        }
+    }
+}
+.mc4wp-form-fields {
+    position: relative;
+    .input-group{
+        border-bottom: 1px solid $black2;
+    }
+    input[type="email"] {
+        border: 0;
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    input[type="submit"], button[type="submit"] {
+        border: 0;
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        .lable {
+            display: none;
+        }
+        .icon {
+            position: relative;
+            top: 3px;
+        }
+    }
+}
+
+.style-1 {
+    .mc4wp-form-fields {
+        input[type="email"] {
+            border-color: $gray10;
+            border-right: 0;
+        }
+        input[type="submit"], button[type="submit"] {
+            .lable {
+                display: block;
+                color: $black1;
+                font-weight: 600;
+            }
+            .icon {
+                display: none;
+            }
+        }
+    }
+}
+
+.style-2 {
+    .mc4wp-form-fields {
+        input[type="submit"], button[type="submit"] {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: transparent;
+            border: transparent;
+            padding-right: 1.5em;
+            z-index: 99;
+        }
+        input {
+            &:-webkit-autofill, &:autofill {
+                + .input-group-btn {
+                    input[type="submit"], button[type="submit"] {
+                        .icon {
+                            color: $black1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.style-3 {
+    .mc4wp-form-fields {
+        display: flex;
+        p {
+            // @extend .mb-0;
+            position: relative;
+            &:first-child {
+               // @extend .w-100;
+                padding-right: 10px;
+                &:after {
+                    font-family: FontAwesome;
+                    content: '\f003';
+                    position: absolute;
+                    right: 25px;
+                    top: 10px;
+                //    @extend %color-gray10;
+                }
+            }
+        }
+    }
+}
+
+.style-3 {
+    .mc4wp-form-fields {
+        .input-group {
+            flex-direction: column;
+        }
+        input {
+            width: 100%;
+            border-radius: inherit !important;
+        }
+        input[type="submit"], button[type="submit"] {
+            margin-top: 20px;
+            margin-left: 0 !important;
+            border-radius: inherit;
+            .lable {
+                display: block;
+            }
+            .icon {
+                display: none;
+            }
+        }
+    }
+}
+
+.colors-scheme-light {
+    .mc4wp-form-fields {
+        input[type="email"] {
+            border-color: rgba(255, 255, 255, .2);
+            color: rgba(255, 255, 255, 0.5) !important;
+            &:focus {
+                border-color: rgba(255, 255, 255, 0.4) !important;
+            }
+        }
+    }
+}
+
+//opal-button-contact7
+.elementor-widget-opal-button-contact7{
+    &.elementor-align-left {
+        text-align: left;
+    }
+    &.elementor-align-center {
+        text-align: center;
+    }
+    &.elementor-align-right {
+        text-align: right;
+    }
+}

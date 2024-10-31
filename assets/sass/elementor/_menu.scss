@@ -1,0 +1,41 @@
+.elementor-nav-menu {
+	.menu-badge {
+	    position: absolute;
+	    bottom: 90%;
+	    left: 50%;
+	    margin: 0 auto;
+	    transform: translateX(-50%);
+	    font-size: 10px;
+	    padding: 0px 3px;
+	    text-transform: none;
+	    border-radius: 2px;
+	}
+	ul li li .menu-badge{
+		position: relative;
+		left: inherit;
+	}
+	.menu-desc{
+		display: block;
+		font-size: 10px;
+		text-transform: none; 
+		font-weight: normal;
+		color: #8d96ae;;
+		line-height: 1.05em;
+		white-space: normal;
+		text-decoration:none;
+	}
+	.mega-fullwidth {
+ 
+	}
+	.menu-icon {
+		margin-right: 8px;
+		color: #8d96ae;
+		font-size: 16px;
+		align-self:center;
+		order:-1
+	}
+	.has-mega-menu {
+		position: static;
+	}
+}
+

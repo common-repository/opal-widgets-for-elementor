@@ -1,0 +1,196 @@
+.elementor-widget-opal-portfolio {
+    .elementor-portfolio__filter {
+        @include transition();
+        border: 2px solid transparent;
+        border-radius: 999px;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+        &.elementor-active, &:hover {
+            @extend %border-color-primary;
+        }
+    }
+    .elementor-button {
+        cursor: pointer;
+    }
+    .elementor-button-text {
+        &:after {
+            @include fa-icon();
+            content: '\f178';
+            padding-left: 10px;
+        }
+    }
+}
+.elementor-portfolio__filters {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementor-portfolio__filter {
+    margin: 0;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.loading {
+    .elementor-widget-opal-portfolio {
+        .row {
+            &:after {
+                position: absolute;
+                @include opal-loading();
+                left: calc(50% - 15px);
+                top: calc(50% - 15px);
+                z-index: 99;
+            }
+            &:before {
+                content: '';
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                left: calc(50% - 25px);
+                top: calc(50% + 15px);
+                z-index: 99;
+                background: #fff;
+                display: block;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            }
+        }
+    }
+}
+
+.elementor-editor-active {
+    .elementor-widget-opal-portfolio {
+        .isotope-grid {
+            height: auto !important;
+        }
+        .elementor-button {
+            pointer-events: none;
+        }
+    }
+}
+
+.elementor-filter-left {
+    .elementor-portfolio__filters {
+        justify-content: flex-start;
+    }
+}
+
+.elementor-filter-right {
+    .elementor-portfolio__filters {
+        justify-content: flex-end;
+    }
+}
+
+//WIDGET PORTFOLIO
+
+article.type-portfolio {
+    text-align: center;
+    position: relative;
+    &:hover{
+        .post-thumbnail{
+            &:after{
+                @include opacity(1);
+            }
+        }
+    }
+    .post-thumbnail{
+        position: relative;
+        &:after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            @include opacity(0);
+            @include transition(all 0.6s ease);
+        }
+    }
+    .portfolio-content {
+        padding-top: 24px;
+    }
+    .entry-title {
+        @include font-size(20);
+        line-height: 24px;
+        letter-spacing: -0.5px;
+        margin: 0;
+        a {
+            color: $black1;
+        }
+    }
+    .portfolio-category {
+        a {
+            @include font-size(11);
+            line-height: 24px;
+            display: inline-block;
+            color: $body-color;
+            text-transform: uppercase;
+        }
+    }
+    .portfolio-des {
+        @include font-size(11);
+    }
+}
+
+.elementor-portfolio-style-overlay,.row.overlay {
+    position: relative;
+    .portfolio-content {
+        background: $white1;
+        margin: 0;
+        padding: 30px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        @include opacity(0);
+        @include transition(all 0.6s ease);
+    }
+    .entry-title,.portfolio-category{
+        overflow: hidden;
+        a{
+            display: inline-block;
+            @include translateY(100%);
+            @include transition(all 1s cubic-bezier(0.37, 0.31, 0.2, 0.85));
+        }
+    }
+    .portfolio-category a{
+        transition-delay: 0.2s;
+    }
+    article.type-portfolio{
+        &:hover{
+            .portfolio-content {
+                @include opacity(1);
+            }
+            .entry-title,.portfolio-category{
+                overflow: hidden;
+                a{
+                    @include translateY(0);
+                }
+            }
+        }
+    }
+}
+.row{
+    &.default{
+        article.type-portfolio{
+            margin-bottom: 40px;
+        }
+    }
+    &.overlay{
+        padding: 0 $grid-gutter-width/2;
+        article.type-portfolio{
+            body.archive &{
+                padding-left: 0;
+                padding-right: 0;
+                align-self: end;
+            }
+        }
+    }
+}

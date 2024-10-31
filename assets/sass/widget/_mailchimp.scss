@@ -1,0 +1,94 @@
+.form-style {
+    button[type="submit"] {
+        i {
+            display: none;
+        }
+    }
+    color: $white;
+    .description {
+        @include font-size(14);
+        padding: $grid-gutter-width 0;
+    }
+    .input-group {
+      //  @extend .flex-column;
+        border:0;
+    }
+    input[type="email"],
+    input[type="submit"],
+    button[type="submit"] {
+        border-radius: 0;
+        padding-left: $grid-gutter-width/2;
+    }
+    input[type="email"] {
+        width: 100%;
+        border-bottom: 1px solid;
+        border-color: rgba(white, 0.2);
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    input[type="submit"],
+    button[type="submit"] {
+        border:0;
+        font-weight:400;
+        @include font-size(14);
+        padding: 0 $grid-gutter-width;
+        position: absolute;
+        top:0;
+        right:0;
+        z-index:99;
+        &:hover {
+            opacity:1;
+        }
+    }
+    button[type="submit"] {
+        i {
+            display: inline-block;
+        }
+    }
+    &.style1 {
+        input[type="email"] {
+            border:1px solid $border-color;
+            background:#f6f6f6;
+        }
+        input[type="submit"],
+        button[type="submit"] {
+        }
+    }
+    &.style2 {
+        color: #999;
+        .description {color: $gray1; }
+        input[type="email"] {
+            border:1px solid $border-color;
+            background:#f6f6f6;
+        }
+        input[type="submit"],
+        button[type="submit"] {
+            position: relative;
+            margin-top:20px;
+            width: 100%;
+            height: 50px;
+        }
+    }
+    &.style3 {
+        .description { display: none;}
+        input[type="submit"],
+        button[type="submit"] {
+        }
+    }
+    &.style4 {
+        .description { display: none;}
+        input[type="email"] {
+            border:1px solid $border-color;
+            background: transparent;
+        }
+        input[type="submit"],
+        button[type="submit"] {
+            background:transparent;
+            color: $primary;
+            &:hover {
+                background: $primary;
+                color: $white;
+            }
+        }
+    }
+}

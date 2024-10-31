@@ -1,0 +1,362 @@
+/* This is the core CSS of Tooltipster */
+
+/* GENERAL STRUCTURE RULES (do not edit this section) */
+
+.tooltipster-base {
+    /* this ensures that a constrained height set by functionPosition,
+    if greater that the natural height of the tooltip, will be enforced
+    in browsers that support display:flex */
+    display: flex;
+    pointer-events: none;
+    /* this may be overriden in JS for fixed position origins */
+    position: absolute;
+}
+
+.tooltipster-box {
+    /* see .tooltipster-base. flex-shrink 1 is only necessary for IE10-
+    and flex-basis auto for IE11- (at least) */
+    flex: 1 1 auto;
+}
+
+.tooltipster-content {
+    /* prevents an overflow if the user adds padding to the div */
+    box-sizing: border-box;
+    /* these make sure we'll be able to detect any overflow */
+    max-height: 100%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.tooltipster-ruler {
+    /* these let us test the size of the tooltip without overflowing the window */
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+/* ANIMATIONS */
+
+/* Open/close animations */
+
+/* fade */
+
+.tooltipster-fade {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+.tooltipster-fade.tooltipster-show {
+    opacity: 1;
+}
+
+/* grow */
+
+.tooltipster-grow {
+    -webkit-transform: scale(0,0);
+    -moz-transform: scale(0,0);
+    -o-transform: scale(0,0);
+    -ms-transform: scale(0,0);
+    transform: scale(0,0);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-backface-visibility: hidden;
+}
+.tooltipster-grow.tooltipster-show {
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+
+/* swing */
+
+.tooltipster-swing {
+    opacity: 0;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -o-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    transform: rotateZ(4deg);
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+}
+.tooltipster-swing.tooltipster-show {
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -moz-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -ms-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    -o-transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+    transition-timing-function: cubic-bezier(0.230, 0.635, 0.495, 2.4);
+}
+
+/* fall */
+
+.tooltipster-fall {
+    -webkit-transition-property: top;
+    -moz-transition-property: top;
+    -o-transition-property: top;
+    -ms-transition-property: top;
+    transition-property: top;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+.tooltipster-fall.tooltipster-initial {
+    top: 0 !important;
+}
+.tooltipster-fall.tooltipster-show {
+}
+.tooltipster-fall.tooltipster-dying {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    top: 0 !important;
+    opacity: 0;
+}
+
+/* slide */
+
+.tooltipster-slide {
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    -ms-transition-property: left;
+    transition-property: left;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1.15);
+}
+.tooltipster-slide.tooltipster-initial {
+    left: -40px !important;
+}
+.tooltipster-slide.tooltipster-show {
+}
+.tooltipster-slide.tooltipster-dying {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    left: 0 !important;
+    opacity: 0;
+}
+
+/* Update animations */
+
+/* We use animations rather than transitions here because
+ transition durations may be specified in the style tag due to
+ animationDuration, and we try to avoid collisions and the use
+ of !important */
+
+/* fade */
+
+@keyframes tooltipster-fading {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tooltipster-update-fade {
+    animation: tooltipster-fading 400ms;
+}
+
+/* rotate */
+
+@keyframes tooltipster-rotating {
+    25% {
+        transform: rotate(-2deg);
+    }
+    75% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.tooltipster-update-rotate {
+    animation: tooltipster-rotating 600ms;
+}
+
+/* scale */
+
+@keyframes tooltipster-scaling {
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.tooltipster-update-scale {
+    animation: tooltipster-scaling 600ms;
+}
+
+
+
+.opal-image-hotspots-container {
+    overflow: hidden;
+}
+
+.opal-addons-image-hotspots-ib-img {
+    //width: 100%;
+}
+
+.opal-image-hotspots-main-icons-tooltips-wrapper {
+    top: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.opal-image-hotspots-main-icons {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    .opal-image-hotspots-icon {
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        padding: 3px 0 0;
+        line-height: 0.6;
+        border-color: black;
+    }
+    .opal-image-hotspots-image-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .opal-image-hotspots-text {
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        border-radius: 0;
+        margin: 0;
+        padding: 0 10px 0 10px;
+        border-color: black;
+    }
+}
+
+.opal-image-hotspots-tooltips-wrapper {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+}
+
+.tooltipster-sidetip {
+    z-index: 9999;
+    width: auto !important;
+}
+
+.tooltipster-box div.opal-image-hotspots-tooltips-text {
+    border-color: black;
+    overflow: hidden;
+}
+
+.tooltipster-sidetip div {
+    &.tooltipster-box {
+        background: transparent;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.18);
+    }
+    &.opal-image-hotspots-tooltips-text {
+        padding: 15px 30px;
+        * {
+            margin: 0;
+            padding: 0px;
+        }
+    }
+}
+
+.tooltipster-box .opal-image-hotspots-tooltips-text * {
+    margin: 0;
+}
+
+.opal-image-hotspots-main-icons.opal-image-hotspots-anim::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform: scale(1);
+    pointer-events: none;
+    animation: pa-hotspot-pulse 2s infinite;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@keyframes pa-hotspot-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.tooltipster-box .tooltipster-content {
+    background: rgba(12, 12, 12, 0.5);
+}
+
+.opal-tooltipster-base {
+    &.tooltipster-top .tooltipster-arrow-background {
+        border-top-color: rgba(12, 12, 12, 0.5);
+    }
+    &.tooltipster-bottom .tooltipster-arrow-background {
+        border-bottom-color: rgba(12, 12, 12, 0.5);
+    }
+    &.tooltipster-right .tooltipster-arrow-background {
+        border-right-color: rgba(12, 12, 12, 0.5);
+    }
+    &.tooltipster-left .tooltipster-arrow-background {
+        border-left-color: rgba(12, 12, 12, 0.5);
+    }
+}
+
+.tooltipster-box .opal-image-hotspots-tooltips-text {
+    color: #fff;
+}

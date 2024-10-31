@@ -1,0 +1,1193 @@
+.opal-timeline-widget {
+    position: relative;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.opal-timeline-main #infscr-loading {
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+  height: 150px;
+}
+.opal-timeline-main #infscr-loading img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 150px;
+}
+
+#infscr-loading div {
+  display: none;
+}
+.opal-timeline-heading {
+    margin-bottom: 10px;
+}
+.inner-date-new p {
+  margin-bottom: 0;
+}
+.opal-date-inner .inner-date-new p {
+    margin-bottom: 0px;
+}
+.opal-timeline__line {
+    background-color: #ddd;
+    bottom:0 !important;
+    top:0 !important;
+}
+.opal-timeline-main .opal-days .in-view .in-view-timeline-icon {
+    background: #5cb85c;
+}
+.opal-timeline__line__inner {
+    background-color: #5cb85c;
+    width: 100%;
+}
+.opal-timeline-main .timeline-icon-new {
+    line-height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.opal-timeline-shadow-yes .opal-events-inner-new {
+    -webkit-filter: drop-shadow(0px 1px 4px rgba(0,0,0,0.5));
+    filter: drop-shadow(0px 1px 4px rgba(0,0,0,0.5));
+}
+
+.opal-timeline--center .opal-timeline-date-hide {
+    display: none;
+}
+.opal-timeline-field:not(:last-child) {
+    margin-bottom: 20px;
+}
+.opal-timeline--center .opal-timeline-widget.opal-timeline-right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.opal-timeline--left .opal-day-left .opal-events-inner-new,
+.opal-timeline--left .opal-day-right .opal-events-inner-new {
+    text-align: left;
+}
+.opal-timeline--right .opal-day-left .opal-events-inner-new,
+.opal-timeline--right .opal-day-right .opal-events-inner-new {
+    text-align: right;
+}
+.opal-timeline--center .opal-timeline-date-new {
+    display: block;
+}
+.opal-timeline--right .opal-timeline__line {
+    right: 16px;
+    left: auto;
+}
+.opal-timeline--right .opal-timeline-right .opal-timeline-arrow:after,
+.opal-timeline--right .opal-timeline-left .opal-timeline-arrow:after {
+    top: 0;
+}
+.opal-timeline--right .opal-timeline-right .opal-timeline-arrow,
+.opal-timeline--right .opal-timeline-left .opal-timeline-arrow {
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+}
+.opal-timeline--right .opal-timeline-right .opal-timeline-arrow {
+    right: -12px;
+}
+.opal-timeline--right .opal-timeline-left .opal-timeline-arrow {
+    right: -10px;
+}
+
+.opal-timeline--right .opal-timeline-marker,
+.opal-timeline--right .opal-day-new {
+    max-width: 100%;
+    position: relative;
+}
+
+.opal-timeline--right .opal-day-new {
+    margin-right: 14px;
+}
+.opal-timeline--right .opal-timeline-marker {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    order: 2;
+}
+.opal-timeline--right .opal-day-new {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    order: 1;
+}
+.opal-timeline--right .opal-timeline-info {
+-webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 25%;
+    order: 3;
+    text-align: left;
+    padding: 15px;
+}
+
+
+.opal-timeline--left .opal-timeline-info {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 25%;
+    text-align: right;
+    padding: 15px 30px;
+}
+.opal-timeline--left .opal-timeline-marker,
+.opal-timeline--left .opal-day-new {
+    max-width: 100%;
+    position: relative;
+}
+.opal-timeline--left .opal-timeline__line {
+    left: 20px;
+    right: auto;
+}
+.opal-timeline--left .opal-day-new {
+    margin-left: 14px;
+}
+.opal-timeline--left .opal-timeline-marker {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+.opal-timeline--left .opal-day-new {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 2;
+}
+
+.opal-timeline--left .opal-timeline-right .opal-timeline-arrow:after,
+.opal-timeline--left .opal-timeline-left .opal-timeline-arrow:after {
+    top: 0;
+}
+.opal-timeline--left .opal-timeline-right .opal-timeline-arrow,
+.opal-timeline--left .opal-timeline-left .opal-timeline-arrow {
+    top: 0;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+}
+.opal-timeline--left .opal-timeline-right .opal-timeline-arrow {
+    left: -10px;
+}
+.opal-timeline--left .opal-timeline-left .opal-timeline-arrow {
+    left: -12px;
+}
+.opal-timeline--left .opal-timeline-right .opal-timeline-arrow:after,
+.opal-timeline--left .opal-timeline-left .opal-timeline-arrow:after,
+.opal-timeline--right .opal-timeline-right .opal-timeline-arrow:after,
+.opal-timeline--right .opal-timeline-left .opal-timeline-arrow:after {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.opal-timeline-marker {
+    background-color: #ddd;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    position: relative;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.opal-timeline-main .opal-days .animate-border:hover .opal-timeline-marker {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.opal-timeline--center .opal-timeline-marker {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+.opal-timeline--center .opal-day-new,
+.opal-timeline--center .opal-timeline-date-new {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 100%;
+    position: relative;
+}
+.opal-timeline--center .opal-timeline-right .opal-day-new {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-left: 0;
+    padding-right: 12px;
+}
+.opal-timeline--center .opal-timeline-left .opal-day-new {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-right: 0;
+    padding-left: 12px;
+}
+.opal-day-right .opal-events-inner-new {
+    text-align: right;
+}
+.opal-day-left .opal-events-inner-new {
+    text-align: left;
+}
+.opal-events-inner-new {
+    padding: 40px;
+}
+
+.opal-timeline--center .opal-timeline-left .opal-timeline-date-new {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.opal-timeline--center .opal-timeline-right .opal-timeline-date-new {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.opal-timeline-left .opal-date-new {
+    margin-right: 10px;
+}
+.opal-timeline-right .opal-date-new {
+    margin-left: 10px;
+}
+.opal-timeline-right .opal-timeline-date-new {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+}
+.opal-timeline--center .opal-timeline-right .opal-timeline-arrow {
+    right: 0px;
+    top: 0;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+}
+.opal-timeline--center .opal-timeline-right .opal-timeline-arrow:after,
+.opal-timeline--center .opal-timeline-left .opal-timeline-arrow:after {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.opal-timeline--center .opal-timeline-left .opal-timeline-arrow {
+    left: 0px;
+    top: 0;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+}
+.opal-timeline-arrow-center .opal-timeline-widget {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.opal-timeline-arrow-bottom .opal-timeline-widget {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.opal-timeline-arrow-center .opal-timeline-left .opal-timeline-arrow,
+.opal-timeline-arrow-center .opal-timeline-right .opal-timeline-arrow {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.opal-timeline-arrow-bottom .opal-timeline-left .opal-timeline-arrow,
+.opal-timeline-arrow-bottom .opal-timeline-right .opal-timeline-arrow {
+    top: 100%;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+/*.opal-heading-top {
+  margin: 0px;
+}*/
+.opal-heading-bottom {
+  margin: 0px;
+}
+
+/* By default content alignment - alternate */
+.opal-day-right .opal-events-inner {
+  text-align: right;
+}
+.opal-day-left .opal-events-inner {
+  text-align: left;
+}
+.opal-timeline-arrow-top .opal-timeline-date-new .opal-date-new,
+.opal-timeline-arrow-bottom .opal-timeline-date-new .opal-date-new {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+/* Card animation css */
+.opal-events-inner-new,
+.opal-timeline-arrow {
+  -webkit-transition: background .2s ease-in-out;
+  transition: background .2s ease-in-out;
+}
+.opal-timeline-arrow:after {
+  -webkit-transition: border-color .2s ease-in-out;
+  transition: border-color .2s ease-in-out;
+}
+/*.opal-content,*/
+.opal-date-new {
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+.opal-timeline-widget.opal-timeline-left.hide-events .opal-events-inner-new,
+.opal-timeline-widget.opal-timeline-left.hide-events .opal-date-new {
+  visibility: hidden;
+}
+.opal-timeline-widget.opal-timeline-right.hide-events .opal-events-inner-new,
+.opal-timeline-widget.opal-timeline-right.hide-events .opal-date-new {
+  visibility: hidden;
+}
+
+/*.............................CSS..................................*/
+
+.opal-timeline-main .opal-year {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.opal-timeline-main .opal-year span {
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.opal-day-left .opal-timeline-arrow:after {
+  content: '';
+  left: 0px;
+  position: absolute;
+  display: inline;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.opal-timeline--right .opal-day-left .opal-timeline-arrow:after {
+    right: 0;
+}
+.opal-day-right .opal-timeline-arrow:after {
+  content: '';
+  right: 0px;
+  position: absolute;
+  display: inline;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.timeline-icon {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+}
+.opal-timeline-main .opal-date .inner-date-new {
+  white-space: nowrap;
+  margin: 0px;
+}
+
+.opal-timeline-main .opal-timeline__line {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.opal-timeline--right .opal-timeline__line {
+  position: absolute;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+
+/*.opal-inner {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}*/
+/* RESPONSIVE ALIGNMENT OF VERTICAL SEPARATOR. */
+
+/* DESKTOP */
+.opal-timeline--center .opal-timeline__line {
+  left: 50%;
+  right: auto;
+}
+
+/* Icon transition animation */
+.opal-timeline-main .in-view i.in-view-timeline-icon {
+  -webkit-transition: background 0.25s ease-out 0.25s, width 0.25s ease-in-out, height 0.25s ease-in-out, color 0.25s ease-in-out, font-size 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-out 0.25s, width 0.25s ease-in-out, height 0.25s ease-in-out, color 0.25s ease-in-out, font-size 0.25s ease-out;
+  transition: background 0.25s ease-out 0.25s, width 0.25s ease-in-out, height 0.25s ease-in-out, color 0.25s ease-in-out, font-size 0.25s ease-out;
+}
+
+/* LEFT CSS STARTS */
+
+.opal-timeline--left .opal-days {
+  text-align: left;
+}
+
+.opal-timeline--left .opal-day-right .opal-timeline-arrow:after {
+  content: '';
+  position: absolute;
+  display: inline;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+/*.opal-timeline--left .opal-inner {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}*/
+
+/* LEFT CSS ENDS */
+
+
+/* CENTER CSS STARTS */
+
+.opal-timeline--center .opal-days  {
+  text-align: center;
+}
+.opal-timeline--center .opal-day-right .opal-timeline-arrow:after {
+  content: '';
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  display: inline;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+/*.opal-timeline--center .opal-inner {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}*/
+/* CENTER CSS ENDS */
+
+
+/* RIGHT CSS STARTS */
+
+.opal-timeline--right .opal-days  {
+  text-align: right;
+}
+
+/*.opal-timeline--right .opal-inner {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}*/
+/* RIGHT CSS ENDS */
+
+@media screen and (max-width: 1023px) {
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline__line {
+        position: absolute;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-date-hide {
+        display: block;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-left .opal-events-inner-new,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-right .opal-events-inner-new {
+      text-align: left;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline__line {
+      right: 20px;
+      left: auto;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-marker,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-new {
+      max-width: 100%;
+      position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline__line {
+      left: 20px;
+      right: auto;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-new {
+      margin-left: 16px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-marker {
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+      order: 0;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      -webkit-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -moz-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-new {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-timeline-arrow:after {
+      top: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-timeline-arrow,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-timeline-arrow {
+      /*top: 0;*/
+      width: 10px;
+      height: 40px;
+      position: absolute;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-timeline-arrow {
+      left: -10px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-timeline-arrow {
+      left: -12px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-timeline-arrow:after {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-days {
+        text-align: left;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-right .opal-timeline-arrow:after {
+        content: '';
+        position: absolute;
+        display: inline;
+        width: 0;
+        height: 0;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+    }
+
+    /* Center align CSS start */
+    /*.opal-timeline--center.opal-timeline-responsive-tablet .opal-inner {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }*/
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-widget.opal-timeline-right {
+        -webkit-box-orient: unset;
+        -webkit-box-direction: unset;
+        -webkit-flex-direction: unset;
+        -moz-box-orient: unset;
+        -moz-box-direction: unset;
+        -ms-flex-direction: unset;
+        flex-direction: unset;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-date-new {
+      display: none;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-day-new,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-date-new {
+      -webkit-box-flex: unset;
+      -webkit-flex-grow: unset;
+      -moz-box-flex: unset;
+      -ms-flex-positive: unset;
+      flex-grow: unset;
+      -webkit-flex-basis: unset;
+      -ms-flex-preferred-size: unset;
+      flex-basis: unset;
+      max-width: 100%;
+      width: 100%;
+      position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-day-new {
+      -webkit-box-ordinal-group: unset;
+      -webkit-order: unset;
+      -moz-box-ordinal-group: unset;
+      -ms-flex-order: unset;
+      order: unset;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-day-new {
+      -webkit-box-ordinal-group: unset;
+      -webkit-order: unset;
+      -moz-box-ordinal-group: unset;
+      -ms-flex-order: unset;
+      order: unset;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-left .opal-timeline-date-new {
+      display: none;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-right .opal-timeline-date-new {
+      display: none;
+    }
+
+    /* CSS for right alignment */
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-widget {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-left .opal-events-inner-new,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-right .opal-events-inner-new {
+        text-align: right;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline__line {
+        right: 16px;
+        left: auto;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow:after {
+        top: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow {
+        left: auto;
+        right: 0;
+        width: 10px;
+        height: 40px;
+        position: absolute;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow {
+        right: -12px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow {
+        right: -10px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-marker,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-new {
+        max-width: 100%;
+        position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-new {
+        margin-right: 16px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-marker {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-new {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow:after {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-days  {
+        text-align: right;
+    }
+   /* .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-inner {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -moz-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }*/
+
+
+    /* Center align CSS start */
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-day-new,
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-date-new {
+        -webkit-box-flex: unset;
+        -webkit-flex-grow: unset;
+        -moz-box-flex: unset;
+        -ms-flex-positive: unset;
+        flex-grow: unset;
+        -webkit-flex-basis: unset;
+        -ms-flex-preferred-size: unset;
+        flex-basis: unset;
+        max-width: 100%;
+        position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-left .opal-timeline-date-new {
+        display: none;
+    }
+    .opal-timeline--center.opal-timeline-responsive-tablet .opal-timeline-res-right .opal-timeline-right .opal-timeline-date-new {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .opal-timeline-responsive-none .opal-events-inner-new {
+        padding: 15px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-date-hide {
+        display: block;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-left .opal-events-inner-new,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-right .opal-events-inner-new {
+      text-align: left;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline__line {
+      right: 20px;
+      left: auto;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-marker,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-new {
+      max-width: 100%;
+      position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline__line {
+      left: 20px;
+      right: auto;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-new {
+      margin-left: 16px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-marker {
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+      order: 0;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      -webkit-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -moz-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-new {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+      -moz-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-timeline-arrow:after {
+      top: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-timeline-arrow,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-timeline-arrow {
+      width: 10px;
+      height: 40px;
+      position: absolute;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-timeline-arrow {
+      left: -10px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-timeline-arrow {
+      left: -12px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-timeline-arrow:after {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .opal-day-left .opal-events-inner-new {
+        text-align: left;
+    }
+    .opal-timeline-left .opal-date-new {
+        margin-right: 10px;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-days {
+        text-align: left;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-right .opal-timeline-arrow:after {
+        content: '';
+        position: absolute;
+        display: inline;
+        width: 0;
+        height: 0;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+    }
+    /*.opal-timeline--center.opal-timeline-responsive-mobile .opal-inner {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -moz-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }*/
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-widget.opal-timeline-right {
+        -webkit-box-orient: unset;
+        -webkit-box-direction: unset;
+        -webkit-flex-direction: unset;
+        -moz-box-orient: unset;
+        -moz-box-direction: unset;
+        -ms-flex-direction: unset;
+        flex-direction: unset;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-date-new {
+        display: none;
+    }
+
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-day-new,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-date-new {
+        -webkit-box-flex: unset;
+        -webkit-flex-grow: unset;
+        -moz-box-flex: unset;
+        -ms-flex-positive: unset;
+        flex-grow: unset;
+        -webkit-flex-basis: unset;
+        -ms-flex-preferred-size: unset;
+        flex-basis: unset;
+        max-width: 100%;
+        position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-left .opal-timeline-date-new {
+        display: none;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-right .opal-timeline-date-new {
+        display: none;
+    }
+
+
+    /* CSS for right alignment */
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-widget {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: row-reverse;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-left .opal-events-inner-new,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-right .opal-events-inner-new {
+        text-align: right;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline__line {
+        right: 16px;
+        left: auto;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow:after {
+        top: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow {
+        left: auto;
+        right: 0;
+        width: 10px;
+        height: 40px;
+        position: absolute;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow {
+        right: -12px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow {
+        right: -10px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-marker,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-new {
+        max-width: 100%;
+        position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-new {
+        margin-right: 16px;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-marker {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-new {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -moz-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-timeline-arrow:after,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-timeline-arrow:after {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline__line {
+        position: absolute;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-days  {
+        text-align: right;
+    }
+    /*.opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-inner {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -moz-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }*/
+
+    /* Center align CSS start */
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-day-new,
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-date-new {
+        -webkit-box-flex: unset;
+        -webkit-flex-grow: unset;
+        -moz-box-flex: unset;
+        -ms-flex-positive: unset;
+        flex-grow: unset;
+        -webkit-flex-basis: unset;
+        -ms-flex-preferred-size: unset;
+        flex-basis: unset;
+        max-width: 100%;
+        position: relative;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-day-new {
+        -webkit-box-ordinal-group: unset;
+        -webkit-order: unset;
+        -moz-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+        order: unset;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-left .opal-timeline-date-new {
+        display: none;
+    }
+    .opal-timeline--center.opal-timeline-responsive-mobile .opal-timeline-res-right .opal-timeline-right .opal-timeline-date-new {
+        display: none;
+    }
+
+}
